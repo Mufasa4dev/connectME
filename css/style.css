@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Top Logo & SearchBar */
+.topsearch {
+   
+    height: 75px;
+}
+.logo {
+    margin-top: 20px;
+}
+.logo img {
+    float: left;
+    margin-left: 5%;
+}
+.topinput {
+    width: 45%;
+    float: right;
+    margin-right: 5%;
+}
+#inputbox {
+   float: right;
+}
+#inputbox input {
+    width: 30%;
+    padding-left: 8px;
+    height: 40px;
+}
+#topsearchbtn {
+    border: 1px solid #C4C4C4;
+    background-color: #C4C4C4;
+   
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: none;
+    height: 40px;
+}
+#topmapbtn {
+    border: 0.5px solid #C4C4C4;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 40px;
+}
+#inputmapsearch {
+    border: 0.5px solid #C4C4C4;
+    border-left: none;
+}
+#inputsearch {
+    border: 0.5px solid #C4C4C4;
+    border-top-right-radius: 0px;
+    border-right: none;
+}
+
+
+
