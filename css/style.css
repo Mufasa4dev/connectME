@@ -158,7 +158,7 @@ img#ladywrkin {
     margin-top: 20px;
 }
 #ladyTextBox {
-    margin-top: 180px;
+    /* margin-top: 180px; */
 }
 #ladyText {
     font-size: 30px;
@@ -175,13 +175,19 @@ img#ladywrkin {
 #ladyGuyTextBox {
     margin-top: 100px;   
 }
-#ladyGuyText {
-    font-size: 30px;
-}
+
 #ladyGuyFloat {
     float: right;
     margin-right: 5%;
 }
 
+@media screen and (max-width: 800px) {
+    .lady_assistant{
+        height: 300px
+    }
+    #ladyText{
+        font-size: 20px
+    }
+  }
 
 /* END: Amazing job opportunities */
