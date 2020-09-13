@@ -145,3 +145,43 @@
 }
 
 /* END: How ConnectMe Works */
+
+/* START: Amazing job opportunities */
+.learnSkills {
+    width: 100%;
+    background-color: rgba(23, 89, 119, 0.05);
+    height: 905px;
+}
+img#ladywrkin {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+#ladyTextBox {
+    margin-top: 180px;
+}
+#ladyText {
+    font-size: 30px;
+}
+#ladyBtn {
+    width: 150px;
+    height: 60px;
+    background: #A21942;
+    border-radius: 0px 5px;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+#ladyGuyTextBox {
+    margin-top: 100px;   
+}
+#ladyGuyText {
+    font-size: 30px;
+}
+#ladyGuyFloat {
+    float: right;
+    margin-right: 5%;
+}
+
+
+/* END: Amazing job opportunities */
