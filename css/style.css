@@ -39,8 +39,9 @@
     border: 1px solid #A21942;
     background-color: #A21942;
     border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
-    
+    border-bottom-right-radius: 0px;
     border-left: none;
     height: 40px;
 }
@@ -49,6 +50,8 @@
     border-right: none;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
     height: 40px;
 }
 #inputmapsearch {
@@ -62,78 +65,73 @@
 }
 
 .topnav {
-    border: 1px solid #C4C4C4;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 3px;
-    padding-bottom: 3px;
-  
-}
-.topnav  a {
-    margin-left: 1%;
-    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background: #175977;
+    /* margin-bottom: 10px; */
+    
 }
 .btnleft { 
     padding-left: 0px;
     
 }
 #signupbtn {
-    background: #C4C4C4;
+    background: #A21942;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 10px;
+    color: white;
 }
 #check {
     margin-left: 0px;
     float: left;
-    height: 40px;
     padding-top: 0px;
+    background-color: #175977;
 }
+
+#navbarNavAltMarkup a {
+    color: white;
+    font-size: 16px;
+}
+
 #check2 {
     
     width: 39%;
     float: right;
 }
 
-.navtext {
-   
-    width: 65px;
-}
-.navtext1 {
-    display: inline-block;
-    width: 65px;
-}
-.navtext2 {
-    display: inline-block;
-    width: 120px;
-}
-.navtext3 {
-    display: inline-block;
-    width: 100px;
-}
-.navtext4 {
-    display: inline-block;
-    width: 100px;
-}
 /* END: Top Logo & SearchBar  */
 
 #topbckgrd {
     width: 100%;
-    height: 534px;
-    background-color: lightcoral;
-    padding-top: 200px;
+    height: 529px;
+    padding-top: 150px;
 }
-#bckgrd {
-    
+#topbckgrd {
+    width: 100%;
+    height: 529px;
+    background-color: rgba(23, 89, 119, 0.3);
 }
 #connect {
     width: 70%;
-   margin-left: 15%;
+    margin-left: 15%;
+   
 }
 #connectText {
     font-size: 250%;
     font-weight: bolder;
+    color: #175977;
 }
 #signupbtn2 {
-    /* background: #C4C4C4; */
-    border: 2px solid #175977;
+    background: #A21942;
     width: 10rem;
     font-size: 22px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 10px;
 }
