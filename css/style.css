@@ -3,11 +3,17 @@
     padding: 0%;
     box-sizing: border-box;
 }
+#contain {
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 
 /* START: Top Logo & SearchBar */
 .topsearch {
-   
+  
     height: 75px;
+    
 }
 .logo {
     margin-top: 20px;
@@ -60,6 +66,7 @@
     padding-right: 5%;
     padding-top: 3px;
     padding-bottom: 3px;
+  
 }
 .topnav  a {
     margin-left: 1%;
@@ -73,7 +80,6 @@
     background: #C4C4C4;
 }
 #check {
-
     margin-left: 0px;
     float: left;
     height: 40px;
@@ -106,3 +112,27 @@
     width: 100px;
 }
 /* END: Top Logo & SearchBar  */
+
+#topbckgrd {
+    width: 100%;
+    height: 534px;
+    background-color: lightcoral;
+    padding-top: 200px;
+}
+#bckgrd {
+    
+}
+#connect {
+    width: 70%;
+   margin-left: 15%;
+}
+#connectText {
+    font-size: 250%;
+    font-weight: bolder;
+}
+#signupbtn2 {
+    /* background: #C4C4C4; */
+    border: 2px solid #175977;
+    width: 10rem;
+    font-size: 22px;
+}
