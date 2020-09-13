@@ -36,10 +36,11 @@
     height: 40px;
 }
 #topsearchbtn {
-    border: 1px solid #C4C4C4;
-    background-color: #C4C4C4;
+    border: 1px solid #A21942;
+    background-color: #A21942;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    
     border-left: none;
     height: 40px;
 }
