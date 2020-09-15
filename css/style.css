@@ -150,7 +150,7 @@
 .learnSkills {
     width: 100%;
     background-color: rgba(23, 89, 119, 0.05);
-    height: 905px;
+    /* height: 905px; */
 }
 img#ladywrkin {
     max-width: 100%;
@@ -158,7 +158,7 @@ img#ladywrkin {
     margin-top: 20px;
 }
 #ladyTextBox {
-    /* margin-top: 180px; */
+    
 }
 #ladyText {
     font-size: 30px;
@@ -180,14 +180,63 @@ img#ladywrkin {
     float: right;
     margin-right: 5%;
 }
+/* END: Amazing job opportunities */
+
+/* START: Amazing job opportunities  */
+
+.tbucImg1 {
+    width: 418.83px;
+    height: 443.31px;
+    background-color: #800020;
+    position: relative;
+}
+.tbucImg2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.icon {
+    color: #800020;
+    margin-right: 10px;
+}
+.tbucText {
+    margin: auto;
+    margin-top: 20px;
+}
+.tbucTextHead {
+    font-size: 30px;
+    color: #800020;
+    
+}
+.tbucText h4{
+    font-size: 18px;
+    color: #800020;
+    font-weight: bold;
+}
+.tbucText h4 span {
+    color: #175977;
+}
+.tbucText .tbucsmalltext {
+    margin-left: 5.3%;
+}
+
+
+
+/* END: Amazing job opportunities  */
+
+
+
+
+
+
 
 @media screen and (max-width: 800px) {
     .lady_assistant{
-        height: 300px
+        height: 300px;
+        text-align: center;
     }
     #ladyText{
-        font-size: 20px
+        font-size: 20px;
+        margin-top: auto !important; 
     }
   }
-
-/* END: Amazing job opportunities */
