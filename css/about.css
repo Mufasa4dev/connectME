@@ -56,7 +56,6 @@ font-size: 12px;
  } 
  
 #log{
-    border: solid yellow;
     font-family: Arial;
     font-size: 60px;
 }
@@ -109,5 +108,227 @@ font-size: 12px;
    padding: 35px;
    text-decoration: none;
 }
+#meet h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Arial;
+}
+#allpics{
+    text-align: center;
+}
 
 
+#pix1{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+
+#pic1{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+   background-image: url(../images/Abiodun\ Adedokun_SD\ \(4\).jpg);
+    background-color: teal;
+    border-radius: 100%;
+    margin-top: 10px;
+    
+}
+
+
+#pix2{
+    width: 250px;
+    height: 270px; 
+    background-color:  grey;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#pic2{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    background-color: teal;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+#pix3{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#pic3{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix4{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic4{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix5{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic5{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix6{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic6{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix7{
+    width: 250px;
+    height: 270px; 
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic7{
+    width: 200px;
+    height: 200px;
+     margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix8{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic8{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+     margin-top: 10px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix9{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic9{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix10{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic10{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix11{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic11{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+#pix12{
+    width: 250px;
+    height: 270px;
+    background-color:grey;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#pic12{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 100%;
+}
+
+#allpics{
+    
+    margin-top: 50px;
+}
