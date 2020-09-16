@@ -77,6 +77,35 @@ font-size: 12px;
      background-color:#175977;
      color: #dd0a49 ;
  }
-
+ #inbodytext{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 60px;
+   margin: 40px;
+   margin-bottom: 10px;
+}
+#inbodytext a:hover{
+    text-decoration: none;
+} 
+#abtcon{
+    padding: 35px;
+    
+}
+#logo2{
+   padding: 35px;
+   text-decoration: none;
+}
+#who{
+   padding: 35px;
+   text-decoration: none;
+}
+#mission{
+   padding: 35px;
+   text-decoration: none;
+}
+#vision{
+   padding: 35px;
+   text-decoration: none;
+}
 
 
