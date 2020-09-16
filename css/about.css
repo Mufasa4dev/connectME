@@ -18,6 +18,7 @@
  #logo{ 
        width: 100px;
      height: 80px;
+     margin: auto;
     margin-top: 40px;
      margin-left: 100px;
      margin-bottom: 40px; 
@@ -53,6 +54,12 @@ font-size: 12px;
      font-family: arial;
      font-size: 12px;
  } 
+ 
+#log{
+    border: solid yellow;
+    font-family: Arial;
+    font-size: 60px;
+}
  #menu2 ul li a{
      color: white;
      text-decoration: none;
@@ -88,12 +95,7 @@ font-size: 12px;
     text-decoration: none;
 } 
 #abtcon{
-    padding: 35px;
-    
-}
-#logo2{
-   padding: 35px;
-   text-decoration: none;
+    padding: 35px;  
 }
 #who{
    padding: 35px;
