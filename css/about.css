@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+ #main{
+     width: 100%;
+     margin: auto;
+     margin-top: 30px;
+    
+ }
+ #top-menu
+ {
+     display: flex;  
+ }
+ #logo{ 
+       width: 100px;
+     height: 80px;
+     margin: auto;
+    margin-top: 40px;
+     margin-left: 100px;
+     margin-bottom: 40px; 
+ }
+#top-links {
+    margin-top: 20px;
+    position: absolute;
+    right: 50px;
+    padding: 30px;  
+ }
+ #top-links a{
+padding: 10px;
+text-decoration: none;
+font-family: arial;
+font-size: 12px;
+
+ }
+ #menu2{
+    background-color: #175977;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+}
+   #menu2 ul{
+       margin-left: 80px;
+   }
+ #menu2 ul li{
+     display: inline-block;
+     padding: 20px;
+     color: #FFFFFF;
+     font-family: arial;
+     font-size: 12px;
+ } 
+ 
+#log{
+    border: solid yellow;
+    font-family: Arial;
+    font-size: 60px;
+}
+ #menu2 ul li a{
+     color: white;
+     text-decoration: none;
+ }
+ #menu2 ul li a:hover{
+   text-decoration: underline;
+   color: red;
+   
+}
+#log:hover{color: #A21942;
+
+}
+ #sign{
+     background-color: #A21942;
+     color: #FFFFFF;
+     border-radius: 8px;
+     font-family: Arial;
+     
+     
+ }
+ #sign:hover{
+     background-color:#175977;
+     color: #dd0a49 ;
+ }
+ #inbodytext{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 60px;
+   margin: 40px;
+   margin-bottom: 10px;
+}
+#inbodytext a:hover{
+    text-decoration: none;
+} 
+#abtcon{
+    padding: 35px;  
+}
+#who{
+   padding: 35px;
+   text-decoration: none;
+}
+#mission{
+   padding: 35px;
+   text-decoration: none;
+}
+#vision{
+   padding: 35px;
+   text-decoration: none;
+}
+
+
