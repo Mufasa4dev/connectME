@@ -4,41 +4,29 @@
     box-sizing: border-box;
 }
 
-body{
-     background-color: grey;
- }  
+
  #main{
-     background-color: #E5E5E5;
      width: 100%;
-   
      margin: auto;
      margin-top: 30px;
     
  }
  #top-menu
  {
-     display: flex;
-     
-    
+     display: flex;  
  }
  #logo{ 
        width: 100px;
      height: 80px;
-    margin-top: 30px;
-     margin-left: 30px;
-     margin-bottom: 20px; 
-     background-color: #E5E5E5;
-    
-
-
+    margin-top: 40px;
+     margin-left: 100px;
+     margin-bottom: 40px; 
  }
 #top-links {
     margin-top: 20px;
     position: absolute;
     right: 50px;
-    padding: 30px;
- 
-   
+    padding: 30px;  
  }
  #top-links a{
 padding: 10px;
@@ -47,7 +35,48 @@ font-family: arial;
 font-size: 12px;
 
  }
+ #menu2{
+    background-color: #175977;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+}
+   #menu2 ul{
+       margin-left: 80px;
+   }
+ #menu2 ul li{
+     display: inline-block;
+     padding: 20px;
+     color: #FFFFFF;
+     font-family: arial;
+     font-size: 12px;
+ } 
+ #menu2 ul li a{
+     color: white;
+     text-decoration: none;
+ }
+ #menu2 ul li a:hover{
+   text-decoration: underline;
+   color: red;
+   
+}
+#log:hover{color: #A21942;
+
+}
+ #sign{
+     background-color: #A21942;
+     color: #FFFFFF;
+     border-radius: 8px;
+     font-family: Arial;
+     
+     
+ }
+ #sign:hover{
+     background-color:#175977;
+     color: #dd0a49 ;
+ }
 
 
 
- 
