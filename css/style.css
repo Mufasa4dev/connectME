@@ -142,7 +142,9 @@
 .connectText {
     color: #175977;
 }
-
+.hcwicon {
+    margin-top: 20px;
+}
 /* END: How ConnectMe Works */
 
 /* START: Amazing job opportunities */
@@ -162,6 +164,9 @@ img#ladywrkin {
 #ladyText {
     font-size: 30px;
 }
+.ladyLearn {
+    padding-top: 90px;
+}
 #ladyBtn {
     width: 150px;
     height: 60px;
@@ -174,17 +179,19 @@ img#ladywrkin {
 #ladyGuyTextBox {
     margin-top: 100px;   
 }
-
 #ladyGuyFloat {
     float: right;
     margin-right: 5%;
 }
+.aeieLogo {
+    margin-top: 25px;
+}
+
 /* END: Amazing job opportunities */
 
 /* START: The Benefit of Using ConnectMe  */
 
 .tbucImg1 {
-    
     width: 418.83px;
     height: 443.31px;
     background-color: #800020;
@@ -245,7 +252,7 @@ img.icon {
 
 /* START: Success stories */
 .storiesSection {
-    margin-bottom: 25px;
+    margin-bottom: 1px;
 }
 .storiesImg {
   box-sizing: border-box;
@@ -258,10 +265,34 @@ img.icon {
 .storiesInfo {
     background: #175977;  
     color: white;
+    padding-top: 80px;
 }
 .storiesText {
-    border: 1px solid;
-    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.employeeImg {
+    width: 152px;
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+.employeeImg img {
+    border-radius: 100%;
+}
+ .employeeStory {
+     font-size: 20px;
+ }
+ .employeeSuccessStory {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .storyBack {
+     margin-top: 100px;
+ }
+ .storyNext {
+    margin-top: 100px;
 }
 
 /* END: Success stories */
@@ -274,7 +305,6 @@ footer {
     padding-top: 90px;
 }
 .footernav {
-    
     width: 75%;
     margin: auto;
     text-align: center;
