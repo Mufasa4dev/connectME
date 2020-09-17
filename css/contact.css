@@ -76,12 +76,30 @@ header img{
 }
 #main{
     border: solid;
-    width: 90%;
-    height: 1000px;
+    background-color: silver;
+    width: 80%;
+    height: 700px;
     margin: auto;
+    padding-left: 100px;
 }
 #main p{
     padding: 10px;
+}
+form{
+    margin-top: 50px;
+}
+input{
+    margin-bottom: 20px;
+    width: 70%;
+    height: 30px;
+    outline-style: none;
+}
+#send{
+    border: none;
+    outline-style: none;
+    background-color: gray;
+    color: white;
+    padding: 5px;
 }
 
 @media(max-width:750px){
