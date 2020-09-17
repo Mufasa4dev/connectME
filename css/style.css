@@ -12,7 +12,7 @@
 
 /* START:  Top Logo, Search Bar & Nav Bar */
 .topsearch {
-  
+    
     height: 75px;
     
 }
@@ -24,6 +24,7 @@
     margin-left: 5%;
 }
 .topinput {
+
     width: 40%;
     float: right;
     margin-right: 5%;
@@ -86,6 +87,7 @@
     font-size: 15px;
 }
 #check {
+    
     margin-left: 0px;
     float: left;
     padding-top: 0px;
@@ -192,6 +194,7 @@ img#ladywrkin {
 /* START: The Benefit of Using ConnectMe  */
 
 .tbucImg1 {
+    
     width: 418.83px;
     height: 443.31px;
     background-color: #800020;
@@ -202,7 +205,7 @@ img#ladywrkin {
     top: 20px;
     left: 20px;
 }
-img.icon {
+img.tbucicon {
     margin-right: 10px;
 }
 .tbucback {
@@ -333,6 +336,22 @@ footer {
 
 
 @media screen and (max-width: 800px) {
+    /* START: Top Logo, Search Bar & Nav Bar */
+    .topinput {
+        width: 55%;
+        float: right;
+        margin-right: 5%;
+    }
+    #check2 {
+        
+        width: 46%;
+        float: right;
+    }
+    
+    /* END:  Top Logo, Search Bar & Nav Bar  */
+
+
+    /* START: Amazing job opportunities */
     .lady_assistant{
         height: 300px;
         text-align: center;
@@ -341,4 +360,118 @@ footer {
         font-size: 20px;
         margin-top: auto !important; 
     }
+    .ladyLearn {
+       
+        padding-top: 70px;
+    
+    }
+    .learnImg {
+        width: 99%;
+    }
+    /* END: Amazing job opportunities */
+
+    /* START: The Benefit of Using ConnectMe  */
+
+.tbucImg1 {
+   
+    width: 268.83px;
+    height: 293.31px;
+    background-color: #800020;
+    position: relative;
+    margin: auto;
+}
+.tbucImg2 {
+    
+    width: 268.83px;
+    height: 293.31px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.tbucImg2 img {
+    
+    width: 100%;
+}
+.tbucText {
+    text-align: center;
+    padding-top: 15px;
+}
+.tbucTextHead {
+    font-size: 22px;
+    color: #800020;
+}
+.tbucText p {
+    text-align: left;
+}
+.scrollText {
+   
+    width: 285px;
+}
+.tbucback {
+    padding-left: 0px;
+    padding-top: 110px;
+}
+.tbucnext {
+    padding-top: 110px;
+}
+.scrollText h4 {
+    font-size: 17px;
+}
+.scrollText p {
+    font-size: 14px;
+}
+
+/* END: The Benefit of Using ConnectMe  */
+
+/* START: Aspiring employees, inspiring employers. */
+#aeie {
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.aeieHead {
+    font-size: 22px;
+    color: #800020;   
+}
+/* END: Aspiring employees, inspiring employers. */
+
+/* START: Success stories */
+.storiesImg {
+    display: none;
+     
+  }
+  .storiesInfo {
+
+    background: #175977;  
+    color: white;
+    padding-top: 10px;
+}
+.storiesText {
+    /* position: relative; */
+    text-align: center;
+}
+.employeeImg {
+    width: 152px;
+    /* position: absolute;
+    right: 40px;
+    top: 25px; */
+}
+.storyscroll {
+    border: 1px solid red;
+    width: 350px;
+}
+.storyscrollHead {
+    border: 1px solid red;
+    width: 350px;
+}
+.backbox {
+    border: 1px solid red;
+}
+.storyBack {
+    border: 1px solid red;
+}
+.nextbox {
+    border: 1px solid red;
+}
+
+
   }
