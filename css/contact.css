@@ -3,3 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    width: 100%;
+    height: 70px;
+    background-color: silver;
+    margin-top: 10px;
+
+}
+header img{
+    border: solid #800020;
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#div1{
+    float: right;
+    padding: 20px;
+    margin-right: 60px;
+}
+#div1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 12, 182);
+    margin-right: 20px;
+}
+#div1 a:hover{
+    color: rgb(53, 85, 5);
+}
+#div1 button{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #800020;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#div1 button:hover{
+    background-color: lightblue;
+    color: black;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+}
+#navbar{
+    float: left;
+    width: 100%;
+    margin-left: 200px;
+    padding-top: 10px;
+}
+#navbar a{
+    text-decoration: none;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 50px;
+}
+#navbar a:hover{
+    color: springgreen;
+}
+#meet{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* padding-left: 200px; */
+}
+#meet h1{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#main{
+    border: solid;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+}
+#main p{
+    padding: 10px;
+}
+
+@media(max-width:750px){
+    #navbar{
+        width: 100%;
+        margin-left: 50px;
+        font-size: 5px;
+    }
+    #navbar a{
+        padding: 20px;
+    }
+}
