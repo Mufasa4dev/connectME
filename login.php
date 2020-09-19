@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <div id="container">
-        <section>
-            
-        </section>
-    </div>
+    
 </body>
 </html>
