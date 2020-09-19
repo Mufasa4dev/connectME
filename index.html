@@ -187,8 +187,9 @@
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum qui recusandae deleniti autem vitae id libero labore fugit nostrum commodi!</p>
 
                             <div class="row scrollTextHead">
-                                <div class="col-1 tbucback"><a href="#"><img src="./images/icons/back.png" alt="" class="tbucscrollicon "></a></div>
+                                <div class="col-1 tbucback"><img src="./images/icons/back.png" alt="" class="tbucscrollicon" id="tbucPrevious"></div>
                                 <div class="col-sm scrollText">
+                                    <div class="tbucbox" id="tbucDisplay1">
                                     <h4><img src="./images/icons/see.png" alt="" class="tbucicon"> We <span>see jobs</span> before you
                                         do.</h4>
                                     <p class="tbucsmalltext">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -197,8 +198,25 @@
                                             on employers</span></h4>
                                     <p class="tbucsmalltext">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Dicta, pariatur.</p>
+                                    </div>
+                                    <div class="tbucbox" id="tbucDisplay2">
+                                        <h4><img src="./images/icons/see.png" alt="" class="tbucicon"> We <span>guide you through</span> creating a profile that employers <span>would find appealing.</span></h4>
+                                        <p class="tbucsmalltext">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Culpa, harum?</p>
+                                        <h4><img src="./images/icons/smart-key.png" alt="" class="tbucicon"> Access <span>exclusive trainings both in</span> tech <span>and</span> vocational skills</h4>
+                                        <p class="tbucsmalltext">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Dicta, pariatur.</p>
+                                        </div>
+                                        <div class="tbucbox" id="tbucDisplay3">
+                                            <h4><img src="./images/icons/see.png" alt="" class="tbucicon">Get noticed</h4>
+                                            <p class="tbucsmalltext">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Culpa, harum?</p>
+                                            <h4><img src="./images/icons/smart-key.png" alt="" class="tbucicon"><span>Get certified</span></h4>
+                                            <p class="tbucsmalltext">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Dicta, pariatur.</p>
+                                            </div>
                                 </div>
-                                <div class="col-1 tbucnext"><a href="#"><img src="./images/icons/next.png" alt=""></a></div>
+                                <div class="col-1 tbucnext"><a href="#"><img src="./images/icons/next.png" alt="" id="tbucNext"></a></div>
                             </div>
                             
                         </div>
@@ -239,7 +257,7 @@
                         <div class="row storybox">
                             <div class="col-1 backbox"><a href="#"><img src="./images/icons/back.png" alt="" class="storyBack"></a></div>
                             <div class="col-sm storiesText">
-                                <div class="row storyscrollHead">
+                                <div class="row storyscrollHead" id="storyDisplay1">
                                     <div class="col-sm storyscroll">
                                         <span class="employeeStory">Uche got a job after being <br>
                                             unemployed Due to the pandemic</span>
@@ -248,6 +266,28 @@
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="employeeImg"><img src="./images/uche.png" alt=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="row storyscrollHead" id="storyDisplay2">
+                                    <div class="col-sm storyscroll">
+                                        <span class="employeeStory">Ajibola got an internship with one of the top tech companies we partner with</span>
+                                            <p class="employeeSuccessStory"><em>“Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”</em></p>
+                                            <h4>Ajibola, a., Jos</h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="employeeImg"><img src="./images/Ajibola.png" alt=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="row storyscrollHead" id="storyDisplay3">
+                                    <div class="col-sm storyscroll">
+                                        <span class="employeeStory">Mr Tunji, a happy mechanic that got connected via our platform</span>
+                                            <p class="employeeSuccessStory"><em>“Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”</em></p>
+                                            <h4>Tunji, h., Ibadan</h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="employeeImg"><img src="./images/Olatunji.png" alt=""></div>
                                     </div>
 
                                 </div>
@@ -267,37 +307,55 @@
 
         <!-- START: FOOTER -->
         <footer class="container-fluid ">
-
-
-
-
-            
-            <!-- <div class="footernav">
-                <div class="footerlink"><a href="#">About Us</a></div> 
-                <span class="sperate">|</span>
-                <div class="footerlink"><a href="#">Contact Us</a></div>
-                <span class="sperate">|</span>
-                <div class="footerlink"><a href="#">Services</a></div>
-                <span class="sperate">|</span>
-                <div class="footerlink"><a href="#">FAQ</a></div>
-                <span class="sperate">|</span>
-                <div class="footerlink"><a href="#">Courses</a></div>
+            <div class="foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="footernav1">
+                                    <span>Who We Are</span>
+                                    <a href="#">About Us</a>
+                                    <a href="#">Our Mission</a>
+                                    <a href="#">Our Vision</a>
+                                    <a href="#">Meet The Team</a>
+                                    <a href="#">Terms of Use</a>
+                                    <a href="Privacy Policy"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="footernav2">
+                                    <span>Who We Serve</span>
+                                    <a href="#">Job Seeker</a>
+                                    <a href="#">Employers</a>
+                                    <a href="#">Trainees</a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="footernav3">
+                                    <span>Resources</span>
+                                    <a href="#">Blog</a>
+                                    <a href="#">Courses</a>
+                                    <a href="#">Contact Us</a>
+                                    <a href="#">FAQ</a>
+                                    <a href="#">Resource Center</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
             </div>
-            <hr>
-            <div class="row">
+        </div>
+            <div class="container">
                 <div class="col-sm-7 copyright">
                     <span>©</span>
                     <span>2020 ConnectMe, Inc. All rights reserved </span>
                     <span><a href="#">Terms of use</a></span>
                     <span><a href="#">Privacy Policy</a></span>
                 </div>
-                <div class="col-sm ">
-                    <span><i class="fab fa-twitter-square fa-1.5x footerIcons"></i></span>
-                    <span><i class="fab fa-facebook-square fa-1.5x footerIcons"></i></span>
-                    <span><i class="fab fa-instagram-square fa-1.5x footerIcons"></i></span>
-                </div>
+            </div>
 
-            </div> -->
             <!-- END: FOOTER -->
         </footer>  
 

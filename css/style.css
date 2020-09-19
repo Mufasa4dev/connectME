@@ -240,6 +240,13 @@ img.tbucicon {
 .tbucText .tbucsmalltext {
     margin-left: 5.3%;
 }
+#tbucDisplay2 {
+    display: none;
+}
+#tbucDisplay3 {
+    display: none;
+}
+
 /* END: The Benefit of Using ConnectMe  */
 
 /* START: Aspiring employees, inspiring employers. */
@@ -302,17 +309,78 @@ img.tbucicon {
  .storyNext {
     margin-top: 100px;
 }
+#storyDisplay2 {
+    display: none;
+}
+#storyDisplay3 {
+    display: none;
+}
 
 /* END: Success stories */
 
 /* START: FOOTER */
 footer {
     background: #175977;
-    height: 195px;
     color: white;
-    padding-top: 90px;
+    padding-top: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
-.footernav {
+.footernav1 {
+    
+    padding-left: 20%;
+}
+
+.footernav1 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav1 a:hover {
+    color: #800020;
+}
+.footernav2 {
+    padding-left: 20%;
+}
+.footernav2 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav2 a:hover {
+    color: #800020;
+}
+.footernav3 {
+    padding-left: 20%;
+}
+.footernav3 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav3 a:hover {
+    color: #800020;
+}
+.foot {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.copyright {
+    margin-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+}
+.copyright a {
+    color: white;
+}
+.copyright a:hover {
+    color: #800020;
+}
+/* .footernav {
     width: 75%;
     margin: auto;
     text-align: center;
@@ -337,7 +405,7 @@ footer {
 .footerIcons {
     float: right;
     margin-right: 25px;
-}
+} */
 
 
 @media screen and (max-width: 800px) {
@@ -504,5 +572,57 @@ footer {
     }
 
     /* END: Success stories */
+
+    /* FOOTER */
+    .footernav1 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav1 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav1 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav2 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav2 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav2 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav3 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav3 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav3 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+
+    /* FOOTER */
 
 }
