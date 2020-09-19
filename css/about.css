@@ -23,11 +23,14 @@
  #menu ul{
 margin-left: 300px;
 margin-top: 10px;
+
  }
  #menu ul li{
      display: inline-block;
      padding: 10px;
      margin-left: 20px;
+     
+    
  }
 
  #signing{
@@ -60,3 +63,179 @@ font-style: Arial;
     text-align: center;
 }
 /* About Connectme: Ends */
+
+#allpics{
+    text-align: center;
+}
+#pic1{
+    background-color: whitesmoke;
+    width:150px;
+    height: 180px;
+    margin-bottom: 20px;
+    margin-left:30px;
+    display: inline-block;
+    
+}
+#pix1 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: -40px; 
+}
+#pic2{
+    background-color: whitesmoke;
+    width:150px;
+    height: 180px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+#pix2 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: -40px;
+   
+}
+#pic3{
+    background-color: whitesmoke;
+    width:150px;
+    height: 180px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+#pix3 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: -40px;
+}
+#pic4{
+    background-color: whitesmoke;
+    width:150px;
+    height: 180px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+#pix4 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: -40px;
+}
+#pic5{
+    background-color: whitesmoke;;
+    width:150px;
+    height: 180px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+#pix5 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: -40px;
+}
+#pic6{
+    background-color: whitesmoke;;
+    width:150px;
+    height: 180px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+#pix6 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: -40px;
+}
+#pic7{
+    background-color: whitesmoke;;
+    width:150px;
+    height: 180px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+   
+}
+#pix7 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-top: -40px;
+}
+#pic8{
+    background-color: whitesmoke;;
+    width:150px;
+    height: 180px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left:30px;
+    
+}
+#pix8 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-top: -40px;
+}
+#pic9{
+    background-color: whitesmoke;;
+    width:150px;
+    height: 180px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: -40px;
+}
+#pix9 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-top: -40px;
+}
+#pic10{
+    background-color: whitesmoke;;
+    width:150px;
+    height: 180px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+#pix10 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-top: -40px;
+}
+#pic11{
+    background-color: whitesmoke;;
+    width:150px;
+    height: 180px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+   
+
+}
+#pix11 img{
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-top: -40px;
+    
+}
+#pic12{
+    background-color: whitesmoke;
+    width:150px;
+    height: 180px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+#pix12 img{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 100%;
+    margin-top: -40px;
+}
