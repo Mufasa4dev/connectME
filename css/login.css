@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    border: solid red 2px;
+    /* background-color: darkblue; */
+    width: 1000px;
+    height: 600px;
+}
+/* #div1{
+    border: solid;
+    width: 60%;
+    height: 400px;
+} */
