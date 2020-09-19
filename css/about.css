@@ -3,332 +3,45 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-
- #main{
+/* Start: topmenu */
+ #topmenu{
      width: 100%;
-     margin: auto;
-     margin-top: 30px;
-    
+     height: 60px;
+     background-color:white;
+     display: flex;
  }
- #top-menu
- {
-     display: flex;  
- }
- #logo{ 
-       width: 100px;
-     height: 80px;
-     margin: auto;
-    margin-top: 40px;
-     margin-left: 100px;
-     margin-bottom: 40px; 
- }
-#top-links {
-    margin-top: 20px;
-    position: absolute;
-    right: 50px;
-    padding: 30px;  
- }
- #top-links a{
-padding: 10px;
-text-decoration: none;
-font-family: arial;
-font-size: 12px;
+ #menu{
+     position: absolute;
 
  }
- #menu2{
-    background-color: #175977;
-    width: 100%;
-    height: 60px;
-    margin-top: 10px;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius: 10px;
-}
-   #menu2 ul{
-       margin-left: 80px;
-   }
- #menu2 ul li{
+ #logo{
+     
+     width: 10%;
+     height: 60px;
+     margin-left: 15px;
+ }
+ #menu ul{
+margin-left: 300px;
+margin-top: 10px;
+ }
+ #menu ul li{
      display: inline-block;
-     padding: 20px;
-     color: #FFFFFF;
-     font-family: arial;
-     font-size: 12px;
- } 
- 
-#log{
-    font-family: Arial;
-    font-size: 60px;
-}
- #menu2 ul li a{
-     color: white;
-     text-decoration: none;
+     padding: 10px;
+     margin-left: 20px;
  }
- #menu2 ul li a:hover{
-   text-decoration: underline;
-   color: red;
-   
-}
-#log:hover{color: #A21942;
 
-}
- #sign{
-     background-color: #A21942;
-     color: #FFFFFF;
-     border-radius: 8px;
-     font-family: Arial;
+ #signing{
      
-     
+     position: absolute;
+     right: 10px;
+     margin-top: 20px;
+
  }
- #sign:hover{
-     background-color:#175977;
-     color: #dd0a49 ;
- }
- #inbodytext{
-    text-align: center;
-    font-family: Arial;
-    margin-top: 60px;
-   margin: 40px;
-   margin-bottom: 10px;
+ /* Ends: here */
+ #banner{
+    width: 100%;
+    height: 500px;
 }
-#inbodytext a:hover{
-    text-decoration: none;
-} 
-#abtcon{
-    padding: 35px;  
-}
-#who{
-   padding: 35px;
-   text-decoration: none;
-}
-#mission{
-   padding: 35px;
-   text-decoration: none;
-}
-#vision{
-   padding: 35px;
-   text-decoration: none;
-}
-#meet h2{
-    text-align: center;
-    margin-top: 40px;
-    font-family: Arial;
-}
-#allpics{
-    text-align: center;
-}
-
-
-#pix1{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 10px;
-   
-}
-
-#pic1{
-    width: 200px;
-    height: 200px;
-    margin-left: 25px;
-   background-image: url(../images/Abiodun\ Adedokun_SD\ \(4\).jpg);
-    background-color: teal;
-    border-radius: 100%;
-    margin-top: 10px;
-    
-}
-
-
-#pix2{
-    width: 250px;
-    height: 270px; 
-    background-color:  grey;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 10px;
-}
-
-#pic2{
-    width: 200px;
-    height: 200px;
-    margin-left: 25px;
-    background-color: teal;
-    margin-top: 10px;
-    border-radius: 100%;
-}
-#pix3{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 10px;
-}
-
-#pic3{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix4{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic4{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix5{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic5{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix6{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic6{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix7{
-    width: 250px;
-    height: 270px; 
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic7{
-    width: 200px;
-    height: 200px;
-     margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix8{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic8{
-    width: 200px;
-    height: 200px;
-    margin-left: 25px;
-     margin-top: 10px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix9{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic9{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix10{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic10{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix11{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic11{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-#pix12{
-    width: 250px;
-    height: 270px;
-    background-color:grey;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#pic12{
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 25px;
-    background-color: teal;
-    border-radius: 100%;
-}
-
-#allpics{
-    
-    margin-top: 50px;
+#banner img {
+    width: 100%;
 }
