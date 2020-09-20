@@ -13,7 +13,7 @@ body {
 .sideBar {
     border: 1px solid white;
     width: 20.2%;
-    height: 941px;
+    height: 700px;
     background-color: white;
     padding-left: 0% !important;
     padding-right: 0% !important;
@@ -138,17 +138,15 @@ body {
     height: 46px;
 }
 .topBtn {
-    width: 50%;
+    width: 102px;
+    height: 40px;
     background: #800020;
     border-radius: 0px 5px;
     color: whitesmoke;
     font-size: 16px;
-    line-height: 21px;
-    text-align: left;
+    
 }
-.topBtn img {
-    margin-right: 7px;
-}
+
 .notification {
     text-align: center;
     padding-top: 2px;
@@ -184,76 +182,49 @@ body {
     padding-top: 17px;
     
 }
-.contentText1 {
-    
-    margin-bottom: 30px;
-    font-size: 19px;
-    line-height: 30px;
-    color: #800020;
-}
-.hrLine1 {
-    padding-top: 10px; 
-}
+
 .hrLine2 {
     padding-top: 5px; 
 }
 
-/* START: Recommended candidates */
+/* START: Recommended Jobs */
 .data1Profile {
     
     width: 100%;
     height: 132px;
     background: #F7F0F0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 5px;
+    padding: 8px;
 }
-.ted {
-    width: 40px;
-    height: 40px;
-    background: #686666;
-    border-radius: 5px;
+
+.tedBox {
+    display: flex;
+}
+.ted { 
+    width: 33px;
+    height: 33px;
+    background: #175977;
+    border-radius: 100%;
 }
 .ted2 {
-    width: 70px;
-    height: 20px;
-    background: #175977;
-    border-radius: 3px;
-    font-size: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 13px;
     line-height: 11px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 4px;
+    color: #000000;  
 }
-.text1 {
-    font-size: 18px;
-    color: #1B1819;
-    font-weight: 600;
-    line-height: 0.5;
-}
-.text2 { 
-    font-size: 10px;
-    color: #757475;
-}
-.smconBtn {
-    width: 50px;
-    height: 20px;
-    background: #800020;
-    border-radius: 3px;
-    font-size: 10px;
-    color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
+.ted3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #800020;
     float: right;
-    margin-right: 2px;
 }
-.smResume {
-    font-size: 10px; 
-}
-/* END: Recommended candidates */
+
+
+/* END: Recommended Jobs */
 
 /* START: Candidates */
 .bgDataProfile {
-
     width: 100%;
     height: 240px;
     background: #F6F0F0;
