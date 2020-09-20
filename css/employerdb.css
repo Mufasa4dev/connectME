@@ -62,7 +62,7 @@ body {
 .dbicon img {
     float: right; 
 }
-.pfBtn {
+.ntBtn {
     width: 100%;
     height: 38px;
     color: #800020;
@@ -77,7 +77,7 @@ body {
 .pficon img {
     float: right;
 }
-.pfB {
+.ntB {
     width: 100%;
     margin-left: 0% !important;
     margin-right: 0% !important;
@@ -94,7 +94,7 @@ body {
     padding-right: 0% !important;
 }
 .bottomBtn {
-    border: 1px solid;
+    
     position: absolute;
     width: 100%;
     bottom: 40px;
@@ -140,13 +140,18 @@ body {
 .topBtn {
     width: 50%;
     background: #800020;
-    border-radius: 2px;
+    border-radius: 0px 5px;
     color: whitesmoke;
     font-size: 16px;
     line-height: 21px;
+    text-align: left;
+}
+.topBtn img {
+    margin-right: 7px;
 }
 .notification {
-    
+    text-align: center;
+    padding-top: 2px;
     width: 33px;
     height: 33px;
     border-radius: 8px;
@@ -167,3 +172,148 @@ body {
 
 
 /* END: Top Nav */
+
+/* START: Body Content */
+.content {
+   
+    width: 71%;
+    height: 85px;
+    position: absolute;
+    top: 87px;
+    right: 3%;
+    padding-top: 17px;
+    
+}
+.contentText1 {
+    
+    margin-bottom: 30px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #800020;
+}
+.hrLine1 {
+    padding-top: 10px; 
+}
+.hrLine2 {
+    padding-top: 5px; 
+}
+
+/* START: Recommended candidates */
+.data1Profile {
+    
+    width: 100%;
+    height: 132px;
+    background: #F7F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+}
+.ted {
+    width: 40px;
+    height: 40px;
+    background: #686666;
+    border-radius: 5px;
+}
+.ted2 {
+    width: 70px;
+    height: 20px;
+    background: #175977;
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 11px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 4px;
+}
+.text1 {
+    font-size: 18px;
+    color: #1B1819;
+    font-weight: 600;
+    line-height: 0.5;
+}
+.text2 { 
+    font-size: 10px;
+    color: #757475;
+}
+.smconBtn {
+    width: 50px;
+    height: 20px;
+    background: #800020;
+    border-radius: 3px;
+    font-size: 10px;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    float: right;
+    margin-right: 2px;
+}
+.smResume {
+    font-size: 10px; 
+}
+/* END: Recommended candidates */
+
+/* START: Candidates */
+.bgDataProfile {
+
+    width: 100%;
+    height: 240px;
+    background: #F6F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 7px;
+}
+
+.bgted {
+    width: 70px;
+    height: 70px;
+    background: #686666;
+    border-radius: 5px;
+}
+.bgted2 {
+    width: 80px;
+    height: 25px;
+    background: #175977;
+    border-radius: 5px;
+    float: right;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.bglink {
+   
+    float: right;
+    font-size: 11px;
+    width: 85px;
+    height: 20px;
+    background: #175977;
+    border-radius: 5px; 
+    color: white;
+}
+.bglinkimg {
+    margin: 0px 7px 0px 5px;
+}
+.bgconBtn1 {
+    width: 90px;
+    height: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+.bgconBtn2 {
+    float: right;
+    width: 90px;
+    height: 35px;
+    background: #800020;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    color: white;
+}
+.bgResume {
+    font-size: 13px; 
+}
+/* END: Candidates */
+
+/* END: Body Content */
