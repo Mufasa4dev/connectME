@@ -19,25 +19,27 @@
      width: 10%;
      height: 60px;
      margin-left: 15px;
+
  }
  #menu ul{
 margin-left: 300px;
 margin-top: 10px;
+
+width: 100%;
 
  }
  #menu ul li{
      display: inline-block;
      padding: 10px;
      margin-left: 20px;
-     
-    
  }
 
  #signing{
      
      position: absolute;
-     right: 10px;
+     right: 100px;
      margin-top: 20px;
+     
 
  }
  /* Ends: here */
@@ -59,8 +61,14 @@ margin-top: 30px;
 text-align: center;
 font-style: Arial;
 }
+#about h3:hover{
+    color: #175977;
+}
 #about p{
     text-align: center;
+}
+#about p:hover{
+color: #175977
 }
 /* About Connectme: Ends */
 
@@ -69,13 +77,14 @@ font-style: Arial;
 }
 #pic1{
     background-color: whitesmoke;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 20px;
     margin-left:30px;
     display: inline-block;
     
 }
+
 #pix1 img{
     text-align: center;
     border-radius: 100%;
@@ -83,7 +92,7 @@ font-style: Arial;
 }
 #pic2{
     background-color: whitesmoke;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 20px;
     display: inline-block;
@@ -97,7 +106,7 @@ font-style: Arial;
 }
 #pic3{
     background-color: whitesmoke;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 20px;
     display: inline-block;
@@ -110,7 +119,7 @@ font-style: Arial;
 }
 #pic4{
     background-color: whitesmoke;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 20px;
     display: inline-block;
@@ -123,7 +132,7 @@ font-style: Arial;
 }
 #pic5{
     background-color: whitesmoke;;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 20px;
     display: inline-block;
@@ -136,7 +145,7 @@ font-style: Arial;
 }
 #pic6{
     background-color: whitesmoke;;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 20px;
     display: inline-block;
@@ -149,7 +158,7 @@ font-style: Arial;
 }
 #pic7{
     background-color: whitesmoke;;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 10px;
     display: inline-block;
@@ -164,7 +173,7 @@ font-style: Arial;
 }
 #pic8{
     background-color: whitesmoke;;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 10px;
     display: inline-block;
@@ -179,7 +188,7 @@ font-style: Arial;
 }
 #pic9{
     background-color: whitesmoke;;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 10px;
     display: inline-block;
@@ -194,7 +203,7 @@ font-style: Arial;
 }
 #pic10{
     background-color: whitesmoke;;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 10px;
     display: inline-block;
@@ -209,7 +218,7 @@ font-style: Arial;
 }
 #pic11{
     background-color: whitesmoke;;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 10px;
     display: inline-block;
@@ -217,6 +226,8 @@ font-style: Arial;
    
 
 }
+
+
 #pix11 img{
     text-align: center;
     border-radius: 100%;
@@ -226,7 +237,7 @@ font-style: Arial;
 }
 #pic12{
     background-color: whitesmoke;
-    width:150px;
+    width:11.3%;
     height: 180px;
     margin-bottom: 10px;
     display: inline-block;
@@ -238,4 +249,146 @@ font-style: Arial;
     margin-top: 10px;
     border-radius: 100%;
     margin-top: -40px;
+}
+footer {
+    background: #175977;
+    color: white;
+    padding-top: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footernav1 {
+    
+    padding-left: 20%;
+}
+
+.footernav1 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav1 a:hover {
+    color: #800020;
+}
+.footernav2 {
+    padding-left: 20%;
+}
+.footernav2 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav2 a:hover {
+    color: #800020;
+}
+.footernav3 {
+    padding-left: 20%;
+}
+.footernav3 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav3 a:hover {
+    color: #800020;
+}
+.foot {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.copyright {
+    margin-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+}
+.copyright a {
+    color: white;
+}
+.copyright a:hover {
+    color: #800020;
+}
+ .footernav {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.sperate {
+    font-size: 1vw;
+}
+.footerlink {
+    display: inline-block;
+    font-size: 1vw;
+    width: 15%;
+    
+}
+.footerlink a {
+    color: white;
+}
+.copyright {
+    margin-left: 10%;
+    font-size: 1vw;
+}
+.footerIcons {
+    float: right;
+    margin-right: 25px;
+} 
+
+
+@media screen and (max-width: 800px) {
+    /* FOOTER */
+    .footernav1 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav1 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav1 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav2 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav2 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav2 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav3 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav3 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav3 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+
 }
