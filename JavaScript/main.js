@@ -15,7 +15,7 @@ if (tbucBox1.style.display = 'block') {
 } 
 
 
-function tbucScrollBack() {
+// function tbucScrollBack() {
 
     // if (tbucBox1.style.display = 'block') {
 
@@ -30,7 +30,6 @@ function tbucScrollBack() {
     
 }
 
-function tbucScrollNext() {
+// function tbucScrollNext() {
 
-
-}
+// }
