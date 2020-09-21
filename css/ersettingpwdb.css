@@ -14,11 +14,12 @@ body {
 .sideBar {
     border: 1px solid white;
     width: 20.2%;
-    height: 941px;
+    height: 700px;
     background-color: white;
     padding-left: 0% !important;
     padding-right: 0% !important;
     box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logoBox {
   
@@ -186,158 +187,106 @@ body {
     
 }
 
-/* START: Employee Profile page */
-.employeepfData {
-    
-    height: 417px;
-    background: #F6F0F0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-top: 35px;
+/* START: UPDATE & TOOLS FOR THE WEEK */
+.updatepf {
+    display: flex;
+    margin-bottom: 20px;
 }
-.dataImg {
+.pfImg {
     width: 100px;
     height: 100px;
-    background: #615E5E;
+    background: #C4C4C4;
     border-radius: 100%;
-    margin: auto;
 }
-.data1 {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    margin-top: 25px;
+.pfName {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1B1819;
 }
-.dataName {
+.pfArea {
+    font-size: 12px;
+    color: #757475;
+}
+.pfData {
+    padding-top: 25px;
+    padding-left: 12px;
+}
+.updatepfBtn button {
+    border: none;
+    width: 100%;
     height: 30px;
-    text-align: center;
-    color: #1B1819;
-    font-size: 15px;
-    font-weight: bold;
-}
-.dataSkill {
-    
-    text-align: center;
-    font-size: 12px;
-    color: #1B1819;
-}
-.dataDscrp {
-    width: 148px;
-    height: 63px;
-    font-size: 12px;
-    line-height: 21px;
-    text-align: center;
-    color: #1B1819;
-    margin: auto;
-}
-.basicInfo {
-    height: 253px;
-    background: #F6F0F0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 20px;
-}
-.experience {
-    height: 253px;
-    background: #F6F0F0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.basicInfoHead {
-    font-size: 15px;
-    line-height: 24px;
-    color: #800020;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    
-}
-.basicInfoHead2 {
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
-    color: #1B1819;
-}
-.basicInfoText1 {
-    font-size: 10px;
-    line-height: 15px;
-    color: #1B1819;
-}
-.basicInfoBtn2 {
-    width: 131px;
-    height: 40px;
-    border: 0.5px solid #800020;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 12px;
-    line-height: 18px;
-}
-.basicInfoBtn1 {
-    width: 135px;
-    height: 40px;
     background: #800020;
-    border-radius: 5px;
-    font-size: 12px;
-    line-height: 18px;
-    border: 1px solid #800020;
     color: white;
-    margin-right: 10px;
+    font-size: 12px;
+    text-align: left;
 }
-.edit {
-    font-size: 13px;
-    line-height: 21px;
-    color: #800020;
-    letter-spacing: 0.01em;
-    padding-top: 10px;
+.updatepfBtn button img {
+    margin: 0px 20px 0px 5px;
 }
-.editImg {
-    margin-right: 6px;
-}
-.exprnImg {
-    width: 83px;
-    height: 83px;
-    background: #175977;
-    border-radius: 100%;
+
+
+.navBody {
     text-align: center;
-    color: white;
-    font-size: 18px;
-    line-height: 36px;
-    padding-top: 22px;
 }
-.exprnText {
-    font-size: 12px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.navBodyLink {
+    
+    color: #1B1819;
+    font-size: 14px;
+    line-height: 18px;
 }
-.bgbox {
-  
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-}
-.box1 {
-  
-    padding: 3px !important;
-}
-
-.edit2 {
-    font-size: 13px;
-    line-height: 21px;
+.navBodyLink1 {
+   
     color: #800020;
-    letter-spacing: 0.01em;
-    padding-top: 53px;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
 }
-.line {
-    margin: 5px !important;
-    height: 2px;
-    background: #575454;
+.navBodyLink:hover {
+    color: #800020;
 }
-
-.editSave button {
-    width: 216px;
+.navBodyLink1:hover {
+    color: black;
+    text-decoration: none;
+}
+.navBodyHead {
+    font-size: 14px;
+    line-height: 16px;
+    height: 40px;
+    background: #175977;
+    color: white;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+.navBodyHeadBox {
+    padding: 0px !important;
+}
+.formBox1 {
+    padding-right: 0% !important;
+}
+.formBox2 {
+  
+    padding-left: 0% !important;
+}
+.formBtn {
+    width: 223px;
     height: 40px;
     background: #800020;
     border-radius: 0px 5px;
     color: white;
-    font-size: 13px;
-    border: none;
     float: right;
+    border: none;
+    font-size: 14px;
 }
-/* END: Employee Profile page  */
+.formLable {
+    font-size: 15px;
+    color: #000000;
+}
+.formInput {
+    height: 30px;
+    background: #E5E5E5;
+    border: 0.5px solid #000000;
+    padding-left: 10px;
+}
+/* END: UPDATE & TOOLS FOR THE WEEK  */
 
 /* END: Body Content */
