@@ -14,11 +14,12 @@ body {
 .sideBar {
     border: 1px solid white;
     width: 20.2%;
-    height: 700px;
+    height: 750px;
     background-color: white;
     padding-left: 0% !important;
     padding-right: 0% !important;
     box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logoBox {
   
@@ -340,14 +341,26 @@ body {
     
 }
 .xinterview {
-   
     padding: 15px;
-    
 }
 .xviewText {
     font-size: 14px;
     color: #1B1819;
     font-weight: bold;
+}
+.xviewText2 {
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.xviewTextBtn {
+    width: 108px;
+    height: 30px;
+    background: #800020;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    border: none;
 }
 /* END: Interview Preparation */
 
