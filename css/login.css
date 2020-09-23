@@ -24,3 +24,25 @@ section{
     width: 60%;
     height: 700px;
 }
+#div2{
+    width: 40%;
+    height: 700px;
+    background-color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    /* margin-left: 50px; */
+}
+.media{
+    border: solid 1px;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    display: inline-block;
+}
