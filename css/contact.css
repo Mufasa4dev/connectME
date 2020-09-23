@@ -82,6 +82,7 @@ header img{
 #main{
     /* border: solid; */
     background-color: #fdfdfd;
+    font-size: 18px;
     width: 70%;
     height: 900px;
     margin: auto;
@@ -115,7 +116,7 @@ input{
 }
 #send:hover{
     background-color: #175977;
-    color: silver;
+    color: silver;  
 }
 #bottom{
     margin-top: 50px;
