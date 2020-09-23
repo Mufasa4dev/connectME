@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | ConnectME</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/contact.css">
 </head>
 
@@ -12,16 +14,16 @@
     <div id="container">
         <section id="top">
             <header>
-                <img src="images/connectMe.JPG" width="50px" height="50px" alt="connectMe logo">
+                <img src="images/connectME.png" width="100%" alt="connectMe logo">
                 <div id="div1"><a href="#">Log In</a>
                     <button>Sign Up</button></div>
             </header>
         </section>
         <section id="nav">
             <div id="navbar">
-                <a href="#">About</a>
-                <a style="text-decoration-line: underline;" href="#">Contact</a>
-                <a href="#">ConnectMe Team</a>
+                <a href="aboutus.html">About</a>
+                <a style="text-decoration-line: underline;" href="contact.html">Contact</a>
+                <a href="aboutus.html">ConnectMe Team</a>
             </div>
         </section>
         <section id="meet">
@@ -30,17 +32,21 @@
                 <div id="main">
                     <p style="padding-top: 40px;">For enquiries on our services and help, you can reach us on these platforms:</p>
                     <p>Phone numbers: 08012345678, 07098765432</p>
-                    <p>Social Media platforms: facebook, twitter, instagram</p>
+                    <p>Social Media platforms:
+                        <img src="images/login/fb.svg" alt="">
+                        <img src="images/login/tw.svg" alt="">
+                        <img src="images/login/ig.svg" alt="">
+                    </p>
                     <p>For further enquiries, email @</p>
                     <form action="">
                         <label for="name">Name</label> <br>
-                        <input type="text" placeholder="Enter Full Name"> <br>
+                        <input type="text" placeholder=""> <br>
                         <label for="email">E-mail</label> <br>
-                        <input type="text" placeholder="Enter your email"> <br>
+                        <input type="text" placeholder=""> <br>
                         <label for="organization">Organization</label> <br>
-                        <input type="text" placeholder="Name of Organization"> <br>
+                        <input type="text" placeholder=""> <br>
                         <label for="phone number">Phone Number</label> <br>
-                        <input type="number" placeholder="Enter your phone number"> <br>
+                        <input type="number" placeholder=""> <br>
                         <label for="message">Message</label> <br>
                         <input type="text" style="height: 100px;"> <br>
                         <button id="send">SEND MESSAGE</button>
@@ -50,41 +56,64 @@
 
         </section>
         <section id="bottom">
-            <footer>
-                <div class="foot">
-                    <h3>Who We Are</h3>
-                    <a href="#">About Us</a>
-                    <a href="#">Our Mission</a>
-                    <a href="#">Our Vision</a>
-                    <a href="#">Meet the Team</a>
-                    <a href="#">Terms of Use</a>
-                    <a href="#">Privacy Policy</a>
+         <!-- START: FOOTER -->
+         <footer class="container-fluid ">
+            <div class="foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="footernav1">
+                                    <span>Who We Are</span>
+                                    <a href="aboutus.html">About Us</a>
+                                    <a href="aboutus.html">Our Mission</a>
+                                    <a href="aboutus.html">Our Vision</a>
+                                    <a href="aboutus.html">Meet The Team</a>
+                                    <a href="#">Terms of Use</a>
+                                    <a href="Privacy Policy"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="footernav2">
+                                    <span>Who We Serve</span>
+                                    <a href="#">Job Seeker</a>
+                                    <a href="#">Employers</a>
+                                    <a href="#">Trainees</a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="footernav3">
+                                    <span>Resources</span>
+                                    <a href="#">Blog</a>
+                                    <a href="#">Courses</a>
+                                    <a href="#">Contact Us</a>
+                                    <a href="#">FAQ</a>
+                                    <a href="#">Resource Center</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"></div>
                 </div>
-                <div class="foot">
-                    <h3>Who We Serve</h3>
-                    <a href="#">Job Seekers</a>
-                    <a href="#">Employers</a>
-                    <a href="#">Trainees</a>
-                </div>
-                <div class="foot">
-                    <h3>Resources</h3>
-                    <a href="#">Blog</a>
-                    <a href="#">Courses</a>
-                    <a href="#">Contact Us</a>
-                    <a href="#">FAQ</a>
-                    <a href="#">Resource Centre</a>
-                </div>
-                <div class="foot">
-                    <p>twitter</p>
-                    <p>facebook</p>
-                    <p>instagram</p>
-                </div>
-            </footer>
-            <div>
-                <p style="color: white; font-family: Arial, Helvetica, sans-serif; text-align: center; padding-top: 10px;">© 2020 ConnectMe, Inc. All Rights Reserved. Terms of Use. Privacy Policy</p>
             </div>
+        </div>
+            <div class="container">
+                <div class="col-sm-7 copyright">
+                    <span>©</span>
+                    <span>2020 ConnectMe, Inc. All rights reserved </span>
+                    <span><a href="#">Terms of use</a></span>
+                    <span><a href="#">Privacy Policy</a></span>
+                </div>
+            </div>
+
+            <!-- END: FOOTER -->
+        </footer>    
         </section>
     </div>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>
