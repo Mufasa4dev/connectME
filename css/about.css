@@ -2,66 +2,60 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 .contain{
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-#navbarNav a{
-    color: #800020;
+/* START: NavBar */
+.navTop {
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.active{
-    font-weight: 600;
+.logo {
+    width: 50px;
+    height: 50px;
 }
-a span{
-    color: #175977;
-    font-weight: 600;
-    font-size: 24px;
+.logo img {
+    width: 100%;
 }
-.spanme{
-    color: #800020;
+.click {
+    display: flex;
 }
-.rightmenu a{
-    color: #800020;
+.login {
+    margin-left: 15px !important;
+    margin-right: 15px !important;  
 }
-.btnsearch{
-    color: white;
-    border-color: #fff;
-    background-color: #800020;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 0px;
+.topLink {
+    color: #800020 !important;
 }
-.dropdown-menu{
-    /* background-color: #175977; */
-    border-radius:10px;
+.post {
+    color: #800020 !important;
 }
-.btnsearch:hover{
-    color: white;
-    border-color: #fff;
+.login {
+    color: #800020 !important;
 }
-.btnsearch:active{
-    color: white;
-    border-color: #fff;
-    transform: scale(1.02);
+.logout {
+    color: #ffffff !important;
+    background: #800020;
+    border-radius: 0px 5px;
+    width: 92px;
+    height: 40px;
+    border: none;
 }
-.btnsearch{
-    border-radius: 0px 8px;
-    /* border: solid  blue 5px; */
+.navbar-toggler-icon {
+    background: #800020 !important;
 }
-#logopng{
-    width: 70px;
-    height: 60px;
-}
+/* END: NavBar */
 /* Start: topmenu */
  /* Ends: here */
 
  /* banner:start */
  #banner{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
 }
 #banner img {
     width: 100%;
@@ -69,214 +63,57 @@ a span{
 /* Ends: here */
 
 /* About Connectme:Start */
-#about h3{
+
+ .aboutHead {
 color: #800020;
 margin-top: 30px;
 text-align: center;
-font-style: Arial;
+font-family: Arial;
 line-height: 40px;
-}
-#about h3:hover{
-    color: #175977;
+font-weight: bold;
+font-size: 28px;
 }
 #about p{
+    
     text-align: center;
-}
-#about p:hover{
-color: #175977
+    padding-top: 5px;
+    line-height: 30px;
+    font-family: Arial;
+    width: 65%;
+    margin: auto;
 }
 /* About Connectme: Ends */
 
 #allpics{
-    text-align: center;
-}
-#pic1{
-    background-color: whitesmoke;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 20px;
-    margin-left:30px;
-    display: inline-block;
-
-    
-}
-
-#pix1 img{text-align: center;
-    border-radius: 100%;
-    margin-top: -40px;
-   border: solid 3px white;
-    text-align: center;
-    /* border-radius: 100%; */
-    margin-top: -40px; 
-}
-#pic2{
-    background-color: whitesmoke;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 20px;
-    display: inline-block;
-    margin-left: 30px;
-}
-#pix2 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: -40px;
-    border: solid 3px white;
    
-}
-#pic3{
-    background-color: whitesmoke;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 20px;
-    display: inline-block;
-    margin-left: 30px;
-}
-#pix3 img{
     text-align: center;
-    border-radius: 100%;
-    margin-top: -40px;
-    border: solid 3px white;
+    margin: auto;
 }
-#pic4{
-    background-color: whitesmoke;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 20px;
-    display: inline-block;
-    margin-left: 30px;
-}
-#pix4 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: -40px;
-    border: solid 3px white;
-}
-#pic5{
-    background-color: whitesmoke;;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 20px;
-    display: inline-block;
-    margin-left: 30px;
-}
-#pix5 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: -40px;
-    border: solid 3px white;
-}
-#pic6{
-    background-color: whitesmoke;;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 20px;
-    display: inline-block;
-    margin-left: 30px;
-}
-#pix6 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: -40px;
-    border: solid 3px white;
-}
-#pic7{
-    background-color: whitesmoke;;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 30px;
-   
-}
-#pix7 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: 10px;
-    margin-top: -40px;
-    border: solid 3px white;
-}
-#pic8{
-    background-color: whitesmoke;;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left:30px;
-    
-}
-#pix8 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: 10px;
-    margin-top: -40px;
-    border: solid 3px white;
-}
-#pic9{
-    background-color: whitesmoke;;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 30px;
-    margin-top: -40px;
-}
-#pix9 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: 10px;
-    margin-top: -40px;
-    border: solid 3px white;
-}
-#pic10{
-    background-color: whitesmoke;;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 30px;
-    
-}
-#pix10 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: 10px;
-    margin-top: -40px;
-    border: solid 3px white;
-}
-#pic11{
-    background-color: whitesmoke;;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-left: 30px;
+.teamBox {
+    margin: auto;
+    width: 73%;
+    background: #FAF8F8;
+    border-radius: 0px 0px 2.18659px 2.18659px;
 }
 
-
-#pix11 img{
-    text-align: center;
-    border-radius: 100%;
-    margin-top: 10px;
-    margin-top: -40px;
-    border: solid 3px white;
-}
-#pic12{
-    background-color: whitesmoke;
-    width:11.3%;
-    height: 180px;
-    margin-bottom: 50px;
-    display: inline-block;
-    margin-left: 30px;
+.teamImg img {
     
-}
-#pix12 img{
-    text-align: center;
-    margin-top: 10px;
     border-radius: 100%;
+    border: 2px solid white;
     margin-top: -40px;
-     border: solid 3px white;
+    margin-bottom: 10px;
 }
+.teamName {
+    height: 45px;
+    font-size: 10.5;
+    font-weight: bold;
+    font-family: Arial;
+    margin-bottom: 5px;
+}
+.teamProfession {
+    font-size: 11px;
+}
+
 footer {
     background: #175977;
     color: white;
@@ -366,6 +203,25 @@ footer {
 
 
 @media screen and (max-width: 800px) {
+    
+    .aboutHead {
+        color: #800020;
+        margin-top: 30px;
+        text-align: center;
+        font-family: Arial;
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    #about p{
+        font-size: 13px;
+        text-align: center;
+        padding-top: 5px;
+        line-height: 30px;
+        font-family: Arial;
+        width: 80%;
+    }
+    
     /* FOOTER */
     .footernav1 {
         text-align: center;
