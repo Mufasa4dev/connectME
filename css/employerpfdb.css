@@ -8,6 +8,7 @@ body {
 }
 #contain {
     width: 100%;
+    font-family: Arial;
 }
 /* START: Side NavBar */
 .sideBar {
@@ -90,8 +91,8 @@ body {
     width: 100%;
     height: 38px;
     box-sizing: border-box;  
-    /* padding-left: 0% !important;
-    padding-right: 0% !important; */
+    padding-left: 0% !important;
+    padding-right: 0% !important;
 }
 .bottomBtn {
     
@@ -184,139 +185,89 @@ body {
     padding-top: 17px;
     
 }
-.contentText1 {
-    
-    margin-bottom: 30px;
-    font-size: 19px;
-    line-height: 30px;
-    color: #800020;
-}
-.hrLine1 {
-    padding-top: 10px; 
-}
-.hrLine2 {
-    padding-top: 5px; 
-}
 
-/* START: Recommended candidates */
-.data1Profile {
-    
-    width: 100%;
-    height: 132px;
-    background: #F7F0F0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 5px;
+/* START: UPDATE & TOOLS FOR THE WEEK */
+.updatepf {
+    display: flex;
+    margin-bottom: 20px;
 }
-.ted {
-    width: 40px;
-    height: 40px;
-    background: #fe7171;
-    border-radius: 5px;
+.pfImg {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
 }
-.ted2 {
-    width: 70px;
-    height: 20px;
-    background: #175977;
-    border-radius: 3px;
-    font-size: 10px;
-    line-height: 11px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 4px;
+.pfImg img {
+    margin-top: 22px;
+    margin-left: 10px;
 }
-.text1 {
-    font-size: 18px;
+.pfName {
+    font-weight: bold;
+    font-size: 16px;
     color: #1B1819;
-    font-weight: 600;
-    line-height: 0.5;
 }
-.text2 { 
-    font-size: 10px;
+.pfArea {
+    font-size: 12px;
     color: #757475;
 }
-.smconBtn {
-    width: 50px;
-    height: 20px;
-    background: #800020;
-    border-radius: 3px;
-    font-size: 10px;
-    color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.pfData {
+    padding-top: 25px;
+    padding-left: 12px;
+}
+.updatepfBtn button {
     border: none;
-    float: right;
-    margin-right: 2px;
-}
-.smResume {
-    font-size: 10px; 
-}
-/* END: Recommended candidates */
-
-/* START: Candidates */
-.bgDataProfile {
-
     width: 100%;
-    height: 240px;
+    height: 30px;
+    background: #800020;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+}
+.updatepfBtn button img {
+    margin: 0px 20px 0px 5px;
+}
+.updBox {
+   
+    height: 360px;
     background: #F6F0F0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 7px;
+}
+.updboxTop {
+    height: 50px;
+    background: #175977;
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.updboxBodyText {
+    padding-top: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+.updData1 {
+    height: 252px;
+    background: #F6F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.xupd {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    width: 121px;
+    margin: auto;
+    padding-top: 45px;
+    text-align: center;
+}
+.yupd {
+    font-size: 20px;
+    color: #000000;
+    margin: auto;
+    width: 40px;
+    padding-top: 100px;
+    text-align: center;
 }
 
-.bgted {
-    width: 70px;
-    height: 70px;
-    background: #fe7171;
-    border-radius: 5px;
-}
-.bgted img {
-    width: 100%;
-}
-.bgted2 {
-    width: 80px;
-    height: 25px;
-    background: #175977;
-    border-radius: 5px;
-    float: right;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-}
-.bglink {
-   
-    float: right;
-    font-size: 11px;
-    width: 85px;
-    height: 20px;
-    background: #175977;
-    border-radius: 5px; 
-    color: white;
-}
-.bglinkimg {
-    margin: 0px 7px 0px 5px;
-}
-.bgconBtn1 {
-    width: 90px;
-    height: 35px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
-}
-.bgconBtn2 {
-    float: right;
-    width: 90px;
-    height: 35px;
-    background: #800020;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
-    color: white;
-}
-.bgResume {
-    font-size: 13px; 
-}
-/* END: Candidates */
+/* END: UPDATE & TOOLS FOR THE WEEK  */
 
 /* END: Body Content */

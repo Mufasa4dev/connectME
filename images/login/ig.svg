@@ -1,0 +1,11 @@
+<svg id="Group_8" data-name="Group 8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Rectangle_Copy_8" data-name="Rectangle Copy 8" fill="none" stroke="#213642" stroke-miterlimit="10" stroke-width="1">
+    <rect width="24" height="24" rx="12" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="none"/>
+  </g>
+  <g id="Instagram" transform="translate(7 7)">
+    <path id="Shape" d="M7.209,9.768H2.558A2.561,2.561,0,0,1,0,7.209V2.558A2.561,2.561,0,0,1,2.558,0H7.209A2.561,2.561,0,0,1,9.768,2.558V7.209A2.562,2.562,0,0,1,7.209,9.768ZM2.558.7A1.862,1.862,0,0,0,.7,2.558V7.209A1.863,1.863,0,0,0,2.558,9.07H7.209A1.863,1.863,0,0,0,9.07,7.209V2.558A1.863,1.863,0,0,0,7.209.7Z" transform="translate(0.167 0.093)" fill="#213642"/>
+    <path id="Shape-2" data-name="Shape" d="M2.792,5.581h0a2.79,2.79,0,1,1,1.066-.212A2.775,2.775,0,0,1,2.792,5.581ZM2.791.7A2.093,2.093,0,1,0,4.883,2.791,2.1,2.1,0,0,0,2.791.7Z" transform="translate(2.26 2.186)" fill="#213642"/>
+    <circle id="Oval" cx="0.465" cy="0.465" r="0.465" transform="translate(7.26 1.605)" fill="#213642"/>
+  </g>
+</svg>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | ConnectME</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/employeedb.css">
+</head>
+<body>
+    <div class="container" id="contain">
+  
+        <!-- START: Side NavBar -->
+        <section>
+            <div class="col sideBar">
+                <div class="logoBox">
+                    <img src="./images/connectME.png" alt="">
+                </div>
+                
+                    <div class="col dbBottonBox">
+                        <a href="employeedb.html" role="button">
+                        <div class="btn-group dbB">
+                            <div class="col-4 dbicon"><button class="btn dbBtn"><img src="./images/icons/dashboard.png" alt=""></button></div>
+                            <div class="col dbBotton" ><button class="btn dbBtn"> Dashboard</button></div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col pfBottonBox">
+                        <a href="employeepfdb.html" role="button">
+                        <div class="btn-group ntB">
+                            <div class="col-4 pficon"><button class="btn ntBtn"><img src="./images/icons/user.png" alt=""></button></div>
+                            <div class="col pfBotton"><button class="btn ntBtn">Profile</button></div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="bottomBtn">
+                        <!-- edit -->
+                        <div class="col dbBottonBox">
+                            <a href="#" role="button">
+                            <div class="btn-group ntB">
+                                <div class="col-4 dbicon"><button class="btn ntBtn"><img src="./images/icons/settings.png" alt=""></button></div>
+                                <div class="col dbBotton" ><button class="btn ntBtn"> Settings</button></div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col pfBottonBox">
+                            <a href="#" role="button">
+                            <div class="btn-group ntB">
+                                <div class="col-4 pficon"><button class="btn ntBtn"><img src="./images/icons/logout.png" alt=""></button></div>
+                                <div class="col pfBotton"><button class="btn ntBtn">Log out</button></div>
+                            </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    
+                
+                    
+                
+            </div>
+            <!-- END: Side NavBar -->
+        </section>
+        <!-- START: Top NavBar -->
+        <section>
+            <div class="col topNav">
+                <div class="row">
+                    <div class="col-sm inputBox">
+                        <input type="text" placeholder="Job title, company and key words" class="input1">
+                        <input type="text" placeholder="Location" class="input2">
+                    </div>
+                    <div class="col-sm-4 ">
+                        <div class="profileBox">
+                            <button class="btn topBtn">Search</button>
+                            <div class="notification"><img src="./images/icons/notification.png" alt=""></div>
+                            <div class="profile"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <!-- END: Top NavBar -->
+        </section>
+        <!-- START: Body Content -->
+        <section>
+            <div class="col content">
+                
+                <!-- START: Recommended Jobs  -->
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="data1Profile">
+                            <div class="xdata1Profile">
+                                <div class="row mt-1">
+                                    <div class="col tedBox">
+                                        <span><div class="ted"></div></span>
+                                        <span class="ted2">Recommended Jobs</span>
+                                    </div>
+                                </div>
+                                <div class="row mt-5">
+                                   <div class="col"><span class="ted3">15</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="data1Profile">
+                            <div class="xdata1Profile">
+                                <div class="row mt-1">
+                                    <div class="col tedBox">
+                                        <span><div class="ted"></div></span>
+                                        <span class="ted2">Applied Jobs</span>
+                                    </div>
+                                </div>
+                                <div class="row mt-5">
+                                   <div class="col"><span class="ted3">15</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="data1Profile">
+                            <div class="xdata1Profile">
+                                <div class="row mt-1">
+                                    <div class="col tedBox">
+                                        <span><div class="ted"></div></span>
+                                        <span class="ted2">Favourite Jobs</span>
+                                    </div>
+                                </div>
+                                <div class="row mt-5">
+                                   <div class="col"><span class="ted3">30</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="data1Profile">
+                            <div class="xdata1Profile">
+                                <div class="row mt-1">
+                                    <div class="col tedBox">
+                                        <span><div class="ted"></div></span>
+                                        <span class="ted2">Favourite Companies</span>
+                                    </div>
+                                </div>
+                                <div class="row mt-5">
+                                   <div class="col"><span class="ted3">10</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                    <!-- END: Recommended Jobs  -->
+                </div>
+                <div class="row mt-4">
+                    <div class="col-2 contentText1"><span>New Jobs</span></div>
+                    <div class="col hrLine2"><hr style="width:80%"; size="3"; color="#C4C4C4";></div>
+                </div>
+                <!-- START: New Jobs -->
+                <div class="row mt-4">
+                    <div class="col">
+                        <div class="bgDataProfile">
+                            <div class="xbgDataProfile">
+                                <div class="row mt-1">
+                                    <div class="col">
+                                        <div class="bgted">PROJECT MANAGER</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="bgted2">New</div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col">
+                                        <span class="text1">Tech4dev</span> 
+                                        <div class="text2">Ogundu, Lagos</div>
+                                    </div>
+                                    <div class="col-2"></div>
+                                </div>
+                                
+                                <div class="row mt-3 pt-1 " >  
+                                    <div class="col text-center">
+                                        <p class="text3">PART TIME</p>
+                                        <button class="bgconBtn">Apply Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bgDataProfile">
+                            <div class="xbgDataProfile">
+                                <div class="row mt-1">
+                                    <div class="col">
+                                        <div class="bgted">SALES REP</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="bgted2">New</div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col">
+                                        <span class="text1">Dangote Limited</span> 
+                                        <div class="text2">Victoria island, Lagos</div>
+                                    </div>
+                                    <div class="col-2"></div>
+                                </div>
+                                
+                                <div class="row mt-3 pt-1 " >  
+                                    <div class="col text-center">
+                                        <p class="text3">FULL TIME</p>
+                                        <button class="bgconBtn">Apply Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bgDataProfile">
+                            <div class="xbgDataProfile">
+                                <div class="row mt-1">
+                                    <div class="col">
+                                        <div class="bgted">ARCHITECT</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="bgted2">New</div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col">
+                                        <span class="text1">GIAB Nigeria Ltd</span> 
+                                        <div class="text2">Ikeja, Lagos</div>
+                                    </div>
+                                    <div class="col-2"></div>
+                                </div>
+                                
+                                <div class="row mt-3 pt-1 " >  
+                                    <div class="col text-center">
+                                        <p class="text3">FULL TIME</p>
+                                        <button class="bgconBtn">Apply Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 ">
+                        <div class="popularCompanies">
+                        <div class="xpopularCompanies">
+                            <div class="text4">Popular Companies</div>
+                            <div class="row mt-3">
+                                <div class="col-3 xdataBoxx">
+                                    <div class="xdata1"></div>
+                                </div>
+                                <div class="col smxdataBox ">
+                                    <div class="smxdata">Microsoft</div>
+                                    <div class="smxdata1">Tech and IT company</div>
+                                    <div class="smxdata2"><img src="./images/icons/eye.png" alt="" class="smxdata2img">856 views</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="smxdata3">5565</div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-3 xdataBoxx">
+                                    <div class="xdata1"></div>
+                                </div>
+                                <div class="col smxdataBox ">
+                                    <div class="smxdata">KPMG</div>
+                                    <div class="smxdata1">Accounting Firm</div>
+                                    <div class="smxdata2"><img src="./images/icons/eye.png" alt="" class="smxdata2img">419 views</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="smxdata3">6879</div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-3 xdataBoxx">
+                                    <div class="xdata1"></div>
+                                </div>
+                                <div class="col smxdataBox ">
+                                    <div class="smxdata">YOMI CASUAL</div>
+                                    <div class="smxdata1">Fashion Company</div>
+                                    <div class="smxdata2"><img src="./images/icons/eye.png" alt="" class="smxdata2img">578 views</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="smxdata3">4650</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>  
+                    
+                </div>
+                <!-- START: Interview Preparation -->
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="interview">
+                            <div class="xinterview">
+                                <span class="xviewText">Interview Preparattion</span>
+                                <hr style="width:50%"; size="3"; color="#1B1819">
+                                <hr style="width:50%"; size="3"; color="#1B1819" class="mt-3">
+                                <hr style="width:50%"; size="3"; color="#1B1819" class="mt-3">
+                                <hr style="width:50%"; size="3"; color="#1B1819" class="mt-3">
+                                <hr style="width:50%"; size="3"; color="#1B1819" class="mt-3">
+                                <hr style="width:50%"; size="3"; color="#1B1819" class="mt-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="interview">
+                            <div class="xinterview">
+                                <div class="xviewText">You can also aquire a skill</div>
+                                <div class="xviewText2 mt-3">Learn demaning skills today and get certified upon completion of your course and assessment</div>
+                               <a href=""><button class="xviewTextBtn mt-5">Get Started</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                    </div>
+                    <!-- END: Interview Preparation -->
+                </div>
+                
+                <!-- END: New Jobs -->
+            </div>
+            <!-- END: Body Content -->
+        </section>
+
+        <section class="col mt-3">
+            <div></div>
+        </section>
+
+    </div>
+    <script src="./JavaScript/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

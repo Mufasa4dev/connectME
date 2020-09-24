@@ -8,16 +8,18 @@ body {
 }
 #contain {
     width: 100%;
+    font-family: Arial;
 }
 /* START: Side NavBar */
 .sideBar {
     border: 1px solid white;
     width: 20.2%;
-    height: 941px;
+    height: 916px;
     background-color: white;
     padding-left: 0% !important;
     padding-right: 0% !important;
     box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logoBox {
   
@@ -123,32 +125,21 @@ body {
     line-height: 21px;
     color: #6F6F6F;
 }
-.input2 {
-    width: 35%;
-    height: 46px;
-    padding-left: 10px;
-    background: #E5E5E5;
-    border: 1px solid;
-    font-size: 16px;
-    line-height: 21px;
-    color: #6F6F6F;
-}
+
 .profileBox {
     display: flex;
     height: 46px;
 }
 .topBtn {
-    width: 50%;
-    background: #800020;
+   
+    height: 40px;
+    
     border-radius: 0px 5px;
-    color: whitesmoke;
+    color: #000000;
     font-size: 16px;
-    line-height: 21px;
-    text-align: left;
+    
 }
-.topBtn img {
-    margin-right: 7px;
-}
+
 .notification {
     text-align: center;
     padding-top: 2px;
@@ -184,139 +175,189 @@ body {
     padding-top: 17px;
     
 }
-.contentText1 {
-    
-    margin-bottom: 30px;
-    font-size: 19px;
-    line-height: 30px;
+.smDataHead {
+    font-size: 17px;
     color: #800020;
 }
-.hrLine1 {
-    padding-top: 10px; 
-}
-.hrLine2 {
-    padding-top: 5px; 
+.smData {
+    width: 99%;
+    margin: auto;
+    height: 164px;
+    background: #FBF7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* START: Recommended candidates */
-.data1Profile {
+.smdatavideo {
+    height: 104px;
+    background: #969393;
+    border-radius: 5px;
+    width: 77%;
+    margin: auto;
+}
+.smdataText {
+    font-size: 12px;
+    text-align: center;
+}
+.bgdatavideoBox {
     
-    width: 100%;
-    height: 132px;
-    background: #F7F0F0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 5px;
+    width: 99%;
+    margin: auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
-.ted {
-    width: 40px;
-    height: 40px;
-    background: #fe7171;
+.bgdatavideo {
+    height: 324px;
+    background: #FBF7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 }
-.ted2 {
-    width: 70px;
-    height: 20px;
-    background: #175977;
-    border-radius: 3px;
-    font-size: 10px;
-    line-height: 11px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 4px;
+.bgdatavideoText {
+    font-size: 15px;
+    color: #800020;
 }
-.text1 {
-    font-size: 18px;
-    color: #1B1819;
-    font-weight: 600;
-    line-height: 0.5;
+.course {
+    width: 99%;
+    margin: auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
-.text2 { 
-    font-size: 10px;
-    color: #757475;
-}
-.smconBtn {
-    width: 50px;
-    height: 20px;
-    background: #800020;
-    border-radius: 3px;
-    font-size: 10px;
-    color: white;
+.courseTutor {
+    height: 42px;
+    background: #FBF7F7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
-    float: right;
-    margin-right: 2px;
 }
-.smResume {
-    font-size: 10px; 
+.courseTutorImg {
+    
+    height: 27px;
+    width: 65%;
+    background: #676464;
+    margin-top: 6px;
+    
 }
-/* END: Recommended candidates */
-
-/* START: Candidates */
-.bgDataProfile {
-
-    width: 100%;
-    height: 240px;
-    background: #F6F0F0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 7px;
+.courseTutorDetails {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.tutorImgBox {
+    padding-left: 10px !important;
+    padding-right: 0px !important;
+}
+.Name {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+.title {
+    font-size: 12px;
+    line-height: 14px;
 }
 
-.bgted {
-    width: 70px;
-    height: 70px;
-    background: #fe7171;
-    border-radius: 5px;
-}
-.bgted img {
-    width: 100%;
-}
-.bgted2 {
-    width: 80px;
-    height: 25px;
-    background: #175977;
-    border-radius: 5px;
-    float: right;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-}
-.bglink {
-   
-    float: right;
-    font-size: 11px;
-    width: 85px;
-    height: 20px;
-    background: #175977;
-    border-radius: 5px; 
-    color: white;
-}
-.bglinkimg {
-    margin: 0px 7px 0px 5px;
-}
-.bgconBtn1 {
-    width: 90px;
-    height: 35px;
-    background: #FFFFFF;
+.tedcourseBox {
+    
+    height: 47px;
+    width: 99%;
+    margin: auto;
+    background: #FBF7F7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    border: none;
+}
+.tedcourse {
+    
+    font-size: 12px;
+    margin-top: 12px;
+    color: #000000;
+}
+.tedcourse:hover {
+    color: #800020;
+    text-decoration: none;
+}
+.classDetails {
+    
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 12px;
+    color: #000000;
+}
+.classDetails:hover {
+    color: #800020;
+    text-decoration: none;
+}
+.tedDisplayHead {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+.tedDisplayText {
+    font-size: 12px;
+    line-height: 18px;
+}
+.progressBarText {
+    font-size: 13px;
+}
+.progressBarText span {
+    margin-left: 5px;
+}
+.progressBar {
+    height: 16px;
+    background: #C4C4C4;
+    border-radius: 0px 10px 10px 0px;
+}
+.progress {
+    width: 10%;
+    height: 16px;
+    background: #175977;
+    border-radius: 0px 10px 10px 0px;
+}
+.contentDetailsBox {
+    background: #FBF7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.courseobjHead {
+    font-weight: bold;
+    font-size: 17px;
+}
+.courseobj {
+    font-size: 12px;
+}
+.courseoutlines {
+    font-weight: bold;
     font-size: 14px;
 }
-.bgconBtn2 {
-    float: right;
-    width: 90px;
-    height: 35px;
+.outline1 {
+    height: 50px;
     background: #800020;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
+    border-radius: 15px;
     color: white;
+    font-size: 14px;
+    padding-top: 13px;
 }
-.bgResume {
-    font-size: 13px; 
+.outline1 img {
+    margin: 0px 15px 0px 7px;
 }
-/* END: Candidates */
-
+.outlinelock {
+    font-size: 14px;
+}
+.outlinelock img {
+    margin: 0px 15px 0px 7px;
+}
+.enroll {
+    background: #FBF7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.enrollHead {
+    font-weight: bold;
+    font-size: 13px;
+}
+.enrollText {
+    font-size: 12px
+}
+.enrollBtn {
+    background: #800020;
+    border-radius: 5px;
+    height: 42px;
+    width: 40%;
+    border: none;
+    color: white;
+    font-size: 13px;
+}
 /* END: Body Content */
