@@ -40,10 +40,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 40px;
     border: none;
 }
-.mobileClick {
-    color: #800020 !important;
-    /* background: #800020 !important; */
-    /* border: none; */
+.navbar-toggler-icon {
+    background: #800020 !important;
 }
 /* END: NavBar */
 
@@ -63,7 +61,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 .techClick {
-    width: 14%;
+    width: 182px;
     height: 52px;
     background: #800020;
     border-radius: 5px;
@@ -159,6 +157,26 @@ footer {
 
 
 @media screen and (max-width: 800px) {
+
+    .bodyHead {
+
+        margin: auto !important;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .techClick {
+        width: 100px;
+        height: 35px;
+        background: #800020;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
     /* FOOTER */
     .footernav1 {
         text-align: center;
