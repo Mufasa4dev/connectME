@@ -120,7 +120,10 @@ include database.php
                         <label for="validationCustom01">Location</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>...</option>
+                            <option>Ikeja</option>
+                            <option>Ikorodu</option>
+                            <option>Ikoyi</option>
+                            <option>Ikotun</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid location.
