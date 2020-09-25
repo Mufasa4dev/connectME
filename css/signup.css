@@ -67,6 +67,16 @@
     height: 80px;
     background-color: #800020;
 }
+.li-seeker{
+    font-weight: bold;
+}
+.li-employer{
+    font-weight: bold;
+}
+.formhead a{
+    /* cursor: pointer; */
+    text-decoration: none;
+}
 .personal{
     color: white;
     background-color: #800020;
@@ -151,6 +161,27 @@
     background-color: #800020;
 }
 .submitbtn:active{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    transform: scale(1.02);
+}
+.accountbtn{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    padding: 10px 40px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;    
+}
+.accountbtn:hover{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+}
+.accountbtn:active{
     color: white;
     border-color: #800020;
     background-color: #800020;

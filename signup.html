@@ -65,7 +65,7 @@
 
         <!-- START: FORM AREA -->
         <div class="radiobox mt-5">
-            <div class="form-check checkinline radiojobseeker" id="radiojobseeker">
+            <!-- <div class="form-check checkinline radiojobseeker" id="radiojobseeker">
                 <label class="form-check-label labeltop" for="inlineRadio1">Job Seeker</label>
                 <input class="form-check-input inputbelow ml-4" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                     value="employer" checked>
@@ -79,6 +79,16 @@
                 <label class="form-check-label labeltop" for="inlineRadio3">Facilitator</label>
                 <input class="form-check-input inputbelow ml-4" type="radio" name="inlineRadioOptions" id="inlineRadio3"
                     value="trainee">
+            </div> -->
+            <div class="form-type formhead">
+                <ul>
+                    <li class="d-inline-block align-middle mx-5 li-seeker"><a class="text-white" href="signup.html">Job Seeker</a>
+                    </li>
+                    <li class="d-inline-block align-middle mx-5"><a class="text-white" href="employer.html">Employer</a>
+                    </li>
+                    <li class="d-inline-block align-middle mx-5"><a class="text-white"
+                            href="facilitator.html">Facilitator</a></li>
+                </ul>
             </div>
         </div>
         <!-- END OF RADIO SELECTOR AREA -->
@@ -444,7 +454,43 @@
                     <div class="col-sm form-group">
                         <!-- <label for="exampleFormControlFile1">Example file input</label> -->
                         <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        <small id="passwordHelpInline" class="text-muted">
+                            Upload a CV no larger than 10mb for file types .pdf, .doc, .docx
+                        </small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <p>Please Note: You will need to upload a CV to apply for jobs, however you can skip the CV
+                            upload on sign up.</p>
+                        <p>Would you like a CV touch-up?</p>
+                        <p>ConnectMe's CV experts can help make your CV more attractive to employers. Prices start from
+                            N10,000.</p>
+                        <p><a href="">Learn More</a></p>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">                        
+                    <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                          <label class="form-check-label" for="invalidCheck">
+                            I will like to receive top jobs and career tips
+                          </label>
+                          <div class="invalid-feedback">
+                            You must agree before submitting.
+                          </div>
+                        </div><div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                              Sign me up for job alerts.
+                            </label>
+                            <div class="invalid-feedback">
+                              You must agree before submitting.
+                            </div>
+                          </div>
                       </div>
+                    </div>
                 </div>
 
                 <div class="col-sm text-center my-3">
@@ -454,8 +500,7 @@
                     <button class="btn backbtn" type="submit">BACK</button>
                 </div>
                 <div class="text-group text-center">
-                    <span class="label">Already have an account?</span>
-                    <a href="" class="login mx-3 my-lg-0">Log In</a>
+                    <span class="label">By clicking "CREATE YOUR ACCOUNT", you agree to our<br><a href="" class="login my-lg-0">TERMS & CONDITIONS</a> and <a href="" class="login my-lg-0">PRIVACY POLICY</a></span>
                 </div>
             </form>
         </div>
