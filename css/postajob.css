@@ -57,6 +57,7 @@
 /* START: Body Content */
 .createlisting{
     border: solid 1px #333;
+   margin-top: 150px;
 }
 .createnew{
     background-color: #800020;
