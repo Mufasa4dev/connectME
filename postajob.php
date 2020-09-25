@@ -1,5 +1,6 @@
 <?php
 include database.php
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -88,7 +89,32 @@ include database.php
                         <label for="validationCustom01">Job Functions</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>...</option>
+                            <option>Accounting, Auditing & Finance</option>
+                            <option>Administration & Office</option>
+                            <option>Building & Architecture</option>
+                            <option>Community & Social Services</option>
+                            <option>Consulting & Strategy</option>
+                            <option>Creative & Design</option>
+                            <option>Customer Service & Support</option>
+                            <option>Driver & Transport Services</option>
+                            <option>Engineering & Technology</option>
+                            <option>Estate Agents & Property Management</option>
+                            <option>Farming & Agriculture</option>
+                            <option>Food Services & Catering</option>
+                            <option>Health & Safety</option>
+                            <option>Hospitality & Leisure</option>
+                            <option>Human Resources</option>
+                            <option>Legal Services</option>
+                            <option>Management & Business Development</option>
+                            <option>Marketing & Communications</option>
+                            <option>Medical & Pharmaceuticals</option>
+                            <option>Product & Project Management</option>
+                            <option>Quality Control & Assurance</option>
+                            <option>Research, Teaching & Training</option>
+                            <option>Sales</option>
+                            <option>Software & Data</option>
+                            <option>Supply Chain & Procurement</option>
+                            <option>Trades & Services</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid function.
@@ -98,7 +124,31 @@ include database.php
                         <label for="validationCustom01">Industry</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>...</option>
+                            <option>Advertising, Media & Communications</option>
+                            <option>Agriculture, Fishing & Forestry</option>
+                            <option>Automobile</option>
+                            <option>Aviation</option>
+                            <option>Banking, Finance & Insurance</option>
+                            <option>Construction</option>
+                            <option>Education</option>
+                            <option>Energy & Utilites</option>
+                            <option>Enforcement & Security</option>
+                            <option>Entertainment & Events</option>
+                            <option>Fashion & Retail</option>
+                            <option>Sports</option>
+                            <option>Government</option>
+                            <option>Healthcare</option>
+                            <option>Hospitality & Hotels</option>
+                            <option>I.T. & Telecoms</option>
+                            <option>Law & Compliance</option>
+                            <option>Manufacturing & Warehousing</option>
+                            <option>Mining & Metals</option>
+                            <option>N.G.O., N.P.O. & Charity</option>
+                            <option>Oil & Gas</option>
+                            <option>Real Estate</option>
+                            <option>Recruitment</option>
+                            <option>Shipping & Logistics</option>
+                            <option>Tourism & Travel</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid industry.
@@ -108,7 +158,11 @@ include database.php
                         <label for="validationCustom01">Work Type</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>...</option>
+                            <option>Volunteer</option>
+                            <option>Internship</option>
+                            <option>Contract</option>
+                            <option>Part-time</option>
+                            <option>Full-time</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid type.
@@ -120,10 +174,43 @@ include database.php
                         <label for="validationCustom01">Location</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>Ikeja</option>
-                            <option>Ikorodu</option>
-                            <option>Ikoyi</option>
-                            <option>Ikotun</option>
+                            <option>Abia</option>
+                            <option>Adamawa</option>
+                            <option>Akwa Ibom</option>
+                            <option>Anambra</option>
+                            <option>Bauchi</option>
+                            <option>Bayelsa</option>
+                            <option>Benue</option>
+                            <option>Borno</option>
+                            <option>Cross River</option>
+                            <option>Delta</option>
+                            <option>Ebonyi</option>
+                            <option>Edo</option>
+                            <option>Ekiti</option>
+                            <option>Enugu</option>
+                            <option>Gombe</option>
+                            <option>Imo</option>
+                            <option>Jigawa</option>
+                            <option>Kaduna</option>
+                            <option>Kano</option>
+                            <option>Katsina</option>
+                            <option>Kebbi</option>
+                            <option>Kogi</option>
+                            <option>Kwara</option>
+                            <option>Lagos</option>
+                            <option>Nassarawa</option>
+                            <option>Niger</option>
+                            <option>Ogun</option>
+                            <option>Ondo</option>
+                            <option>Osun</option>
+                            <option>Oyo</option>
+                            <option>Plateau</option>
+                            <option>Rivers</option>
+                            <option>Sokoto</option>
+                            <option>Taraba</option>
+                            <option>Yobe</option>
+                            <option>Zamfara</option>
+                            <option>F.C.T.</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid location.
@@ -147,7 +234,17 @@ include database.php
                         <label for="validationCustom01">Minimum Qualification</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>...</option>
+                            <option>Secondary School (S.S.C.E)</option>
+                            <option>NABTEB</option>
+                            <option>Diploma</option>
+                            <option>OND</option>
+                            <option>HND</option>
+                            <option>Bachelors Degree</option>
+                            <option>Masters Degree</option>
+                            <option>M.B.B.S.</option>
+                            <option>M.Phil/Ph.D</option>
+                            <option>NCE</option>
+                            <option>Vocational</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid certificate.
@@ -159,10 +256,18 @@ include database.php
                         <label for="validationCustom01">Years of Experience</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>...</option>
+                            <option>Less than 1 year</option>
+                            <option >1-3 years</option>
+                            <option >4-6 years</option>
+                            <option >7-9 years</option>
+                            <option >10-12 years</option>
+                            <option >13-15 years</option>
+                            <option >16-19 years</option>
+                            <option >20 years</option>
+                            <option >More than 20 years</option>
                         </select>
                         <div class="invalid-feedback">
-                            Please select a valid location.
+                            Please select a valid figure.
                         </div>
                     </div>
                     <div class="col-sm-2 mb-4">
@@ -176,7 +281,14 @@ include database.php
                         <label for="validationCustom03">Job Level</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>...</option>
+                            <option>No Experience</option>
+                            <option>Volunteer/Internship</option>
+                            <option>Graduate Trainee</option>
+                            <option>Entry Level</option>
+                            <option>Mid Level</option>
+                            <option>Senior Level</option>
+                            <option>Management Level</option>
+                            <option>Executive Level</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid level.
@@ -186,7 +298,9 @@ include database.php
                         <label for="validationCustom01">Days online (30 days limit)</label>
                         <select class="custom-select" id="validationCustom04" required>
                             <option selected disabled value="">Choose...</option>
-                            <option>...</option>
+                            <option>1-10 days</option>
+                            <option>11-20 days</option>
+                            <option>21-30 days</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid certificate.
