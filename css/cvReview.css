@@ -57,6 +57,9 @@ body {
     line-height: 21px;
     text-align: left;
 }
+.topBtn a {
+    color: white;
+}
 .topBtn img {
     margin-right: 7px;
 }
@@ -107,6 +110,11 @@ body {
     width: 80%;
     background-color: white;
     margin-left: 10%;
+    padding-top: 25px;
+}
+.imgreview img {
+    width: 100%;
+
 }
 .cvreview {
     height: 256px;
