@@ -1,0 +1,284 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: #E5E5E5;
+}
+#contain {
+    width: 100%;
+    font-family: Arial;
+}
+/* START: Side NavBar */
+.sideBar {
+    border: 1px solid white;
+    width: 20.2%;
+    height: 900px;
+    background-color: white;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logoBox {
+  
+    width: 56px;
+    height: 56px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.logoBox img {
+    width: 100%;
+}
+.dbB {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    background-color: #800020;
+}
+.dbBtn {
+    width: 100%;
+    height: 38px;
+    color: white;
+    border-radius: 0px;   
+}
+
+.dbBottonBox {
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;  
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.dbBotton {
+    width: 100%;
+}
+.dbicon {  
+    height: 38px; 
+    padding-left: 0% !important;
+    padding-right: 0% !important; 
+}
+.dbicon img {
+    float: right; 
+}
+.ntBtn {
+    width: 100%;
+    height: 38px;
+    color: #800020;
+    border-radius: 0px;
+
+}
+.pficon {
+   
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.pficon img {
+    float: right;
+}
+.ntB {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+.pfBotton {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.pfBottonBox {
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;  
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.bottomBtn {
+    
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+}
+/* END: Side NavBar */
+
+/* START: Top Nav */
+.topNav {
+    /* border: 1px solid red; */
+    width: 71%;
+    height: 85px;
+    position: absolute;
+    top: 0px;
+    right: 3%;
+    padding-top: 17px;
+}
+
+.input1 {
+    width: 55%;
+    height: 46px;
+    padding-left: 10px;
+    margin-right: 2%;
+    background: #E5E5E5;
+    border: 1px solid;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6F6F6F;
+}
+.input2 {
+    width: 35%;
+    height: 46px;
+    padding-left: 10px;
+    background: #E5E5E5;
+    border: 1px solid;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6F6F6F;
+}
+.profileBox {
+    display: flex;
+    height: 46px;
+}
+.topBtn {
+    width: 50%;
+    background: #800020;
+    border-radius: 0px 5px;
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+}
+.topBtn img {
+    margin-right: 7px;
+}
+.notification {
+    text-align: center;
+    padding-top: 2px;
+    width: 33px;
+    height: 33px;
+    border-radius: 8px;
+    margin-left: 3%;
+    background: #F8F4F4;
+    margin-top: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.profile {
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 3%;
+    background: #C4C4C4;
+    margin-top: 2px;
+}
+.verify {
+    
+    height: 47px;
+    width: 92%;
+    margin: 10px 0px 25px 0px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #800020;
+    color: white;
+    padding-top: 12px;
+}
+
+/* END: Top Nav */
+
+/* START: Body Content */
+.content {
+   
+    width: 71%;
+    height: 85px;
+    position: absolute;
+    top: 135px;
+    right: 3%;
+    padding-top: 17px;
+    
+}
+
+/* START: UPDATE & TOOLS FOR THE WEEK */
+.updatepf {
+    display: flex;
+    margin-bottom: 20px;
+}
+.pfImg {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+}
+.pfImg img {
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.pfName {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1B1819;
+}
+.pfArea {
+    font-size: 12px;
+    color: #757475;
+}
+.pfData {
+    padding-top: 25px;
+    padding-left: 12px;
+}
+.updatepfBtn button {
+    border: none;
+    width: 100%;
+    height: 30px;
+    background: #800020;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+}
+.updatepfBtn button img {
+    margin: 0px 20px 0px 5px;
+}
+.updBox {
+   
+    height: 360px;
+    background: #F6F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.updboxTop {
+    height: 50px;
+    background: #175977;
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.updboxBodyText {
+    padding-top: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+.updData1 {
+    height: 252px;
+    background: #F6F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.xupd {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    width: 121px;
+    margin: auto;
+    padding-top: 45px;
+    text-align: center;
+}
+.yupd {
+    font-size: 20px;
+    color: #000000;
+    margin: auto;
+    width: 40px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* END: UPDATE & TOOLS FOR THE WEEK  */
+
+/* END: Body Content */
