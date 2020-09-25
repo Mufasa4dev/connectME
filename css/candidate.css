@@ -7,58 +7,44 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-/* START: NavBar */
-.navTop {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.navbar{
+    border-bottom: 5px solid #777;
 }
-.logo {
-    width: 70px;
-    /* height: 50px; */
-}
-.logo img {
-    width: 100%;
-}
-.click {
-    display: flex;
-}
-.postajob{
+#navbarNav a{
     color: #800020;
 }
-.postajob:hover{
+.active{
+    font-weight: 600;
+}
+a span{
+    color: #175977;
+    font-weight: 600;
+    font-size: 24px;
+}
+.spanme{
     color: #800020;
 }
-.login {
-    margin-left: 15px !important;
-    margin-right: 15px !important;  
+.rightmenu a{
+    color: #800020;
 }
-.topLink {
-    color: #800020 !important;
+.btnsignup{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
 }
-.post {
-    color: #800020 !important;
+.btnsignup:hover{
+    color: white;
+    border-color: #800020;
 }
-.login {
-    color: #800020 !important;
-}
-.signup {
-    color: #ffffff !important;
-    background: #800020;
-    border-radius: 0px 5px;
-    width: 92px;
-    height: 40px;
-    border: none;
-}
-.signup:active{
-    border-color: none;
+.btnsignup:active{
+    color: white;
+    border-color: #800020;
     transform: scale(1.02);
 }
-.navbar-toggler-icon {
-    background: #800020 !important;
-}
-/* END: NavBar */
-
-/* START: Form One Area */
 .radiobox{
     margin: auto;
     text-align: center;
@@ -86,13 +72,10 @@
     text-align: center;
     /* margin-top: ; */
 }
-.informationone{
+.information{
     margin: auto;
     width: 40%;
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, .25);
-}
-.disappear{
-    display: none;
 }
 .info-form{
     margin: auto;
@@ -123,61 +106,6 @@
     background-color: #800020;
     transform: scale(1.02);
 }
-/* END: Form One Area */
-
-/* START: Form Two Area */
-.informationtwo{
-    margin: auto;
-    width: 40%;
-    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, .25);
-    display: none;
-}
-.appear{
-    display: block;
-}
-.submitbtn{
-    color: white;
-    border-color: #800020;
-    background-color: #800020;
-    padding: 10px 100px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 0px;    
-}
-.submitbtn:hover{
-    color: white;
-    border-color: #800020;
-    background-color: #800020;
-}
-.submitbtn:active{
-    color: white;
-    border-color: #800020;
-    background-color: #800020;
-    transform: scale(1.02);
-}
-.backbtn{
-    color: white;
-    border-color: #175977;
-    background-color: #175977;
-    padding: 10px 110px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 0px;    
-}
-.backbtn:hover{
-    color: white;
-    border-color: #175977;
-    background-color: #175977;
-}
-.backbtn:active{
-    color: white;
-    border-color: #175977;
-    background-color: #175977;
-    transform: scale(1.02);
-}
-/* END: Form Two Area */
 
 /* START: FOOTER */
 footer {
