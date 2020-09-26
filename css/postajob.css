@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* START: NavBar */
+.navTop {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo {
+    width: 70px;
+    /* height: 50px; */
+}
+.logo img {
+    width: 100%;
+}
+.click {
+    display: flex;
+}
+.postajob{
+    color: #800020;
+}
+.postajob:hover{
+    color: #800020;
+}
+.login {
+    margin-left: 15px !important;
+    margin-right: 15px !important;  
+}
+.topLink {
+    color: #800020 !important;
+}
+.post {
+    color: #800020 !important;
+}
+.login {
+    color: #800020 !important;
+}
+.signup {
+    color: #ffffff !important;
+    background: #800020;
+    border-radius: 0px 5px;
+    width: 92px;
+    height: 40px;
+    border: none;
+}
+.signup:active{
+    border-color: none;
+    transform: scale(1.02);
+}
+.navbar-toggler-icon {
+    background: #800020 !important;
+}
+/* END: NavBar */
+
+/* START: Body Content */
+.createlisting{
+    border: solid 1px #333;
+   margin-top: 150px;
+}
+.createnew{
+    background-color: #800020;
+    color: white;
+}
+
+/* END: Body Content */
+.click1 {
+
+}
+.savedraft {
+    border-color: #800020;
+    padding: 15px 100px;
+    color: #800020;
+    font-weight: bold;
+}
+.savedraft:hover {
+    /* border-color: #800020; */
+    background-color: #800020;
+    color: #fff;
+}
+.savedraft:active {
+    border-color: #800020;
+    color: #fff;
+    transform: scale(1.02);
+}
+.postdraft{
+    background-color: #800020;
+    padding: 15px 100px;
+    color: white;
+    font-weight: bold;
+}
+.postdraft:hover{
+    background-color: #a8032c;
+    color: white;
+}
+.postdraft:active{
+    background-color: #800020;
+    transform: scale(1.02);
+}
+.preview a{
+    text-decoration: none;
+    color: #800020;
+    cursor: pointer;
+    font-weight: bold;
+    /* margin-right: -50px; */
+}
+/* END: Body Content */
+
+/* START: FOOTER */
+footer {
+    background: #175977;
+    color: white;
+    padding-top: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footernav1 {    
+    padding-left: 20%;
+}
+
+.footernav1 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav1 a:hover {
+    color: #800020;
+}
+.footernav2 {
+    padding-left: 20%;
+}
+.footernav2 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav2 a:hover {
+    color: #800020;
+}
+.footernav3 {
+    padding-left: 20%;
+}
+.footernav3 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav3 a:hover {
+    color: #800020;
+}
+.foot {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.copyright {
+    margin-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+}
+.copyright a {
+    color: white;
+}
+.copyright a:hover {
+    color: #800020;
+}
+/* END: Footer */
+
+
+@media screen and (max-width: 800px) {
+
+    /* .bodyHead {
+        margin: auto !important;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 18px;
+        line-height: 24px;
+    } */
+    .form-buttons {
+        text-align: center;
+    }
+    .preview{
+        margin: 20px 0px;
+    }
+    /* .createlisting{
+        margin: 0px 25px;
+    } */
+
+    /* FOOTER */
+    .footernav1 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav1 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav1 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav2 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav2 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav2 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav3 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav3 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav3 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+}

@@ -435,6 +435,7 @@ footer {
     #ladyText{
         font-size: 20px;
         margin-top: auto !important; 
+        padding-top: auto !important;
     }
     .ladyLearn {
        
