@@ -1,0 +1,567 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contain{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+/* START: NavBar */
+.navTop {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo {
+    width: 70px;
+    /* height: 50px; */
+}
+.logo img {
+    width: 100%;
+}
+.click {
+    display: flex;
+}
+.postajob{
+    color: #800020;
+}
+.postajob:hover{
+    color: #800020;
+}
+.login {
+    margin-left: 15px !important;
+    margin-right: 15px !important;  
+}
+.topLink {
+    color: #800020 !important;
+}
+.post {
+    color: #800020 !important;
+}
+.login {
+    color: #800020 !important;
+}
+.signup {
+    color: #ffffff !important;
+    background: #800020;
+    border-radius: 0px 5px;
+    width: 92px;
+    height: 40px;
+    border: none;
+}
+.signup:active{
+    border-color: none;
+    transform: scale(1.02);
+}
+.navbar-toggler-icon {
+    background: #800020 !important;
+}
+/* END: NavBar */
+
+/* START: Form Two Area */
+.radiobox{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    width: 50%;
+    height: 80px;
+    background-color: #800020;
+}
+.formhead li{
+    margin: 0px 50px;
+}
+.pagesteps{
+    /* display: flex; */
+    /* text-align: center; */
+    margin: auto;
+    width: 20%;
+    height: 50px;
+    overflow: hidden;
+    /* border: solid 1px black; */
+}
+.circleone{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #800020;
+    margin-right: -5px;
+    float: left;
+}
+.circletwo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #800020;
+    /* margin-left: -10px; */
+    margin-top: -32px;
+    float: right;
+}
+.progress{
+    /* display: inline-block; */
+    width: 70%;
+}
+.progress-bar{
+    background-color: #800020;
+}
+.li-seeker{
+    font-weight: bold;
+}
+.li-employer{
+    font-weight: bold;
+}
+.formhead a{
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+.personal{
+    color: white;
+    background-color: #800020;
+}
+.checkinline{
+    display: inline-block;
+    margin: 0px 50px;
+    /* border: solid 1px red; */
+    text-align: center;
+    color: white;
+}
+.labeltop, .inputbelow{
+    display: block;
+    margin: auto;
+}
+.createbox{
+    text-align: center;
+    /* margin-top: ; */
+}
+.informationone{
+    margin: auto;
+    width: 40%;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, .25);
+}
+.disappear{
+    display: none;
+}
+.info-form{
+    margin: auto;
+    /* text-align: center; */
+    width: 80%;
+}
+.showhide a, a:hover{
+    color: #333;
+}
+.nextbtn{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    padding: 10px 100px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;    
+}
+.nextbtn:hover{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+}
+.nextbtn:active{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    transform: scale(1.02);
+}
+/* END: Form One Area */
+
+/* START: Form Two Area */
+.informationtwo{
+    margin: auto;
+    width: 40%;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, .25);
+    /* display: none; */
+}
+.appear{
+    display: block;
+}
+.submitbtn{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    padding: 10px 100px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;    
+}
+.submitbtn:hover{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+}
+.submitbtn:active{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    transform: scale(1.02);
+}
+.accountbtn{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    padding: 10px 40px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;    
+}
+.accountbtn:hover{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+}
+.accountbtn:active{
+    color: white;
+    border-color: #800020;
+    background-color: #800020;
+    transform: scale(1.02);
+}
+.backbtn{
+    color: white;
+    border-color: #175977;
+    background-color: #175977;
+    padding: 10px 110px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;    
+}
+.backbtn:hover{
+    color: white;
+    border-color: #175977;
+    background-color: #175977;
+}
+.backbtn:active{
+    color: white;
+    border-color: #175977;
+    background-color: #175977;
+    transform: scale(1.02);
+}
+/* END: Form Two Area */
+
+/* START: FOOTER */
+footer {
+    background: #175977;
+    color: white;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footernav1 {
+    
+    padding-left: 20%;
+}
+
+.footernav1 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav1 a:hover {
+    color: #800020;
+}
+.footernav2 {
+    padding-left: 20%;
+}
+.footernav2 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav2 a:hover {
+    color: #800020;
+}
+.footernav3 {
+    padding-left: 20%;
+}
+.footernav3 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav3 a:hover {
+    color: #800020;
+}
+.foot {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.copyright {
+    margin-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+}
+.copyright a {
+    color: white;
+}
+.copyright a:hover {
+    color: #800020;
+}
+
+@media screen and (max-width: 800px) {
+    /* START: Top Logo, Search Bar & Nav Bar */
+    .topinput {
+        width: 55%;
+        float: right;
+        margin-right: 5%;
+    }
+    #check2 {        
+        width: 46%;
+        float: right;
+    }
+    
+.informationtwo{
+    /* margin: auto; */
+    width: 90%;
+    /* box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, .25); */
+}
+.radiobox{
+    /* margin: auto;
+    text-align: center;
+    padding-top: 20px; */
+    width: 90%;
+    /* height: 80px;
+    background-color: #800020; */
+}
+.circleone{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #800020;
+    margin-right: -5px;
+    float: left;
+    display: none;
+}
+.circletwo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #800020;
+    /* margin-left: -10px; */
+    margin: 1px 20px 0px 0px;
+    /* float: right; */
+}
+.progress{
+    display: none;
+    width: 70%;
+}
+.formhead li{
+    margin: 0px 20px;
+}
+    
+    /* END:  Top Logo, Search Bar & Nav Bar  */
+
+    /* START: How ConnectMe Works */
+    .hcwHead {
+        font-size: 20px;
+    }
+    /* END: How ConnectMe Works */
+
+    /* START: Amazing job opportunities */
+    .lady_assistant{
+        height: 300px;
+        text-align: center;
+    }
+    #ladyText{
+        font-size: 20px;
+        margin-top: auto !important; 
+    }
+    .ladyLearn {
+       
+        padding-top: 70px;
+    
+    }
+    .learnImg {
+        width: 99%;
+    }
+    /* END: Amazing job opportunities */
+
+    /* START: The Benefit of Using ConnectMe  */
+
+    .tbucImg1 {
+   
+    width: 268.83px;
+    height: 293.31px;
+    background-color: #800020;
+    position: relative;
+    margin: auto;
+    }
+    .tbucImg2 {
+    
+    width: 268.83px;
+    height: 293.31px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    }
+    .tbucImg2 img {
+    
+    width: 100%;
+    }
+    .tbucText {
+    text-align: center;
+    padding-top: 15px;
+    }
+    .tbucTextHead {
+    
+    font-size: 22px;
+    color: #800020;
+    }
+    .tbucText p {
+    text-align: left;
+    }
+    .scrollText {
+   
+    width: 285px;
+    }
+    .tbucback {
+    padding-left: 0px;
+    padding-top: 110px;
+    }
+    .tbucnext {
+    padding-top: 110px;
+    }
+    .scrollText h4 {
+    font-size: 17px;
+    }
+    .scrollText p {
+    font-size: 14px;
+    }
+
+    /* END: The Benefit of Using ConnectMe  */
+
+    /* START: Aspiring employees, inspiring employers. */
+    #aeie {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    }
+    .aeieHead {
+    font-size: 22px;
+    color: #800020;   
+    }
+    .aeiebottomlink {
+    font-size: 12px;
+    }
+    /* END: Aspiring employees, inspiring employers. */
+
+    /* START: Success stories */
+    .storiesImg {
+    display: none;
+     
+    }
+    .storiesInfo {
+    background: #175977;  
+    color: white;
+    padding-top: 30px;
+    height: 370px;
+    
+    }
+    .storyscroll {
+    width: 300px;
+    }
+
+    .storiesText {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    }
+    .employeeImg {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 200px;
+    top: 15px;
+    }
+    .employeeImg img {
+    width: 100%;
+    }
+    .storyscrollHead {
+    width: 400px;
+   
+    }
+    .backbox {
+    float: left;
+    }
+
+    .nextbox {
+    float: right;
+    }
+    .employeeStory {
+    font-size: 15px;
+    }
+    .employeeStory h4 {
+    font-size: 17px;
+    }
+    .employeeSuccessStory {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    /* END: Success stories */
+
+    /* FOOTER */
+    .footernav1 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav1 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav1 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav2 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav2 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav2 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav3 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav3 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav3 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+}
