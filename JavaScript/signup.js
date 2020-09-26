@@ -37,20 +37,34 @@ $(document).ready(function () {
   });
 });
 
-// Switch between Jobseeker, Employer, Facilitator forms --- radio buttons
-let jobSeeker = document.querySelector(".radiojobseeker");
-let employer = document.querySelector(".radioemployer");
-let facilitator = document.querySelector(".radiofacilitator");
+// // Switch between Jobseeker, Employer, Facilitator forms --- radio buttons
+// let jobSeeker = document.getElementById("radiojobseeker");
+// let employer = document.getElementById("radioemployer");
+// let facilitator = document.getElementById("radiofacilitator");
+// // link forms to by element name
+// let jobSeekerForm = document.getElementById("jobseeker");
+// let employerForm = document.getElementById("employer");
+// let facilitatorForm = document.getElementById("facilitator");
+// // initial state of forms
+// jobSeekerForm.style.display = "block";
+// employerForm.style.display = "none";
+// facilitatorForm.style.display = "none";
 
-let jobSeekerForm = document.querySelector(".jobseeker");
-let employerForm = document.querySelector(".employer");
-
-jobSeeker.addEventListener("click", showJSForm);
-function showJSForm() {
-  if (condition) {
-    
-  }
-  jobSeekerForm.style.display = "block";
-  employerForm.style.display = "none";
-  facilitatorForm.style.display = "none";
-};
+// jobSeeker.addEventListener("click", showJSForm);
+// function showJSForm() {
+//   jobSeekerForm.style.display = "block";
+//   employerForm.style.display = "none";
+//   facilitatorForm.style.display = "none";
+// };
+// employer.addEventListener("click", showEmpForm);
+// function showEmpForm() {
+//   employerForm.style.display = "block";
+//   jobSeekerForm.style.display = "none";
+//   facilitatorForm.style.display = "none";
+// };
+// employer.addEventListener("click", showFacForm);
+// function showFacForm() {
+//   jobSeekerForm.style.display = "none";
+//   employerForm.style.display = "none";
+//   facilitatorForm.style.display = "block";
+// };
