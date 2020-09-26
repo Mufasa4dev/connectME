@@ -125,6 +125,7 @@
     font-size: 3vw;
     font-weight: bolder;
     color: white;
+    position: relative;
 }
 #signupbtn2 {
     background: #800020;
@@ -135,6 +136,29 @@
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 10px;
+}
+.bannerTextBox {
+    
+    width: 50%;
+    position: absolute;
+    top: 195px;
+    left: 125px;
+}
+.bannerText {
+    font-size: 40px;
+    line-height: 57px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+.bannerTextBtn {
+    border: none;
+    width: 192px;
+    height: 45px;
+    background: #800020;
+    border-radius: 0px 5px;
+    color: #FFFFFF;
+    font-size: 18px;
 }
 /* END: Home Page Banner */
 
@@ -163,10 +187,12 @@ img#ladywrkin {
     height: auto;
     margin-top: 20px;
 }
-#ladyTextBox {
-    
+.ladyTextBox2 {
+    padding-top: 97px;
 }
-#ladyText {
+
+
+.ladyText {
     font-size: 30px;
 }
 .ladyLearn {
@@ -266,6 +292,7 @@ img.tbucicon {
 /* START: Success stories */
 .storiesSection {
     margin-bottom: 1px;
+    
 }
 .storiesImg {
   box-sizing: border-box;
@@ -279,6 +306,7 @@ img.tbucicon {
     background: #175977;  
     color: white;
     padding-top: 80px;
+    
 }
 .storiesText {
     position: relative;
@@ -320,7 +348,7 @@ img.tbucicon {
 footer {
     background: #175977;
     color: white;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
@@ -378,32 +406,7 @@ footer {
 .copyright a:hover {
     color: #800020;
 }
-/* .footernav {
-    width: 75%;
-    margin: auto;
-    text-align: center;
-}
-.sperate {
-    font-size: 1vw;
-}
 
-.footerlink {
-    display: inline-block;
-    font-size: 1vw;
-    width: 15%;
-    
-}
-.footerlink a {
-    color: white;
-}
-.copyright {
-    margin-left: 10%;
-    font-size: 1vw;
-}
-.footerIcons {
-    float: right;
-    margin-right: 25px;
-} */
 
 
 @media screen and (max-width: 800px) {
@@ -421,6 +424,31 @@ footer {
     
     /* END:  Top Logo, Search Bar & Nav Bar  */
 
+    /* START: Banner */
+    .bannerTextBox {
+        width: 85%;
+        position: absolute;
+        top: 60px;
+        left: 36px;
+    }
+    .bannerText {
+        font-size: 17px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .bannerTextBtn {
+        border: none;
+        width: 90px;
+        height: 23px;
+        background: #800020;
+        border-radius: 0px 5px;
+        color: #FFFFFF;
+        font-size: 8px;
+    }
+    /* END: Banner */
+
     /* START: How ConnectMe Works */
     .hcwHead {
         font-size: 20px;
@@ -432,10 +460,14 @@ footer {
         height: 300px;
         text-align: center;
     }
-    #ladyText{
+    .ladyText{
         font-size: 20px;
-        margin-top: auto !important; 
-        padding-top: auto !important;
+        margin-top: 15px !important; 
+        padding-top: 15px !important;
+    }
+    .ladyTextBox2 {
+        padding-top: 20px;
+        padding-bottom: 15px;
     }
     .ladyLearn {
        
