@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seeker Register | ConnectME</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jobseekertwo.css">
+</head>
+
+<body>
+    <div class="container-fluid contain">
+        <!-- START: NavBar -->
+        <nav class="navbar navbar-expand-lg navTop ">
+            <a class="navbar-brand mx-5" href="index.html">
+                <div class="logo"><img src="images/connectME.png" alt=""></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><img src="images/icons/menuBarx.png" alt=""></span>
+            </button>
+
+            <div class="collapse navbar-collapse pl-5 ml-5" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link topLink" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link topLink" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown mr-3">
+                        <a class="nav-link dropdown-toggle topLink" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Resume Help</a>
+                            <a class="dropdown-item" href="#">Training</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item topLink" href="#">Career Advice</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link topLink" href="contact.html">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled topLink" tabindex="-1" href="#" aria-disabled="true">Resources</a>
+                    </li>
+                </ul>
+                <a class="postajob" href="postajob.html">
+                    <div>Post A Job</div>
+                </a>
+                <a class="login" href="login.html">
+                    <div>Log In</div>
+                </a>
+                <a href="jobseekerone.html"><button class="signup mr-5">Sign Up</button></a>
+            </div>
+        </nav>
+        <!-- END: NavBar -->
+
+        <!-- START: FORM AREA -->
+        <div class="radiobox mt-5">
+            <div class="form-type formhead">
+                <ul>
+                    <li class="d-inline-block align-middle li-seeker"><a class="text-white" href="jobseekerone.html">Job
+                            Seeker</a>
+                    </li>
+                    <li class="d-inline-block align-middle"><a class="text-white" href="employerone.html">Employer</a>
+                    </li>
+                    <li class="d-inline-block align-middle"><a class="text-white"
+                            href="facilitator.html">Facilitator</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- END OF RADIO SELECTOR AREA -->
+
+        <!-- JOBSEEKER FORM TWO HEADING -->
+        <div class="createbox jobseeker my-4">
+            <h4>Create Your FREE ConnectMe Account</h4>
+            <p>A click away to beginning your new career</p>
+        </div>
+        <div class="pagesteps text-center mb-5">
+            <div class="circleone align-middle">
+                <!-- <h4 class="py-2 text-white">1</h4> -->
+                <i class="fa fa-check fa-lg py-3 text-white" aria-hidden="true"></i>
+            </div>
+            <div class="progress mt-3">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+            </div>
+            <div class="circletwo align-middle">
+                <h4 class="py-2 text-white">2</h4>
+            </div>
+        </div>
+        <div class="informationtwo jobseeker">
+            <div class="personal">
+                <h5 class="px-3 py-2">Work Information</h5>
+            </div>
+            <form class="needs-validation info-form py-3 employee" action="employeedb.html" novalidate>
+                <div class="row">
+                    <div class="col-sm mb-3">
+                        <label for="validationCustom01">Highest Qualification</label>
+                        <select class="custom-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>Secondary School (S.S.C.E)</option>
+                            <option>NABTEB</option>
+                            <option>Diploma</option>
+                            <option>OND</option>
+                            <option>HND</option>
+                            <option>Bachelors Degree</option>
+                            <option>Masters Degree</option>
+                            <option>M.B.B.S.</option>
+                            <option>M.Phil/Ph.D</option>
+                            <option>NCE</option>
+                            <option>Vocational</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid certificate.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm mb-4">
+                        <label for="validationCustom01">Current Job Function</label>
+                        <select class="custom-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>Accounting, Auditing & Finance</option>
+                            <option>Administration & Office</option>
+                            <option>Building & Architecture</option>
+                            <option>Community & Social Services</option>
+                            <option>Consulting & Strategy</option>
+                            <option>Creative & Design</option>
+                            <option>Customer Service & Support</option>
+                            <option>Driver & Transport Services</option>
+                            <option>Engineering & Technology</option>
+                            <option>Estate Agents & Property Management</option>
+                            <option>Farming & Agriculture</option>
+                            <option>Food Services & Catering</option>
+                            <option>Health & Safety</option>
+                            <option>Hospitality & Leisure</option>
+                            <option>Human Resources</option>
+                            <option>Legal Services</option>
+                            <option>Management & Business Development</option>
+                            <option>Marketing & Communications</option>
+                            <option>Medical & Pharmaceuticals</option>
+                            <option>Product & Project Management</option>
+                            <option>Quality Control & Assurance</option>
+                            <option>Research, Teaching & Training</option>
+                            <option>Sales</option>
+                            <option>Software & Data</option>
+                            <option>Supply Chain & Procurement</option>
+                            <option>Trades & Services</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid function.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-7 mb-4">
+                        <label for="validationCustom01">Years of Experience</label>
+                        <select class="custom-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>Less than 1 year</option>
+                            <option>1-3 years</option>
+                            <option>4-6 years</option>
+                            <option>7-9 years</option>
+                            <option>10-12 years</option>
+                            <option>13-15 years</option>
+                            <option>16-19 years</option>
+                            <option>20 years</option>
+                            <option>More than 20 years</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid figure.
+                        </div>
+                    </div>
+                    <div class="col-sm-5 mb-4">
+                        <label for="validationCustom03">Availability</label>
+                        <select class="custom-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>Immediately</option>
+                            <option>1 week</option>
+                            <option>2 weeks</option>
+                            <option>3 weeks</option>
+                            <option>1 month</option>
+                            <option>2 months</option>
+                            <option>More than 3 months</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid figure.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm form-group">
+                        <!-- <label for="exampleFormControlFile1">Example file input</label> -->
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        <small id="passwordHelpInline" class="text-muted">
+                            Upload a CV no larger than 10mb for file types .pdf, .doc, .docx
+                        </small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <p>Please Note: You will need to upload a CV to apply for jobs, however you can skip the CV
+                            upload on sign up.</p>
+                        <p>Would you like a CV touch-up?</p>
+                        <p>ConnectMe's CV experts can help make your CV more attractive to employers. Prices start from
+                            N10,000.</p>
+                        <p><a href="">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    I will like to receive top jobs and career tips
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Sign me up for job alerts.
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm text-center my-3">
+                    <button class="btn submitbtn" type="submit">CREATE YOUR ACCOUNT</button>
+                </div>
+                <div class="col-sm text-center my-3">
+                    <button class="btn backbtn" type="previous" formaction="jobseekerone.html">BACK</button>
+                </div>
+                <div class="text-group text-center">
+                    <span class="label">By clicking "CREATE YOUR ACCOUNT", you agree to our<br><a href=""
+                            class="login my-lg-0">TERMS & CONDITIONS</a> and <a href="login.html" class="login my-lg-0">PRIVACY
+                            POLICY</a></span>
+                </div>
+            </form>
+        </div>
+        <!-- END: JOBSEEKER FORM TWO AREA -->
+
+        <!-- START: FOOTER -->
+        <footer class="container-fluid ">
+            <div class="foot">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="footernav1">
+                                        <span>Who We Are</span>
+                                        <a href="#">About Us</a>
+                                        <a href="#">Our Mission</a>
+                                        <a href="#">Our Vision</a>
+                                        <a href="#">Meet The Team</a>
+                                        <a href="#">Terms of Use</a>
+                                        <a href="Privacy Policy"></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="footernav2">
+                                        <span>Who We Serve</span>
+                                        <a href="#">Job Seeker</a>
+                                        <a href="#">Employers</a>
+                                        <a href="#">Trainees</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="footernav3">
+                                        <span>Resources</span>
+                                        <a href="#">Blog</a>
+                                        <a href="#">Courses</a>
+                                        <a href="#">Contact Us</a>
+                                        <a href="#">FAQ</a>
+                                        <a href="#">Resource Center</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-sm-7 copyright">
+                    <span>©</span>
+                    <span>2020 ConnectMe, Inc. All rights reserved </span>
+                    <span><a href="#">Terms of use</a></span>
+                    <span><a href="#">Privacy Policy</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src=""></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

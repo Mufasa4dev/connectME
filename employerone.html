@@ -9,7 +9,7 @@
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/employerone.css">
 </head>
 
 <body>
@@ -55,10 +55,10 @@
                 <a class="postajob" href="postajob.html">
                     <div>Post A Job</div>
                 </a>
-                <a class="login" href="login.php">
+                <a class="login" href="login.html">
                     <div>Log In</div>
                 </a>
-                <a href="signup.php"><button class="signup mr-5">Sign Up</button></a>
+                <a href="jobseekerone.html"><button class="signup mr-5">Sign Up</button></a>
             </div>
         </nav>
         <!-- END: NavBar -->
@@ -82,11 +82,11 @@
             </div> -->
             <div class="form-type formhead">
                 <ul>
-                    <li class="d-inline-block align-middle mx-5"><a class="text-white" href="signup.html">Job Seeker</a>
+                    <li class="d-inline-block align-middle"><a class="text-white" href="jobseekerone.html">Job Seeker</a>
                     </li>
-                    <li class="d-inline-block align-middle mx-5 li-employer"><a class="text-white" href="employer.html">Employer</a>
+                    <li class="d-inline-block align-middle li-employer"><a class="text-white" href="employerone.html">Employer</a>
                     </li>
-                    <li class="d-inline-block align-middle mx-5"><a class="text-white"
+                    <li class="d-inline-block align-middle"><a class="text-white"
                             href="facilitator.html">Facilitator</a></li>
                 </ul>
             </div>
@@ -98,11 +98,23 @@
             <h4>Create Your FREE Employer Account</h4>
             <p>Discover amazing skilled trainees and find the perfect candidate</p>
         </div>
+        <div class="pagesteps text-center mb-5">
+            <div class="circleone align-middle">
+                <h4 class="py-2 text-white">1</h4>
+            </div>
+            <div class="progress mt-3">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+            </div>
+            <div class="circletwo align-middle">
+                <h4 class="py-2 text-white">2</h4>
+            </div>
+        </div>
         <div class="informationone employer">
             <div class="personal">
                 <h5 class="px-3 py-2">Personal Information</h5>
             </div>
-            <form class="needs-validation info-form py-3 employee" novalidate>
+            <form class="needs-validation info-form py-3 employee" action="employertwo.html" novalidate>
                 <div class="row">
                     <div class="col-sm-6 mb-3">
                         <label for="validationCustom01">First name</label>
@@ -186,148 +198,11 @@
                 </div>
                 <div class="text-group text-center">
                     <span class="label">Already have an account?</span>
-                    <a href="" class="login mx-3 my-lg-0">Log In</a>
+                    <a href="login.html" class="login mx-3 my-lg-0">Log In</a>
                 </div>
             </form>
         </div>
-        <!-- END: EMPLOYER FORM ONE AREA -->
-
-        <!-- EMPLOYER FORM TWO HEADING -->
-        <div class="informationtwo jobseeker">
-            <div class="personal">
-                <h5 class="px-3 py-2">Company Information</h5>
-            </div>
-            <form class="needs-validation info-form py-3 employee" novalidate>
-                <div class="row">
-                    <div class="col-sm-7 mb-3">
-                        <label for="validationCustom01">Company name</label>
-                        <input type="text" class="form-control" id="validationCustom01" value="" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-sm-5 mb-4">
-                        <label for="validationCustom01">Industry</label>
-                        <select class="custom-select" id="validationCustom04" required>
-                            <option selected disabled value="">Choose...</option>
-                            <option>Advertising, Media & Communications</option>
-                            <option>Agriculture, Fishing & Forestry</option>
-                            <option>Automobile</option>
-                            <option>Aviation</option>
-                            <option>Banking, Finance & Insurance</option>
-                            <option>Construction</option>
-                            <option>Education</option>
-                            <option>Energy & Utilites</option>
-                            <option>Enforcement & Security</option>
-                            <option>Entertainment & Events</option>
-                            <option>Fashion & Retail</option>
-                            <option>Sports</option>
-                            <option>Government</option>
-                            <option>Healthcare</option>
-                            <option>Hospitality & Hotels</option>
-                            <option>I.T. & Telecoms</option>
-                            <option>Law & Compliance</option>
-                            <option>Manufacturing & Warehousing</option>
-                            <option>Mining & Metals</option>
-                            <option>N.G.O., N.P.O. & Charity</option>
-                            <option>Oil & Gas</option>
-                            <option>Real Estate</option>
-                            <option>Recruitment</option>
-                            <option>Shipping & Logistics</option>
-                            <option>Tourism & Travel</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Please select a valid industry.
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 mb-4">
-                        <label for="validationCustom01">Number of Employees</label>
-                        <select class="custom-select" id="validationCustom04" required>
-                            <option selected disabled value="">Choose...</option>
-                            <option>1-5</option>
-                            <option>6-10</option>
-                            <option>11-15</option>
-                            <option>16-20</option>
-                            <option>20-30</option>
-                            <option>31-50</option>
-                            <option>51-100</option>
-                            <option>More than 100</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Please select a valid figure.
-                        </div>
-                    </div>
-                    <div class="col-sm-6 mb-4">
-                        <label for="validationCustom03">Type of Employer</label>
-                        <select class="custom-select" id="validationCustom04" required>
-                            <option selected disabled value="">Choose...</option>
-                            <option>Direct employer</option>
-                            <option>Recruitment agency</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Please provide a valid choice.
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm mb-3">
-                        <label for="validationCustom01">Website URL</label>
-                        <input type="text" class="form-control" id="validationCustom01" value="" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm mb-4">
-                        <label for="validationCustom01">How did you get to know about us?</label>
-                        <select class="custom-select" id="validationCustom04" required>
-                            <option selected disabled value="">Choose...</option>
-                            <option>Facebook</option>
-                            <option>Twitter</option>
-                            <option>Instagram</option>
-                            <option>Newspapers</option>
-                            <option>Word of mouth</option>
-                            <option>Referral</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Please select a valid function.
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm mb-3">
-                        <label for="validationCustom01">Contact person</label>
-                        <input type="text" class="form-control" id="validationCustom01" value="" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm mb-3">
-                        <label for="validationCustom01">Notification email</label>
-                        <input type="email" class="form-control" id="validationCustom01" value="" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm text-center my-3">
-                    <button class="btn accountbtn" type="submit">CREATE YOUR ACCOUNT</button>
-                </div>
-                <div class="col-sm text-center my-3">
-                    <button class="btn backbtn" type="submit">BACK</button>
-                </div>
-                <div class="text-group text-center">
-                    <span class="label">By clicking "CREATE YOUR ACCOUNT", you agree to our<br><a href="" class="login my-lg-0">TERMS & CONDITIONS</a> and <a href="" class="login my-lg-0">PRIVACY POLICY</a></span>
-                </div>
-            </form>
-        </div>
-        <!-- END: EMPLOYER FORM TWO AREA -->
+        <!-- END: EMPLOYER FORM ONE AREA -->        
 
         <!-- START: FOOTER -->
         <footer class="container-fluid ">
@@ -381,7 +256,7 @@
             </div>
         </footer>
     </div>
-    <script src="JavaScript/signup.js"></script>
+    <script src=""></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
