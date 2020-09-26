@@ -326,7 +326,12 @@ footer {
         width: 90%;
     }
     .radiobox{
+        /* margin: auto;
+        text-align: center;
+        padding-top: 20px; */
         width: 90%;
+        /* height: 80px;
+        background-color: #800020; */
     }
     .circleone{
         width: 50px;
@@ -351,6 +356,7 @@ footer {
         width: 70%;
     }
     .formhead li{
+
         margin: 0px 10px;
     }
     

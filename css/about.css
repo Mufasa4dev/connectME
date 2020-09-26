@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.contain{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+/* START: NavBar */
+.navTop {
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.logo img {
+    width: 100%;
+}
+.click {
+    display: flex;
+}
+.login {
+    margin-left: 15px !important;
+    margin-right: 15px !important;  
+}
+.topLink {
+    color: #800020 !important;
+}
+.post {
+    color: #800020 !important;
+}
+.login {
+    color: #800020 !important;
+}
+.logout {
+    color: #ffffff !important;
+    background: #800020;
+    border-radius: 0px 5px;
+    width: 92px;
+    height: 40px;
+    border: none;
+}
+.navbar-toggler-icon {
+    background: #800020 !important;
+}
+/* END: NavBar */
+/* Start: topmenu */
+ /* Ends: here */
+
+ /* banner:start */
+ #banner {
+    width: 100%;
+}
+#banner img {
+    width: 100%;
+}
+/* Ends: here */
+
+/* About Connectme:Start */
+
+ .aboutHead {
+color: #800020;
+margin-top: 30px;
+text-align: center;
+font-family: Arial;
+line-height: 40px;
+font-weight: bold;
+font-size: 28px;
+}
+#about p{
+    
+    text-align: center;
+    padding-top: 5px;
+    line-height: 30px;
+    font-family: Arial;
+    width: 65%;
+    margin: auto;
+}
+/* About Connectme: Ends */
+
+#allpics{
+   
+    text-align: center;
+    margin: auto;
+}
+.teamBox {
+    margin: auto;
+    width: 73%;
+    background: #FAF8F8;
+    border-radius: 0px 0px 2.18659px 2.18659px;
+}
+
+.teamImg img {
+    
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+.teamName {
+    height: 45px;
+    font-size: 10.5;
+    font-weight: bold;
+    font-family: Arial;
+    margin-bottom: 5px;
+}
+.teamProfession {
+    font-size: 11px;
+}
+
+footer {
+    background: #175977;
+    color: white;
+    padding-top: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footernav1 {
+    
+    padding-left: 20%;
+}
+
+.footernav1 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav1 a:hover {
+    color: #800020;
+}
+.footernav2 {
+    padding-left: 20%;
+}
+.footernav2 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav2 a:hover {
+    color: #800020;
+}
+.footernav3 {
+    padding-left: 20%;
+}
+.footernav3 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav3 a:hover {
+    color: #800020;
+}
+.foot {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.copyright {
+    margin-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+}
+.copyright a {
+    color: white;
+}
+.copyright a:hover {
+    color: #800020;
+}
+ .footernav {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.sperate {
+    font-size: 1vw;
+}
+.footerlink {
+    display: inline-block;
+    font-size: 1vw;
+    width: 15%;
+    
+}
+.footerlink a {
+    color: white;
+}
+.copyright {
+    margin-left: 10%;
+    font-size: 1vw;
+}
+.footerIcons {
+    float: right;
+    margin-right: 25px;
+} 
+
+
+@media screen and (max-width: 800px) {
+    #banner {
+        margin-top: 15px;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .aboutHead {
+        color: #800020;
+        margin-top: 30px;
+        text-align: center;
+        font-family: Arial;
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    #about p{
+        font-size: 13px;
+        text-align: center;
+        padding-top: 5px;
+        line-height: 30px;
+        font-family: Arial;
+        width: 80%;
+    }
+    
+    /* FOOTER */
+    .footernav1 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav1 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav1 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav2 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav2 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav2 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav3 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav3 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav3 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+
+}

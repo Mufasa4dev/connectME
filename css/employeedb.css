@@ -1,0 +1,377 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: #E5E5E5;
+}
+#contain {
+    width: 100%;
+    font-family: Arial;
+}
+/* START: Side NavBar */
+.sideBar {
+    border: 1px solid white;
+    width: 20.2%;
+    height: 940px;
+    background-color: white;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logoBox {
+  
+    width: 56px;
+    height: 56px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.logoBox img {
+    width: 100%;
+}
+.dbB {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    background-color: #800020;
+}
+.dbBtn {
+    width: 100%;
+    height: 38px;
+    color: white;
+    border-radius: 0px;   
+}
+
+.dbBottonBox {
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;  
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.dbBotton {
+    width: 100%;
+}
+.dbicon {  
+    height: 38px; 
+    padding-left: 0% !important;
+    padding-right: 0% !important; 
+}
+.dbicon img {
+    float: right; 
+}
+.ntBtn {
+    width: 100%;
+    height: 38px;
+    color: #800020;
+    border-radius: 0px;
+
+}
+.pficon {
+   
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.pficon img {
+    float: right;
+}
+.ntB {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+.pfBotton {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.pfBottonBox {
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;  
+    /* padding-left: 0% !important;
+    padding-right: 0% !important; */
+}
+.bottomBtn {
+    
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+}
+/* END: Side NavBar */
+
+/* START: Top Nav */
+.topNav {
+    /* border: 1px solid red; */
+    width: 71%;
+    height: 85px;
+    position: absolute;
+    top: 0px;
+    right: 3%;
+    padding-top: 17px;
+}
+
+.input1 {
+    width: 55%;
+    height: 46px;
+    padding-left: 10px;
+    margin-right: 2%;
+    background: #E5E5E5;
+    border: 1px solid;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6F6F6F;
+}
+.input2 {
+    width: 35%;
+    height: 46px;
+    padding-left: 10px;
+    background: #E5E5E5;
+    border: 1px solid;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6F6F6F;
+}
+.profileBox {
+    display: flex;
+    height: 46px;
+}
+.topBtn {
+    width: 102px;
+    height: 40px;
+    background: #800020;
+    border-radius: 0px 5px;
+    color: whitesmoke;
+    font-size: 16px;
+    
+}
+
+.notification {
+    text-align: center;
+    padding-top: 2px;
+    width: 33px;
+    height: 33px;
+    border-radius: 8px;
+    margin-left: 3%;
+    background: #F8F4F4;
+    margin-top: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.profile {
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 3%;
+    background: #C4C4C4;
+    margin-top: 2px;
+}
+
+
+/* END: Top Nav */
+
+/* START: Body Content */
+.content {
+   
+    width: 71%;
+    height: 85px;
+    position: absolute;
+    top: 87px;
+    right: 3%;
+    padding-top: 17px;
+    
+}
+
+.hrLine2 {
+    padding-top: 5px; 
+}
+
+/* START: Recommended Jobs */
+.contentText1 {
+    font-size: 20px;
+    color: #800020;
+}
+.data1Profile {
+    
+    width: 100%;
+    height: 132px;
+    background: #F7F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 8px;
+}
+
+.tedBox {
+    display: flex;
+}
+.ted { 
+    width: 33px;
+    height: 33px;
+    background: #F7F0F0;
+    border-radius: 100%;
+}
+.ted2 {
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 11px;
+    color: #000000;  
+}
+.ted3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #800020;
+    float: right;
+}
+
+
+/* END: Recommended Jobs */
+
+/* START: New Jobs */
+.bgDataProfile {
+    width: 100%;
+    height: 217px;
+    background: #F6F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 7px;
+}
+
+.bgted {
+    
+    font-weight: bold;
+    font-size: 14px;
+    font-size: 16px;
+    height: 43px;
+}
+.bgted2 {
+    width: 30px;
+    height: 25px;
+    background: #175977;
+    
+    float: right;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.text1 {
+    color: #1B1819;
+    font-size: 16px;
+    font-weight: normal;
+}
+.text2 {
+    font-size: 12px;
+    color: #757475;
+}
+.text3 {
+    font-size: 12px;
+    color: #1B1819;
+}
+.bgconBtn {
+    width: 108px;
+    height: 35px;
+    background: #800020;
+    border: none;
+    font-size: 14px;
+    color: white;
+}
+.popularCompanies {
+    margin-top: -23px;
+    width: 77%;
+    height: 240px;
+    background: #F6F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.xpopularCompanies {
+    padding: 5px;
+}
+.text4 {
+    font-size: 12px;
+    color: #800020;
+    padding: 5px 15px;
+    border-bottom: 1px solid #615E5E;
+}
+.xdata1 {
+    
+    width: 40px;
+    height: 40px;
+    background: #615E5E;
+}
+.xdataBoxx {
+   
+    padding-right: 0px !important;
+    margin-right: 2px;
+}
+.smxdataBox {
+   
+    padding: 0px !important;
+}
+.smxdata {
+    font-weight: bold;
+    font-size: 12px;
+}
+.smxdata1 {
+    
+    font-size: 8px;
+    color: #1B1819;
+}
+.smxdata2 {
+    font-size: 8px;
+    color: #1B1819;
+}
+.smxdata2img {
+    margin: 0px 7px 0px 1px;
+}
+.smxdata3 {
+    padding-top: 27px;
+    float: right;
+    font-size: 10px;
+    color: #1B1819;
+    padding-right: 4px;
+}
+
+/* START: Interview Preparation */
+.interview {
+    width: 100%;
+    height: 180px;
+    background: #F6F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.xinterview {
+    padding: 15px;
+}
+.more {
+    margin-top: 65px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #800020;
+    float: right;
+    margin-right: 20px;
+}
+.xviewText {
+    font-size: 14px;
+    color: #1B1819;
+    font-weight: bold;
+}
+.xviewText2 {
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.xviewTextBtn {
+    width: 108px;
+    height: 30px;
+    background: #800020;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    border: none;
+}
+/* END: Interview Preparation */
+
+/* END: New Jobs */
+
+/* END: Body Content */

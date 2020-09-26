@@ -12,19 +12,24 @@
 
 /* START:  Top Logo, Search Bar & Nav Bar */
 .topsearch {
-  
+    
     height: 75px;
     
 }
 .logo {
     margin-top: 20px;
 }
-.logo img {
+.connectMElogo {
+    width: 56px;
+    height: 56px;
     float: left;
-    margin-left: 5%;
+    margin-left: 8%;
+}
+.connectMElogo img {
+    width: 100%;
 }
 .topinput {
-    width: 45%;
+    width: 40%;
     float: right;
     margin-right: 5%;
 }
@@ -37,8 +42,8 @@
     height: 40px;
 }
 #topsearchbtn {
-    border: 1px solid #A21942;
-    background-color: #A21942;
+    border: 1px solid #800020;
+    background-color: #800020;
     border-top-left-radius: 0px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
@@ -58,11 +63,13 @@
 #inputmapsearch {
     border: 0.5px solid #C4C4C4;
     border-left: none;
+    font-size: 13px;
 }
 #inputsearch {
     border: 0.5px solid #C4C4C4;
     border-top-right-radius: 0px;
     border-right: none;
+    font-size: 13px;
 }
 
 .topnav {
@@ -72,21 +79,19 @@
     padding-bottom: 0px;
     background: #175977;
     /* margin-bottom: 10px; */
-    
 }
 .btnleft { 
     padding-left: 0px;
     
 }
 #signupbtn {
-    background: #A21942;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 10px;
+    background: #800020;
+    border-radius: 0px 5px;
     color: white;
+    font-size: 15px;
 }
 #check {
+    
     margin-left: 0px;
     float: left;
     padding-top: 0px;
@@ -95,7 +100,7 @@
 
 #navbarNavAltMarkup a {
     color: white;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #check2 {
@@ -108,27 +113,22 @@
 
 /* START: Home Page Banner */
 #topbckgrd {
-    width: 100%;
-    height: 529px;
-    padding-top: 150px;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
 }
-#topbckgrd {
-    width: 100%;
-    height: 529px;
-    background-color: rgba(23, 89, 119, 0.3);
-}
+
 #connect {
-    width: 70%;
-    margin-left: 15%;
-   
+    width: 100%;
 }
+
 #connectText {
-    font-size: 250%;
+    font-size: 3vw;
     font-weight: bolder;
-    color: #175977;
+    color: white;
+    position: relative;
 }
 #signupbtn2 {
-    background: #A21942;
+    background: #800020;
     width: 10rem;
     font-size: 22px;
     color: white;
@@ -137,36 +137,71 @@
     border-bottom-right-radius: 0px;
     border-top-right-radius: 10px;
 }
+.bannerTextBox {
+    
+    width: 50%;
+    position: absolute;
+    top: 195px;
+    left: 125px;
+}
+.bannerText {
+    font-size: 40px;
+    line-height: 57px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+.bannerTextBtn {
+    border: none;
+    width: 192px;
+    height: 45px;
+    background: #800020;
+    border-radius: 0px 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
 /* END: Home Page Banner */
 
 /* START: How ConnectMe Works */
 .connectText {
     color: #175977;
 }
-
+.hcwicon {
+    margin-top: 20px;
+}
+.hcwHead {
+    color: #175977; 
+    font-size: 25px;
+    font-weight: normal;
+}
 /* END: How ConnectMe Works */
 
 /* START: Amazing job opportunities */
 .learnSkills {
     width: 100%;
     background-color: rgba(23, 89, 119, 0.05);
-    height: 905px;
+    /* height: 905px; */
 }
 img#ladywrkin {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
 }
-#ladyTextBox {
-    margin-top: 180px;
+.ladyTextBox2 {
+    padding-top: 97px;
 }
-#ladyText {
+
+
+.ladyText {
     font-size: 30px;
+}
+.ladyLearn {
+    padding-top: 90px;
 }
 #ladyBtn {
     width: 150px;
     height: 60px;
-    background: #A21942;
+    background: #800020;
     border-radius: 0px 5px;
     font-size: 18px;
     color: white;
@@ -175,13 +210,450 @@ img#ladywrkin {
 #ladyGuyTextBox {
     margin-top: 100px;   
 }
-#ladyGuyText {
-    font-size: 30px;
-}
 #ladyGuyFloat {
     float: right;
     margin-right: 5%;
 }
-
+.aeieLogo {
+    margin-top: 25px;
+}
 
 /* END: Amazing job opportunities */
+
+/* START: The Benefit of Using ConnectMe  */
+
+.tbucImg1 {
+    
+    width: 418.83px;
+    height: 443.31px;
+    background-color: #800020;
+    position: relative;
+}
+.tbucImg2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+img.tbucicon {
+    margin-right: 10px;
+}
+.tbucback {
+    padding-top: 70px;
+}
+.tbucnext {
+    padding-top: 70px;
+}
+.tbucText {
+    
+    margin: auto;
+    margin-top: 20px;
+}
+.tbucTextHead {
+    font-size: 30px;
+    color: #800020;
+    
+}
+.tbucText h4{
+    font-size: 18px;
+    color: #800020;
+    font-weight: bold;
+}
+.tbucText h4 span {
+    color: #175977;
+}
+.tbucText .tbucsmalltext {
+    margin-left: 5.3%;
+}
+#tbucDisplay2 {
+    display: none;
+}
+#tbucDisplay3 {
+    display: none;
+}
+
+/* END: The Benefit of Using ConnectMe  */
+
+/* START: Aspiring employees, inspiring employers. */
+#aeie {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.aeieHead {
+    font-size: 30px;
+    color: #800020;
+     
+}
+.sponserlogo {
+    margin: auto;
+    text-align: center;
+}
+/* END: Aspiring employees, inspiring employers. */
+
+/* START: Success stories */
+.storiesSection {
+    margin-bottom: 1px;
+    
+}
+.storiesImg {
+  box-sizing: border-box;
+  padding-left: 0% !important;
+  padding-right: 0% !important;  
+}
+.storiesImg img {
+    width: 100%;
+}
+.storiesInfo {
+    background: #175977;  
+    color: white;
+    padding-top: 80px;
+    
+}
+.storiesText {
+    position: relative;
+    text-align: center;
+}
+.employeeImg {
+    width: 152px;
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+.employeeImg img {
+    border-radius: 100%;
+}
+ .employeeStory {
+     font-size: 20px;
+ }
+ .employeeSuccessStory {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .storyBack {
+     margin-top: 100px;
+ }
+ .storyNext {
+    margin-top: 100px;
+}
+#storyDisplay2 {
+    display: none;
+}
+#storyDisplay3 {
+    display: none;
+}
+
+/* END: Success stories */
+
+/* START: FOOTER */
+footer {
+    background: #175977;
+    color: white;
+    padding-top: 50px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footernav1 {
+    
+    padding-left: 20%;
+}
+
+.footernav1 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav1 a:hover {
+    color: #800020;
+}
+.footernav2 {
+    padding-left: 20%;
+}
+.footernav2 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav2 a:hover {
+    color: #800020;
+}
+.footernav3 {
+    padding-left: 20%;
+}
+.footernav3 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav3 a:hover {
+    color: #800020;
+}
+.foot {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.copyright {
+    margin-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+}
+.copyright a {
+    color: white;
+}
+.copyright a:hover {
+    color: #800020;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    /* START: Top Logo, Search Bar & Nav Bar */
+    .topinput {
+        width: 55%;
+        float: right;
+        margin-right: 5%;
+    }
+    #check2 {
+        
+        width: 46%;
+        float: right;
+    }
+    
+    /* END:  Top Logo, Search Bar & Nav Bar  */
+
+    /* START: Banner */
+    .bannerTextBox {
+        width: 85%;
+        position: absolute;
+        top: 60px;
+        left: 36px;
+    }
+    .bannerText {
+        font-size: 17px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .bannerTextBtn {
+        border: none;
+        width: 90px;
+        height: 23px;
+        background: #800020;
+        border-radius: 0px 5px;
+        color: #FFFFFF;
+        font-size: 8px;
+    }
+    /* END: Banner */
+
+    /* START: How ConnectMe Works */
+    .hcwHead {
+        font-size: 20px;
+    }
+    /* END: How ConnectMe Works */
+
+    /* START: Amazing job opportunities */
+    .lady_assistant{
+        height: 300px;
+        text-align: center;
+    }
+    .ladyText{
+        font-size: 20px;
+        margin-top: 15px !important; 
+        padding-top: 15px !important;
+    }
+    .ladyTextBox2 {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .ladyLearn {
+       
+        padding-top: 70px;
+    
+    }
+    .learnImg {
+        width: 99%;
+    }
+    /* END: Amazing job opportunities */
+
+    /* START: The Benefit of Using ConnectMe  */
+
+    .tbucImg1 {
+   
+    width: 268.83px;
+    height: 293.31px;
+    background-color: #800020;
+    position: relative;
+    margin: auto;
+    }
+    .tbucImg2 {
+    
+    width: 268.83px;
+    height: 293.31px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    }
+    .tbucImg2 img {
+    
+    width: 100%;
+    }
+    .tbucText {
+    text-align: center;
+    padding-top: 15px;
+    }
+    .tbucTextHead {
+    
+    font-size: 22px;
+    color: #800020;
+    }
+    .tbucText p {
+    text-align: left;
+    }
+    .scrollText {
+   
+    width: 285px;
+    }
+    .tbucback {
+    padding-left: 0px;
+    padding-top: 110px;
+    }
+    .tbucnext {
+    padding-top: 110px;
+    }
+    .scrollText h4 {
+    font-size: 17px;
+    }
+    .scrollText p {
+    font-size: 14px;
+    }
+
+    /* END: The Benefit of Using ConnectMe  */
+
+    /* START: Aspiring employees, inspiring employers. */
+    #aeie {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    }
+    .aeieHead {
+    font-size: 22px;
+    color: #800020;   
+    }
+    .aeiebottomlink {
+    font-size: 12px;
+    }
+    /* END: Aspiring employees, inspiring employers. */
+
+    /* START: Success stories */
+    .storiesImg {
+    display: none;
+     
+    }
+    .storiesInfo {
+    background: #175977;  
+    color: white;
+    padding-top: 30px;
+    height: 370px;
+    
+    }
+    .storyscroll {
+    width: 300px;
+    }
+
+    .storiesText {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    }
+    .employeeImg {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 200px;
+    top: 15px;
+    }
+    .employeeImg img {
+    width: 100%;
+    }
+    .storyscrollHead {
+    width: 400px;
+   
+    }
+    .backbox {
+    float: left;
+    }
+
+    .nextbox {
+    float: right;
+    }
+    .employeeStory {
+    font-size: 15px;
+    }
+    .employeeStory h4 {
+    font-size: 17px;
+    }
+    .employeeSuccessStory {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    /* END: Success stories */
+
+    /* FOOTER */
+    .footernav1 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav1 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav1 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav2 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav2 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav2 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav3 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav3 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav3 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+
+}
