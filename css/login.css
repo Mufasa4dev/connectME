@@ -7,16 +7,16 @@ body {
     background-color: white;
 }
 section{
-  
+ 
     padding-top: 55px;
     
 }
 #wrap{
-    
+   
     width: 60%;
     display: flex; 
     margin: auto;
-    /* border: solid red; */
+    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
 }
 #div1{
@@ -29,9 +29,9 @@ section{
     height: 100%;
 }
 #div2{
-   
+
+   padding-bottom: 30px;
     width: 45%;
-    height: 550px;
     background-color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -41,7 +41,7 @@ section{
     height: 70px;
     text-align: center;
     margin: auto;
-    
+    margin-bottom: 15px;
 }
 #logo img {
     width: 100%;
@@ -108,7 +108,7 @@ button:hover{
 @media(max-width: 800px){
     section{
         width: 100%;
-        
+        padding-top: 40px;
     }
     #wrap{
         width: 100%;
