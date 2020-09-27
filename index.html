@@ -18,16 +18,22 @@
                         <img src="./images/connectME.png" alt="ConnectME Logo">
                     </div>
                     <div class="topinput input-group">
-                        <div class="input-group" id="inputbox">
+                        <!-- <div class="input-group" id="inputbox">
                             <button type="button" class="btn" id="topmapbtn"><i class="fas fa-map-marker-alt"
-                                    style="color: #800020;"></i></button><input type="text" class="form-control"
+                                    style="color: #800020;"></i></button><input id="locationInputx" type="text" class="form-control"
                                 id="inputmapsearch" aria-label="Username" aria-describedby="basic-addon1"
                                 placeholder="Location">
-                            <input type="text" class="form-control" id="inputsearch" aria-label="Username"
+                                <input type="text" class="form-control" id="inputsearch" aria-label="Username"
                                 aria-describedby="basic-addon1" placeholder="Search by job title, keyword, etc."><button
                                 type="button" class="btn" id="topsearchbtn"><i class="fas fa-search"
                                     style="color: white;"></i></button>
-                        </div>
+                        </div> -->
+                        
+                    </div>
+                    <div id="check2">
+                        
+                        <a href="login.html" class="btn" id="loginBtn">Log In</a>
+                        <a href="candidate.html" class="btn" id="signupbtn">Sign Up</a>
                     </div>
                 </div>
             </div>
@@ -47,25 +53,33 @@
                                 <div class="navbar-nav">
                                     <span class="dropdown">
                                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Find
-                                            Job<span class="caret"></span></a>
+                                            Jobs<span class="caret"></span></a>
                                         <ul class="dropdown-menu" style="background-color: #175977;">
-                                            <li><a href="#" style="font-size: 13px; padding-left: 5%;">Tech Base</a></li>
-                                            <li><a href="#" style="font-size: 13px; padding-left: 5%;">Craftmanship</a></li>
+                                            <li><a href="skills.html" style="font-size: 13px; padding-left: 5%;">Browse Jobs</a></li>
+                                            <li><a href="skills.html" style="font-size: 13px; padding-left: 5%;">Advance Search</a></li>
                                         </ul>
                                     </span>
 
                                     <a class="nav-link" href="login.html"><span class="navtext2">Find Candidates</span> </a>
-                                    <a class="nav-link" href="login.html"><span class="navtext3">Resume Help</span> </a>
+                                    <span class="dropdown">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" style="background-color: #175977;">
+                                            <li><a href="skills.html" style="font-size: 13px; padding-left: 5%;">Resume Help</a></li>
+                                            <li><a href="skills.html" style="font-size: 13px; padding-left: 5%;">Interview Prep</a></li>
+                                            <li><a href="skills.html" style="font-size: 13px; padding-left: 5%;">Trainings</a></li>
+                                        </ul>
+                                    </span>
+                                    
                                     <a class="nav-link" href="skills.html"><span class="navtext">Skills</span></a>
                                     <a class="nav-link" href="login.html"><span class="navtext4">Career Advice</span> </a>
                                 </div>
                             </div>
 
                         </nav>
-                        <div id="check2">
+                        <!-- <div id="check2">
                             <a href="candidate.html" class="btn float-sm-right" id="signupbtn">Sign Up</a>
                             <a href="login.html" class="btn float-sm-right" style="color: white; font-size: 15px;">Log in</a>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
@@ -75,10 +89,14 @@
 
         <!-- START: Home Page Banner -->
         <section id="bckgrd">
-            <div class="col-sm img-fluid" id="topbckgrd">
-                    <div id="connect">
-                        <img class="img-fluid" src="./images/banneredited.png" alt="">  
-                    </div>   
+            <div class="col-sm" id="topbckgrd">
+                <div id="connect">
+                    <img class="img-fluid" src="./images/Heroimagex.png" alt="">
+                </div>
+                <div class="bannerTextBox">
+                    <div class="bannerText">Get Connected and <br> Grow Your Career.</div>
+                    <button class="bannerTextBtn">Get Connect Now!</button>
+                </div>
             </div>
             <!-- END: Home Page Banner -->
         </section>
@@ -92,34 +110,34 @@
                 <div class="row">
                     <div class="col-sm hcwicon">
                         <div class="row" style="margin-bottom: 15px;">
-                            <div class="col-sm" style="text-align: center;"><span><a href="#"><img src="./images/icons/share-post.png" alt="" class="img-fluid" max-width="100%" height="auto"></a></span></div>
+                            <div class="col-sm" style="text-align: center;"><span><img src="./images/icons/share-post.png" alt="" class="img-fluid" max-width="100%" height="auto"></span></div>
                         </div>
                         <div class="row">
-                            <div class="col-sm" style="text-align: center;"><a href=""><p class="connectText">Post Jobs and <br> choose recruiters</p></a></div>
+                            <div class="col-sm" style="text-align: center;"><p class="connectText">Post Jobs and <br> choose recruiters</p></div>
                         </div>
                     </div>
                     <div class="col-sm hcwicon">
                         <div class="row" style="margin-bottom: 15px;">
-                            <div class="col-sm" style="text-align: center;"><span><a href=""><img src="./images/icons/search.png" alt="" class="img-fluid" max-width="100%" height="auto"></i></a></span></div>
+                            <div class="col-sm" style="text-align: center;"><span><img src="./images/icons/search.png" alt="" class="img-fluid" max-width="100%" height="auto"></i></span></div>
                         </div>
                         <div class="row">
-                            <div class="col-sm" style="text-align: center;"><a href="#"><p class="connectText">Find open jobs <br> and internship</p></a></div>
+                            <div class="col-sm" style="text-align: center;"><p class="connectText">Find open jobs <br> and internship</p></div>
                         </div>
                     </div>
                     <div class="col-sm hcwicon">
                         <div class="row" style="margin-bottom: 15px;">
-                            <div class="col-sm" style="text-align: center;"><span><a href="#"><img src="./images/icons/knowledge.png" alt="" class="img-fluid" max-width="100%" height="auto"></i></a></span></div>
+                            <div class="col-sm" style="text-align: center;"><img src="./images/icons/knowledge.png" alt="" class="img-fluid" max-width="100%" height="auto"></i></span></div>
                         </div>
                         <div class="row">
-                            <div class="col-sm" style="text-align: center;"><a href="#"><p class="connectText">Learn a skill today <br> and get certified</p></a></div>
+                            <div class="col-sm" style="text-align: center;"><p class="connectText">Learn a skill today <br> and get certified</p></a></div>
                         </div>
                     </div>
                     <div class="col-sm hcwicon">
                         <div class="row" style="margin-bottom: 15px;">
-                            <div class="col-sm" style="text-align: center;"><span><a href="#"><img src="./images/icons/compass.png" alt="" class="img-fluid" max-width="100%" height="auto"></i></a></span></div>
+                            <div class="col-sm" style="text-align: center;"><span><img src="./images/icons/compass.png" alt="" class="img-fluid" max-width="100%" height="auto"></i></span></div>
                         </div>
                         <div class="row">
-                            <div class="col-sm" style="text-align: center;"><a href="#"><p class="connectText">Explore product <br> and services</p></a></div>
+                            <div class="col-sm" style="text-align: center;"><p class="connectText">Explore product <br> and services</p></div>
                         </div>
                     </div>
                     
@@ -139,7 +157,7 @@
                             </div>
                             <div class="col-sm py-3 m-auto text-center" id="ladyTextBox">
                                 <div>
-                                    <span id="ladyText">Amazing job opportunities <br> at your fingertip.</span><br>
+                                    <span class="ladyText">Amazing job opportunities <br> at your fingertip.</span><br>
                                     <a href="login.html"><button class="btn" id="ladyBtn">Expore All</button></a>
                                 </div>
                             </div>
@@ -150,9 +168,9 @@
                                     alt="Lady Working on a computer">
                             </div>
 
-                            <div class="col-sm order-sm-first py-3 m-auto text-center pt-5" id="ladyTextBox">
-                                <div class="pt-5">
-                                    <span id="ladyText">Learn a skill and <br> get certified.</span><br>
+                            <div class="col-sm order-sm-first  m-auto text-center ladyTextBox2">
+                                <div class="">
+                                    <span class="ladyText" id="ladylearnTextx">Learn a skill and <br> get certified.</span><br>
                                     <a href="login.html"><button class="btn" id="ladyBtn">Get Started</button></a>
                                 </div>
                             </div>
@@ -178,35 +196,51 @@
                     <div class="col-sm">
                         <div class="col-sm tbucText">
                             <span class="tbucTextHead">The Benefit of Using ConnectMe</span><br><br>
-                            <p>They are numerous! We provide a platform for all to help them upgrade their professional & vocational skills and get them connected to opportunities.</p>
+                            <p>They are numerous! We provide a platform for all to help them upgrade their professional
+                                & vocational skills and get them connected to opportunities.</p>
 
                             <div class="row scrollTextHead">
-                                <div class="col-1 tbucback"><img src="./images/icons/back.png" alt="" class="tbucscrollicon" id="tbucPrevious"></div>
+                                <div class="col-1 tbucback"><img src="./images/icons/back.png" alt=""
+                                        class="tbucscrollicon" id="tbucPrevious"></div>
                                 <div class="col-sm scrollText">
                                     <div class="tbucbox" id="tbucDisplay1">
-                                    <h4><img src="./images/icons/see.png" alt="" class="tbucicon"> We <span>see jobs</span> before you
-                                        do.</h4>
-                                    <p class="tbucsmalltext">Get job match/referrals with desired employers/SMEs.</p>
-                                    <h4><img src="./images/icons/smart-key.png" alt="" class="tbucicon"> Access <span>exclusive research
-                                            on employers</span></h4>
-                                    <p class="tbucsmalltext">You can be found easily by your potential employers.</p>
+                                        <h4><img src="./images/icons/see.png" alt="" class="tbucicon"> We <span>see
+                                                jobs</span> before you
+                                            do.</h4>
+                                        <p class="tbucsmalltext">Get job match/referrals with desired employers/SMEs.
+                                        </p>
+                                        <h4><img src="./images/icons/smart-key.png" alt="" class="tbucicon"> Access
+                                            <span>exclusive research
+                                                on employers</span></h4>
+                                        <p class="tbucsmalltext">You can be found easily by your potential employers.
+                                        </p>
                                     </div>
                                     <div class="tbucbox" id="tbucDisplay2">
-                                        <h4><img src="./images/icons/Vectornewx1.png" alt="" class="tbucicon"> We <span>guide you through</span> creating a profile that employers <span>would find appealing.</span></h4>
-                                        <p class="tbucsmalltext">Get professional CV review and interview preparation.</p>
-                                        <h4><img src="./images/icons/presentationx.png" alt="" class="tbucicon"> Access <span>exclusive trainings both in</span> tech <span>and</span> vocational skills</h4>
-                                        <p class="tbucsmalltext">Get trained to become a trainer; that in turns make you an employer of labour.</p>
-                                        </div>
-                                        <div class="tbucbox" id="tbucDisplay3">
-                                            <h4><img src="./images/icons/see.png" alt="" class="tbucicon">Get noticed</h4>
-                                            <p class="tbucsmalltext">Find your desired potential employees through our proficiency test.</p>
-                                            <h4><img src="./images/icons/certificationxx.png" alt="" class="tbucicon"><span>Get certified</span></h4>
-                                            <p class="tbucsmalltext">Acquire skills while seeking to be employed and get certified.</p>
-                                            </div>
+                                        <h4><img src="./images/icons/Vectornewx1.png" alt="" class="tbucicon"> We
+                                            <span>guide you through</span> creating a profile that employers <span>would
+                                                find appealing.</span></h4>
+                                        <p class="tbucsmalltext">Get professional CV review and interview preparation.
+                                        </p>
+                                        <h4><img src="./images/icons/presentationx.png" alt="" class="tbucicon"> Access
+                                            <span>exclusive trainings both in</span> tech <span>and</span> vocational
+                                            skills</h4>
+                                        <p class="tbucsmalltext">Get trained to become a trainer; that in turns make you
+                                            an employer of labour.</p>
+                                    </div>
+                                    <div class="tbucbox" id="tbucDisplay3">
+                                        <h4><img src="./images/icons/see.png" alt="" class="tbucicon">Get noticed</h4>
+                                        <p class="tbucsmalltext">Find your desired potential employees through our
+                                            proficiency test.</p>
+                                        <h4><img src="./images/icons/certificationxx.png" alt=""
+                                                class="tbucicon"><span>Get certified</span></h4>
+                                        <p class="tbucsmalltext">Acquire skills while seeking to be employed and get
+                                            certified.</p>
+                                    </div>
                                 </div>
-                                <div class="col-1 tbucnext"><a href="#"><img src="./images/icons/next.png" alt="" id="tbucNext"></a></div>
+                                <div class="col-1 tbucnext"><a href="#"><img src="./images/icons/next.png" alt=""
+                                            id="tbucNext"></a></div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -236,7 +270,7 @@
         </section>
 
             <!-- START: Success stories -->
-        <section class="storiesSection">
+        <section class="storiesSection mb-1">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 storiesImg">
@@ -328,8 +362,8 @@
                                     <a href="#">Blog</a>
                                     <a href="skills.html">Courses</a>
                                     <a href="contact.html">Contact Us</a>
-                                    <a href="#">FAQ</a>
-                                    <a href="#">Resource Center</a>
+                                    <a href="">FAQ</a>
+                                    <a href="">Resource Center</a>
                                 </div>
                             </div>
                         </div>

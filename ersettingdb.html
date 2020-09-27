@@ -37,7 +37,7 @@
                     <div class="bottomBtn">
                         <!-- edit -->
                         <div class="col dbBottonBox">
-                            <a href="ersettingdb.html" role="button">
+                            <a href="employercomdb.html" role="button">
                             <div class="btn-group dbB">
                                 <div class="col-4 dbicon"><button class="btn dbBtn"><img src="./images/icons/settings2.png" alt=""></button></div>
                                 <div class="col dbBotton" ><button class="btn dbBtn"> Settings</button></div>
@@ -64,15 +64,62 @@
         <!-- START: Top NavBar -->
         <section>
             <div class="col topNav">
-                <div class="row">
+                <div class="mobileNavBar">
+                    
+                    <nav class="navbar navbar-expand-lg navTop fixed-top ">
+                        <div class="mobileLogo"><img src="./images/connectME.png" alt=""></div>
+                        <a class="navbar-brand ml-5 mr-5 pt-3" href=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class=""><img src="./images/icons/menuBarx.png" alt=""></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse pl-5 ml-5" id="navbarSupportedContent" >
+                          <ul class="navbar-nav mr-auto ">
+                            <li class="nav-item mr-3">
+                                <input type="text" placeholder="Job Title, Key Word" class="mobilesearch">
+                              </li>
+                            <li class="nav-item mr-3">
+                              <a class="nav-link topLink" href="employerdb.html">Dashboard</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link topLink" href="employerpfdb.html">Profile</a>
+                              </li>
+                              <li class="nav-item mr-3">
+                                <a class="nav-link topLink" href="postajob.html">Create A Job</a>
+                              </li>
+                              <li class="nav-item mr-3">
+                                  <a class="nav-link topLink" href="employerdb.html">Notification</a>
+                                </li>
+                            <li class="nav-item dropdown mr-3">
+                                <a class="nav-link dropdown-toggle topLink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Settings
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="employercomdb.html">Company Details</a>
+                                  <a class="dropdown-item" href="ersettingdb.html">Personal Details</a>
+                                  <a class="dropdown-item" href="ersettingpwdb.html">Password</a>
+                                </div>
+                              </li>
+                            <li class="nav-item mr-3">
+                              <a class="nav-link topLink" href="">Logout</a>
+                            </li>
+                          </ul>
+                             
+                        </div>
+                        <div class="mobileProfileImg"><img src="./images/tech4dev logo 1.png" alt=""></div>
+                      </nav>
+                      
+                      
+                </div>
+                <div class="row desktopViewNavBar">
                     <div class="col-sm inputBox">
                         
                     </div>
                     <div class="col-sm-4 ">
                         <div class="profileBox">
-                            <button class="btn topBtn"><img src="./images/icons/pluse.png" alt=""> Create a job</button>
-                            <div class="notification"><img src="./images/icons/notification.png" alt=""></div>
-                            <div class="profile"></div>
+                            <button class="btn topBtn"><a href="postajob.html"><img src="./images/icons/pluse.png" alt=""> Create a job</a></button>
+                            <div class="notification"><a href="employerdb.html"><img src="./images/icons/notification.png" alt=""></a></div>
+                            <div class="profile"><img src="./images/tech4dev logo 1.png" alt=""></div>
                         </div>
                         
                     </div>
@@ -85,8 +132,8 @@
         <section>
             <div class="col content">
                 <!-- START: UPDATE & TOOLS FOR THE WEEK -->
-                <div class="row">
-                    <div class="col-3">
+                <div class="row ">
+                    <div class="col-3 updatepfBox">
                         <div class="updatepf">
                             <div class="pfImg"><img src="./images/tech4dev logo 1.png" alt=""></div>
                             <div class="pfData">
@@ -102,7 +149,7 @@
                         <div class="settingsBox pt-4">
                             <div class="row settingsNav">
                                 <div class="col navBody">
-                                    <a href="" class="navBodyLink">Company Details</a>
+                                    <a href="employercomdb.html" class="navBodyLink">Company Details</a>
                                 </div>
                                 <div class="col navBody">
                                     <a href="ersettingdb.html" class="navBodyLink1">Personal Details</a>
@@ -111,34 +158,34 @@
                                     <a href="ersettingpwdb.html" class="navBodyLink">Password</a>
                                 </div>
                             </div>
-                            <div class="col mt-5 navBodyHeadBox">
+                            <div class="col-sm mt-5 navBodyHeadBox">
                                 <div class="navBodyHead"> Personal Details</div>
                             </div>
-                            <div class="col">
+                            <div class="col navFormBox">
                                 <div class="navForm">
                                     <form action="">
                                         <div class="row mt-3">
-                                            <div class="col formBox1">
+                                            <div class="col-sm formBox1">
                                                 <label for="" class="formLable">First Name</label>
                                                 <input type="text" class="formInput" required>
                                             </div>
-                                            <div class="col formBox2">
+                                            <div class="col-sm formBox2">
                                                 <label for="" class="formLable">Last Name</label>
                                                 <input type="text" class="formInput" required>
                                             </div>
-                                            <div class="col-1 formBox3"></div>
+                                            <div class="col-sm-1 formBox3"></div>
                                         </div>
                                         <div class="row mt-3">
-                                            <div class="col formBox1">
+                                            <div class="col-sm formBox1">
                                                 <label for="" class="formLable">Phone Number</label>
                                                 <input type="text" class="formInput" required>
                                             </div>
-                                            <div class="col formBox2">
+                                            <div class="col-sm formBox2">
                                                 
                                             </div>
-                                            <div class="col-1 formBox3"></div>
+                                            <div class="col-sm-1 formBox3"></div>
                                         </div>
-                                        <div class="col mt-5">
+                                        <div class="col formBtnmobile mt-5">
                                             <button class="formBtn">SAVE</button>
                                         </div>
                                     </form>
