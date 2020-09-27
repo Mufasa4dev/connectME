@@ -71,15 +71,64 @@
         <!-- START: Top NavBar -->
         <section>
             <div class="col topNav">
-                <div class="row">
+
+                <div class="mobileNavBar">
+                    
+                    <nav class="navbar navbar-expand-lg navTop fixed-top ">
+                        <div class="mobileLogo"><img src="./images/connectME.png" alt=""></div>
+                        <a class="navbar-brand ml-5 mr-5 pt-3" href=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class=""><img src="./images/icons/menuBarx.png" alt=""></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse pl-5 ml-5" id="navbarSupportedContent" >
+                          <ul class="navbar-nav mr-auto ">
+                            <li class="nav-item mr-3">
+                                <input type="text" placeholder="Job Title, Key Word" class="mobilesearch">
+                              </li>
+                            <li class="nav-item mr-3">
+                              <a class="nav-link topLink" href="employerdb.html">Dashboard</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link topLink" href="employerpfdb.html">Profile</a>
+                              </li>
+                              <li class="nav-item mr-3">
+                                <a class="nav-link topLink" href="postajob.html">Create A Job</a>
+                              </li>
+                              <li class="nav-item mr-3">
+                                  <a class="nav-link topLink" href="employerdb.html">Notification</a>
+                                </li>
+                            <li class="nav-item dropdown mr-3">
+                                <a class="nav-link dropdown-toggle topLink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Settings
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="employercomdb.html">Company Details</a>
+                                  <a class="dropdown-item" href="ersettingdb.html">Personal Details</a>
+                                  <a class="dropdown-item" href="ersettingpwdb.html">Password</a>
+                                </div>
+                              </li>
+                            <li class="nav-item mr-3">
+                              <a class="nav-link topLink" href="">Logout</a>
+                            </li>
+                          </ul>
+                             
+                        </div>
+                        <div class="mobileProfileImg"><img src="./images/tech4dev logo 1.png" alt=""></div>
+                      </nav>
+                      
+                      
+                </div>
+
+                <div class="row desktopViewNavBar">
                     <div class="col-sm inputBox">
 
                     </div>
                     <div class="col-sm-4 ">
                         <div class="profileBox">
-                            <button class="btn topBtn"><img src="./images/icons/pluse.png" alt=""> Create a job</button>
-                            <div class="notification"><img src="./images/icons/notification.png" alt=""></div>
-                            <div class="profile"></div>
+                            <button class="btn topBtn"><a href="postajob.html"><img src="./images/icons/pluse.png" alt=""> Create a job</a></button>
+                            <div class="notification"><a href="employerdb.html"><img src="./images/icons/notification.png" alt=""></a></div>
+                            <div class="profile"><img src="./images/tech4dev logo 1.png" alt=""></div>
                         </div>
 
                     </div>
@@ -93,9 +142,9 @@
             <div class="col content">
                 <!-- START: UPDATE & TOOLS FOR THE WEEK -->
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-3 updatepfBox">
                         <div class="updatepf">
-                            <div class="pfImg"></div>
+                            <div class="pfImg"><img src="./images/tech4dev logo 1.png" alt=""></div>
                             <div class="pfData">
                                 <div class="pfName">Tech4dev</div>
                                 <div class="pfArea">Ogudu, Lagos</div>
@@ -110,7 +159,7 @@
                         <div class="row">
                             <div class="col">
 
-                                <div class="row">
+                                <div class="row settingsNav">
                                     <div class="details">
                                     <a style="color: #800020; text-decoration: underline;" href="employercomdb.html">Company Details</a> 
                                     </div>
@@ -129,61 +178,61 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col navForm">
                                         <form style="margin-top: 20px;" action="">
                                             <div class="row">
-                                                <div class="col">
-                                                <label for="Company Name">Company Name</label> <br>
+                                                <div class="col-sm smformInput">
+                                                <label for="Company Name">Company Name</label> 
                                                 <input type="text">
                                                 </div>
-                                                <div class="col" style="margin-left: -80px;">
+                                                <div class="col-sm smformInput2" style="margin-left: -80px;">
                                                 <label for="Industry">Industry</label> <br>
                                                 <input type="text">
                                                 </div>
                                             </div>
                                             <div style="margin-top: 20px;" class="row">
-                                                <div class="col">
+                                                <div class="col-sm smformInput">
                                                 <label for="Employees Number">Number of Employees</label> <br>
                                                 <input type="text">
                                                 </div>
-                                                <div class="col" style="margin-left: -80px;">
+                                                <div class="col-sm smformInput2" style="margin-left: -80px;">
                                                 <label for="employer type">Type of Employer</label> <br>
                                                 <input type="text">
                                                 </div>
                                             </div>
                                             <div style="margin-top: 20px;" class="row">
-                                                <div class="col">
+                                                <div class="col-sm smformInput">
                                                 <label for="website">Website</label> <br>
                                                 <input style="width: 90%;" type="text">
                                                 </div>
                                             </div>
                                             <div style="margin-top: 20px;" class="row">
-                                                <div class="col">
+                                                <div class="col-sm smformInput">
                                                 <label for="Contact Person">Contact Person</label> <br>
                                                 <input style="width: 90%;" type="text">
                                                 </div>
                                             </div>
                                             <div style="margin-top: 20px;" class="row">
-                                                <div class="col">
+                                                <div class="col-sm smformInput">
                                                 <label for="Notification Email">Notification Email</label> <br>
                                                 <input style="width: 90%;" type="text">
                                                 </div>
                                             </div>
                                             <div style="margin-top: 20px;" class="row">
-                                                <div class="col">
+                                                <div class="col-sm smformInput">
                                                 <label for="Phone Number">Phone Number</label> <br>
                                                 <input style="width: 50%;" type="text">
                                                 </div>
                                             </div>
                                             <div style="margin-top: 20px;" class="row">
-                                                <div class="col">
+                                                <div class="col-sm smformInput">
                                                 <label for="Address">Address</label> <br>
                                                 <input style="width: 90%; height: 100px;" type="text">
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col">
-                                                <button id="save">SAVE</button>
+                                                <div class="col-sm">
+                                                <button class="smformBtn">SAVE</button>
                                                 </div>
                                             </div>
                         
@@ -191,7 +240,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-1">
+                            <div class="col-sm-1">
 
                             </div>
                         </div>
