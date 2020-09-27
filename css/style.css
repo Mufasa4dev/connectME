@@ -84,11 +84,19 @@
     padding-left: 0px;
     
 }
+.loginBtn {
+    color: #1B1819;
+    font-size: 15px;
+    line-height: 24px;
+}
 #signupbtn {
     background: #800020;
     border-radius: 0px 5px;
     color: white;
     font-size: 15px;
+    margin-left: 5px;
+    width: 112.19px;
+    height: 40px;
 }
 #check {
     
@@ -107,6 +115,7 @@
     
     width: 39%;
     float: right;
+    padding-left: 20%;
 }
 
 /* END:  Top Logo, Search Bar & Nav Bar  */
@@ -115,6 +124,7 @@
 #topbckgrd {
     padding-left: 0% !important;
     padding-right: 0% !important;
+    border-top: 1px solid white;
 }
 
 #connect {
@@ -127,7 +137,9 @@
     color: white;
     position: relative;
 }
-#signupbtn2 {
+
+
+/* #signupbtn2 {
     background: #800020;
     width: 10rem;
     font-size: 22px;
@@ -136,17 +148,17 @@
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 10px;
-}
+} */
 .bannerTextBox {
     
     width: 50%;
     position: absolute;
-    top: 195px;
-    left: 125px;
+    top: 140px;
+    left: 80px;
 }
 .bannerText {
-    font-size: 40px;
-    line-height: 57px;
+    font-size: 48px;
+    line-height: 70px;
     color: #FFFFFF;
     margin-bottom: 40px;
     font-weight: bolder;
@@ -154,7 +166,7 @@
 .bannerTextBtn {
     border: none;
     width: 192px;
-    height: 45px;
+    height: 50px;
     background: #800020;
     border-radius: 0px 5px;
     color: #FFFFFF;
@@ -417,22 +429,35 @@ footer {
         margin-right: 5%;
     }
     #check2 {
-        
-        width: 46%;
+        padding-left: 0px;
+        width: 50%;
         float: right;
     }
-    
+    .loginBtn {
+        color: #1B1819;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #signupbtn {
+        background: #800020;
+        border-radius: 0px 5px;
+        color: white;
+        font-size: 13px;
+        margin-left: 5px;
+        width: 100px;
+        height: 30px;
+    }
     /* END:  Top Logo, Search Bar & Nav Bar  */
 
     /* START: Banner */
     .bannerTextBox {
         width: 85%;
         position: absolute;
-        top: 60px;
-        left: 36px;
+        top: 30px;
+        left: 23px;
     }
     .bannerText {
-        font-size: 17px;
+        font-size: 14px;
         line-height: 22px;
         color: #FFFFFF;
         margin-bottom: 8px;
