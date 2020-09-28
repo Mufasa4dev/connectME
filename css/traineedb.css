@@ -194,6 +194,10 @@ body {
     width: 77%;
     margin: auto;
 }
+.smdatavideo iframe {
+    width: 100%;
+    height: 100%;
+}
 .smdataText {
     font-size: 12px;
     text-align: center;
@@ -362,4 +366,156 @@ body {
     color: white;
     font-size: 13px;
 }
-/* END: Body Content */
+
+.mobileNavBar {
+    display: none;
+}
+.mobileHr {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    /* START: NavBar */
+    .desktopViewNavBar {
+        display: none;
+    }
+    .mobileNavBar{
+        display: block;
+    }
+    .sideBar {
+        display: none;
+    }
+    .topNav {
+        width: 100%;      
+    }
+    
+    .mobileLogo {
+        display: block;
+        width: 55px;
+        height: 55px;
+        margin-left: 5px;
+    }
+    .mobileLogo img {
+        
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        float: right;
+        background: #F7F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .navbar a {
+        color: #800020;
+    }
+    .mobilesearch {
+        height: 40px;
+        padding-left: 7px;
+    }
+    .mobileProfileImg {
+        width: 55px;
+        height: 55px;
+    }
+    .mobileProfileImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+    /* END: NavBar */
+
+    /* START: Body Content */
+    .content {
+    
+        width: 100%;
+        text-align: center;
+        margin-left: 7px;
+        
+        position: relative;
+    }
+    .smDataHead {
+        font-size: 17px;
+        color: #800020;
+        margin-bottom: 30px;
+    }
+    .smData {
+       
+        padding-top: 20px;
+        width: 99%;
+        margin: auto; 
+        height: 520px;
+        background: #FBF7F7;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .bgdatavideoBox {
+    
+        width: 99%;
+        margin: auto;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .bgdatavideo {
+        width: 100%;
+        height: 200px;
+        background: #FBF7F7;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .bgdatavideo iframe {
+        width: 100%;
+        height: 100%;
+    }
+    .bgdatavideoText {
+        font-size: 15px;
+        color: #800020;
+    }
+    .course {
+      
+        width: 99%;
+        margin: auto;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .courseTutor {
+        height: 42px;
+        background: #FBF7F7;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .courseTutorImg {
+        
+        height: 27px;
+        width: 65%;
+        background: #676464;
+        margin-top: 6px;
+        
+    }
+    .courseTutorDetails {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .tutorImgBox {
+        padding-left: 10px !important;
+        padding-right: 0px !important;
+    }
+    .Name {
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: bold;
+    }
+    .title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .outlinelock {
+        font-size: 14px;
+        text-align: left;
+    }
+    .progressBarText {
+        margin-top: 20px !important;
+    }
+    .enroll {
+        margin-bottom: 20px;
+    }
+       /* END: Body Content */
+}

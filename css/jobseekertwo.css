@@ -185,7 +185,9 @@
     color: white;
     border-color: #800020;
     background-color: #800020;
-    padding: 10px 100px;
+
+    padding: 10px 40px;
+
     border-top-left-radius: 0px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -358,7 +360,9 @@ footer {
     width: 70%;
 }
 .formhead li{
-    margin: 0px 20px;
+
+    margin: 0px 10px;
+
 }
     
     /* END:  Top Logo, Search Bar & Nav Bar  */

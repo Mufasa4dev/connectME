@@ -150,6 +150,9 @@ body {
 .topBtn img {
     margin-right: 7px;
 }
+.topBtn a {
+    color: whitesmoke;
+}
 .notification {
     text-align: center;
     padding-top: 2px;
@@ -165,10 +168,15 @@ body {
    
     width: 40px;
     height: 40px;
-    border-radius: 100%;
+    
     margin-left: 3%;
-    background: #C4C4C4;
+   
     margin-top: 2px;
+}
+.profile img {
+    width: 100%;
+    height: 100%;
+    border-radius:100%;
 }
 
 
@@ -321,3 +329,210 @@ body {
 /* END: Candidates */
 
 /* END: Body Content */
+.mobileNavBar {
+    display: none;
+}
+.mobileHr {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    /* START: NavBar */
+    .desktopViewNavBar {
+        display: none;
+    }
+    .mobileNavBar{
+        display: block;
+    }
+    .sideBar {
+        display: none;
+    }
+    .topNav {
+        width: 100%;      
+    }
+    
+    .mobileLogo {
+        display: block;
+        width: 55px;
+        height: 55px;
+        margin-left: 5px;
+    }
+    .mobileLogo img {
+        
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        float: right;
+        background: #F7F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .navbar a {
+        color: #800020;
+    }
+    .mobilesearch {
+        height: 40px;
+        padding-left: 7px;
+    }
+    .mobileProfileImg {
+        width: 55px;
+        height: 55px;
+    }
+    .mobileProfileImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+    /* END: NavBar */
+
+    /* START: Body Content */
+    .content {
+        /* border: 1px solid green; */
+        width: 100%;
+        text-align: center;
+        margin-left: 7px;
+       
+        position: relative;
+    }
+    .contentText1 {
+    
+        margin-bottom: 5px;
+        font-size: 19px;
+        
+        color: #800020;
+    }
+    .mobileHr {
+        display: block;
+    }
+    .desktopHr {
+        display: none;
+    }
+    .data1Profile {
+        width: 100%;
+        height: 145px;
+        background: #F7F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 5px;
+        margin-top: 8px;
+    }
+    .ted {
+        width: 40px;
+        height: 40px;
+        background: #fe7171;
+        border-radius: 5px;
+        margin-left: 6px;
+    }
+    .ted2 {
+        width: 70px;
+        height: 20px;
+        background: #175977;
+        border-radius: 3px;
+        font-size: 10px;
+        line-height: 11px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 4px;
+        float: right;
+        margin-right: 6px;
+    }
+    .ted3 {
+        text-align: left; 
+        padding-left: 16px; 
+        padding-top: 6px;
+    }
+    .smconBtn {
+        width: 50px;
+        height: 20px;
+        background: #800020;
+        border-radius: 3px;
+        font-size: 10px;
+        color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: none;
+        float: right;
+        margin-right: 6px;
+    }
+    .smResume {
+        font-size: 10px; 
+        text-align: left;
+        padding-left: 11px; 
+        padding-top: 8px;
+    }
+    .bgDataProfile {
+        margin-top: 16px;
+        width: 100%;
+        height: 245px;
+        background: #F6F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 7px;
+    }
+    
+    .bgted {
+        width: 70px;
+        height: 70px;
+        background: #fe7171;
+        border-radius: 5px;
+    }
+    .bgted img {
+        width: 100%;
+    }
+    .bgted2 {
+        width: 80px;
+        height: 25px;
+        background: #175977;
+        border-radius: 5px;
+        float: right;
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .bglink {
+       
+        float: right;
+        font-size: 11px;
+        width: 85px;
+        height: 20px;
+        background: #175977;
+        border-radius: 5px; 
+        color: white;
+    }
+    .bglinkimg {
+        margin: 0px 7px 0px 5px;
+    }
+    .bgconBtn1 {
+        width: 90px;
+        height: 35px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+    }
+    .bgconBtn2 {
+        float: right;
+        width: 90px;
+        height: 35px;
+        background: #800020;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+        color: white;
+    }
+    .ted4 {
+        text-align: left; 
+        padding-left: 16px; 
+        padding-top: 2px;
+    }
+    .bgResume {
+        font-size: 13px; 
+        text-align: left;
+        padding-left: 8px; 
+    }
+    .ted5 {
+        margin-top: 3px !important;
+        margin-bottom: 20px !important;
+    }
+    /* END: Body Content */
+}

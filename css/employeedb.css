@@ -231,6 +231,7 @@ body {
 
 /* START: New Jobs */
 .bgDataProfile {
+    
     width: 100%;
     height: 217px;
     background: #F6F0F0;
@@ -375,3 +376,201 @@ body {
 /* END: New Jobs */
 
 /* END: Body Content */
+
+.mobileNavBar {
+    display: none;
+}
+.mobileHr {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    /* START: NavBar */
+    .desktopViewNavBar {
+        display: none;
+    }
+    .mobileNavBar{
+        display: block;
+    }
+    .sideBar {
+        display: none;
+    }
+    .topNav {
+        width: 100%;      
+    }
+    
+    .mobileLogo {
+        display: block;
+        width: 55px;
+        height: 55px;
+        margin-left: 5px;
+    }
+    .mobileLogo img {
+        
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        float: right;
+        background: #F7F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .navbar a {
+        color: #800020;
+    }
+    .mobilesearch {
+        height: 40px;
+        padding-left: 7px;
+    }
+    .mobileProfileImg {
+        width: 55px;
+        height: 55px;
+    }
+    .mobileProfileImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+    /* END: NavBar */
+
+    /* START: Body Content */
+    .content {
+       
+        width: 100%;
+        text-align: center;
+        margin-left: 7px;
+        
+        position: relative;
+    }
+    .contentText1 {
+    
+        margin-bottom: 5px;
+        font-size: 19px;
+        
+        color: #800020;
+    }
+    .data1Profile {
+    
+        width: 100%;
+        height: 132px;
+        background: #F7F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 8px;
+        margin-top: 8px;
+    }
+    
+    .tedBox {
+        display: flex;
+    }
+    .ted { 
+        width: 33px;
+        height: 33px;
+        background: #F7F0F0;
+        border-radius: 100%;
+    }
+    .ted2 {
+        margin-top: 12px;
+        margin-left: 10px;
+        font-size: 13px;
+        line-height: 11px;
+        color: #000000;  
+    }
+    .ted3 {
+        font-weight: bold;
+        font-size: 20px;
+        color: #800020;
+        float: right;
+    }
+    .bgDataProfile {
+        
+        width: 100%;
+        height: 217px;
+        background: #F6F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 7px;
+        margin-top: 8px;
+    }
+    .bgted {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .smtextBox {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .popularCompanies {
+        margin-top: 15px;
+        width: 100%;
+        height: 240px;
+        background: #F6F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .xpopularCompanies {
+        padding: 5px;
+    }
+    .text4 {
+        font-size: 12px;
+        color: #800020;
+        padding: 5px 15px;
+        border-bottom: 1px solid #615E5E;
+    }
+    .xdata1 {
+        margin-left: 8px;
+        width: 40px;
+        height: 40px;
+        background: #615E5E;
+    }
+    .xdataBoxx {
+       
+        padding-right: 0px !important;
+        margin-right: 2px;
+    }
+    .smxdataBox {
+        margin-left: 8px;
+        text-align: left;
+        padding: 0px !important;
+    }
+    .smxdata {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .smxdata1 {
+        
+        font-size: 8px;
+        color: #1B1819;
+    }
+    .smxdata2 {
+        font-size: 8px;
+        color: #1B1819;
+    }
+    .smxdata2img {
+        margin: 0px 7px 0px 1px;
+    }
+    .smxdata3 {
+        padding-top: 17px;
+        float: right;
+        font-size: 10px;
+        color: #1B1819;
+        padding-right: 15px;
+    }
+    .more {
+        margin-top: 35px;
+        font-weight: bold;
+        font-size: 10px;
+        color: #800020;
+        float: right;
+        margin-right: 20px;
+    }
+    .interview {
+        width: 100%;
+        height: 180px;
+        background: #F6F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 8px;
+    }
+    .texxx {
+        margin-bottom: 20px;
+    }
+       /* END: Body Content */
+}

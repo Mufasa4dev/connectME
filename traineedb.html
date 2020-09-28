@@ -61,7 +61,54 @@
         <!-- START: Top NavBar -->
         <section>
             <div class="col topNav">
-                <div class="row">
+
+                <div class="mobileNavBar">
+                    
+                    <nav class="navbar navbar-expand-lg navTop fixed-top ">
+                        <div class="mobileLogo"><img src="./images/connectME.png" alt=""></div>
+                        <a class="navbar-brand ml-5 mr-5 pt-3" href=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class=""><img src="./images/icons/menuBarx.png" alt=""></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse pl-5 ml-5" id="navbarSupportedContent" >
+                          <ul class="navbar-nav mr-auto ">
+                            <li class="nav-item mr-3">
+                                <input type="text" placeholder="Job Title, Key Word" class="mobilesearch">
+                              </li>
+                            <li class="nav-item mr-3">
+                              <a class="nav-link topLink" href="employeedb.html">Dashboard</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link topLink" href="employeepfdb.html">Profile</a>
+                              </li>
+                              
+                              <li class="nav-item mr-3">
+                                  <a class="nav-link topLink" href="employeedb.html">Notification</a>
+                                </li>
+                            <li class="nav-item dropdown mr-3">
+                                <a class="nav-link dropdown-toggle topLink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Settings
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="">Company Details</a>
+                                  <a class="dropdown-item" href="">Personal Details</a>
+                                  <a class="dropdown-item" href="">Password</a>
+                                </div>
+                              </li>
+                            <li class="nav-item mr-3">
+                              <a class="nav-link topLink" href="">Logout</a>
+                            </li>
+                          </ul>
+                             
+                        </div>
+                        <div class="mobileProfileImg"><img src="./images/smsmsm.png" alt=""></div>
+                      </nav>
+                      
+                      
+                </div>
+
+                <div class="row desktopViewNavBar">
                     <div class="col-sm inputBox">
                         <input type="text" placeholder="Search your course" class="input1">
                         
@@ -71,7 +118,7 @@
                         <div class="profileBox">
                             <div class="btn topBtn">Hi, Folashade</div>
                             <div class="notification"><img src="./images/icons/notification.png" alt=""></div>
-                            <div class="profile"></div>
+                            <div class="profile"><img src="./images/smsmsm.png" alt=""></div>
                         </div>
                         
                     </div>
@@ -85,24 +132,24 @@
             <div class="col content">
             
                 <div class="row">
-                    <div class="col data1">
+                    <div class="col-sm data1">
                         <div class="col smDataHead">
                             Top courses based on selected skill 
                         </div>
                         <div class="row smData mt-1 pt-2">
-                            <div class="col">
-                                <div class="smdatavideo mb-1"></div>
+                            <div class="col-sm">
+                                <div class="smdatavideo mb-1"><iframe width="560" height="315" src="https://www.youtube.com/embed/wfE0YZBFGik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                                 <div class="smdataText">Introduction to <br>
                                     Fashion design</div>
                             </div>
-                            <div class="col">
-                                <div class="smdatavideo mb-1"></div>
+                            <div class="col-sm">
+                                <div class="smdatavideo mb-1"><iframe width="560" height="315" src="https://www.youtube.com/embed/17-Tsp8Fcbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                                 <div class="smdataText">Fashion design <br>
                                     for beginners</div>
                                 
                             </div>
-                            <div class="col">
-                                <div class="smdatavideo mb-1"></div>
+                            <div class="col-sm">
+                                <div class="smdatavideo mb-1"><iframe width="560" height="315" src="https://www.youtube.com/embed/wNVz7QChiQE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                                 <div class="smdataText">How to be a successful <br>
                                     fashion designer</div>
                             </div>
@@ -112,20 +159,20 @@
                         </div>
                         <div class="col bgdatavideoText mt-2">Fashion design for beginners</div>
                         <div class="row course mt-3">
-                            <div class="col-6 courseTutor">
+                            <div class="col-sm-6 courseTutor">
                                 <div class="row">
                                     <div class="col-3 tutorImgBox">
                                         <div class="courseTutorImg"></div>
                                     </div>
                                     <div class="col courseTutorDetails">
-                                        <div class="Name">Aderonke Cole</div>
+                                        <div class="Name">Ekanem Orok</div>
                                         <div class="title mt-1">Course Tutor</div>
                                     </div>
                                     <div class="col-2 pt-2 tutorIconBox"><img src="./images/icons/recpluse.png" alt=""></div>
                                     
                                 </div>
                             </div>
-                            <div class="col"></div>
+                            <div class="col-sm"></div>
                         </div>
                         <div class="row mt-3 tedcourseBox">
                             <div class="col">
@@ -149,7 +196,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 data2">
+                    <div class="col-sm-4 data2">
                         <div class="progressBarText mt-1">Progress bar <span>5%</span></div>
                         <div class="progressBar mt-2">
                             <div class="progress"></div>
