@@ -194,6 +194,10 @@ body {
     width: 77%;
     margin: auto;
 }
+.smdatavideo iframe {
+    width: 100%;
+    height: 100%;
+}
 .smdataText {
     font-size: 12px;
     text-align: center;
