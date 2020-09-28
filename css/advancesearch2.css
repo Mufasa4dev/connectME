@@ -1,0 +1,326 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#contain {
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* START:  Top Logo, Search Bar & Nav Bar */
+.topsearch {
+    
+    height: 75px;
+    
+}
+.logo {
+    margin-top: 20px;
+}
+.connectMElogo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    margin-left: 8%;
+}
+.connectMElogo img {
+    width: 100%;
+}
+.topinput {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+}
+#inputbox {
+   float: right;
+}
+#inputbox input {
+    width: 30%;
+    padding-left: 8px;
+    height: 40px;
+}
+#topsearchbtn {
+    border: 1px solid #800020;
+    background-color: #800020;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: none;
+    height: 40px;
+}
+#topmapbtn {
+    border: 0.5px solid #C4C4C4;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+    height: 40px;
+}
+#inputmapsearch {
+    border: 0.5px solid #C4C4C4;
+    border-left: none;
+    font-size: 13px;
+}
+#inputsearch {
+    border: 0.5px solid #C4C4C4;
+    border-top-right-radius: 0px;
+    border-right: none;
+    font-size: 13px;
+}
+
+.topnav {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background: #175977;
+    /* margin-bottom: 10px; */
+}
+.btnleft { 
+    padding-left: 0px;
+    
+}
+.loginBtn {
+    color: #1B1819;
+    font-size: 15px;
+    line-height: 24px;
+}
+#signupbtn {
+    background: #800020;
+    border-radius: 0px 5px;
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+    width: 112.19px;
+    height: 40px;
+}
+#check {
+    
+    margin-left: 0px;
+    float: left;
+    padding-top: 0px;
+    background-color: #175977;
+}
+
+#navbarNavAltMarkup a {
+    color: white;
+    font-size: 15px;
+}
+
+#check2 {
+    
+    width: 39%;
+    float: right;
+    padding-left: 20%;
+}
+
+/* END:  Top Logo, Search Bar & Nav Bar  */
+
+
+/* START: Body Content */
+.bodywrap {
+    margin-top: 60px;
+    margin-bottom: 40px; 
+}
+.data1 {
+    width: 100%;
+    
+    background: #175977;
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+}
+.ted1 {
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.ted2x {
+    margin-left:58px;
+    margin-top: 40px;
+}
+.ted2Text {
+    margin-top: 10px;
+}
+.ted3 {
+    margin-top: 20px;
+}
+.ted3x {
+    margin-left: 10px;
+}
+.ted3xx {
+    line-height: 27px;
+}
+.ted1Btn {
+    width: 50px;
+    height: 35.22px;
+    color: #800020;
+    border: none;
+    margin-left: 45px;
+}
+.dev {
+    border: 1px solid green;
+}
+.line {
+    margin-top: 22px;
+    border: 1px solid white;
+    width: 100%;
+}
+.xText1 {
+   
+}
+
+/* END: Body Content */
+
+/* START: FOOTER */
+footer {
+    background: #175977;
+    color: white;
+    padding-top: 50px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footernav1 {
+    
+    padding-left: 20%;
+}
+
+.footernav1 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav1 a:hover {
+    color: #800020;
+}
+.footernav2 {
+    padding-left: 20%;
+}
+.footernav2 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav2 a:hover {
+    color: #800020;
+}
+.footernav3 {
+    padding-left: 20%;
+}
+.footernav3 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav3 a:hover {
+    color: #800020;
+}
+.foot {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.copyright {
+    margin-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+}
+.copyright a {
+    color: white;
+}
+.copyright a:hover {
+    color: #800020;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    /* START: Top Logo, Search Bar & Nav Bar */
+    .topinput {
+        width: 55%;
+        float: right;
+        margin-right: 5%;
+    }
+    #check2 {
+        padding-left: 0px;
+        width: 50%;
+        float: right;
+    }
+    .loginBtn {
+        color: #1B1819;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #signupbtn {
+        background: #800020;
+        border-radius: 0px 5px;
+        color: white;
+        font-size: 13px;
+        margin-left: 5px;
+        width: 100px;
+        height: 30px;
+    }
+    /* END:  Top Logo, Search Bar & Nav Bar  */
+
+    
+
+    /* FOOTER */
+    .footernav1 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav1 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav1 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav2 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav2 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav2 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav3 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav3 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav3 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+
+}
