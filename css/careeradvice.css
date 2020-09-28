@@ -1,0 +1,451 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#contain {
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* START:  Top Logo, Search Bar & Nav Bar */
+.topsearch {
+    
+    height: 75px;
+    
+}
+.logo {
+    margin-top: 20px;
+}
+.connectMElogo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    margin-left: 8%;
+}
+.connectMElogo img {
+    width: 100%;
+}
+.topinput {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+}
+#inputbox {
+   float: right;
+}
+#inputbox input {
+    width: 30%;
+    padding-left: 8px;
+    height: 40px;
+}
+#topsearchbtn {
+    border: 1px solid #800020;
+    background-color: #800020;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: none;
+    height: 40px;
+}
+#topmapbtn {
+    border: 0.5px solid #C4C4C4;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+    height: 40px;
+}
+#inputmapsearch {
+    border: 0.5px solid #C4C4C4;
+    border-left: none;
+    font-size: 13px;
+}
+#inputsearch {
+    border: 0.5px solid #C4C4C4;
+    border-top-right-radius: 0px;
+    border-right: none;
+    font-size: 13px;
+}
+
+.topnav {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background: #175977;
+    /* margin-bottom: 10px; */
+}
+.btnleft { 
+    padding-left: 0px;
+    
+}
+.loginBtn {
+    color: #1B1819;
+    font-size: 15px;
+    line-height: 24px;
+}
+#signupbtn {
+    background: #800020;
+    border-radius: 0px 5px;
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+    width: 112.19px;
+    height: 40px;
+}
+#check {
+    
+    margin-left: 0px;
+    float: left;
+    padding-top: 0px;
+    background-color: #175977;
+}
+
+#navbarNavAltMarkup a {
+    color: white;
+    font-size: 15px;
+}
+
+#check2 {
+    
+    width: 39%;
+    float: right;
+    padding-left: 20%;
+}
+
+/* END:  Top Logo, Search Bar & Nav Bar  */
+
+
+/* START: FOOTER */
+footer {
+    background: #175977;
+    color: white;
+    padding-top: 50px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footernav1 {
+    
+    padding-left: 20%;
+}
+
+.footernav1 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav1 a:hover {
+    color: #800020;
+}
+.footernav2 {
+    padding-left: 20%;
+}
+.footernav2 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav2 a:hover {
+    color: #800020;
+}
+.footernav3 {
+    padding-left: 20%;
+}
+.footernav3 a {
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footernav3 a:hover {
+    color: #800020;
+}
+.foot {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.copyright {
+    margin-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+}
+.copyright a {
+    color: white;
+}
+.copyright a:hover {
+    color: #800020;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    /* START: Top Logo, Search Bar & Nav Bar */
+    .topinput {
+        width: 55%;
+        float: right;
+        margin-right: 5%;
+    }
+    #check2 {
+        padding-left: 0px;
+        width: 50%;
+        float: right;
+    }
+    .loginBtn {
+        color: #1B1819;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #signupbtn {
+        background: #800020;
+        border-radius: 0px 5px;
+        color: white;
+        font-size: 13px;
+        margin-left: 5px;
+        width: 100px;
+        height: 30px;
+    }
+    /* END:  Top Logo, Search Bar & Nav Bar  */
+
+    /* START: Banner */
+    .bannerTextBox {
+        width: 85%;
+        position: absolute;
+        top: 30px;
+        left: 23px;
+    }
+    .bannerText {
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .bannerTextBtn {
+        border: none;
+        width: 90px;
+        height: 23px;
+        background: #800020;
+        border-radius: 0px 5px;
+        color: #FFFFFF;
+        font-size: 8px;
+    }
+    /* END: Banner */
+
+    /* START: How ConnectMe Works */
+    .hcwHead {
+        font-size: 20px;
+    }
+    /* END: How ConnectMe Works */
+
+    /* START: Amazing job opportunities */
+    .lady_assistant{
+        height: 300px;
+        text-align: center;
+    }
+    .ladyText{
+        font-size: 20px;
+        margin-top: 15px !important; 
+        padding-top: 15px !important;
+    }
+    .ladyTextBox2 {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .ladyLearn {
+       
+        padding-top: 70px;
+    
+    }
+    .learnImg {
+        width: 99%;
+    }
+    /* END: Amazing job opportunities */
+
+    /* START: The Benefit of Using ConnectMe  */
+
+    .tbucImg1 {
+   
+    width: 268.83px;
+    height: 293.31px;
+    background-color: #800020;
+    position: relative;
+    margin: auto;
+    }
+    .tbucImg2 {
+    
+    width: 268.83px;
+    height: 293.31px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    }
+    .tbucImg2 img {
+    
+    width: 100%;
+    }
+    .tbucText {
+    text-align: center;
+    padding-top: 15px;
+    }
+    .tbucTextHead {
+    
+    font-size: 22px;
+    color: #800020;
+    }
+    .tbucText p {
+    text-align: left;
+    }
+    .scrollText {
+   
+    width: 285px;
+    }
+    .tbucback {
+    padding-left: 0px;
+    padding-top: 110px;
+    }
+    .tbucnext {
+    padding-top: 110px;
+    }
+    .scrollText h4 {
+    font-size: 17px;
+    }
+    .scrollText p {
+    font-size: 14px;
+    }
+
+    /* END: The Benefit of Using ConnectMe  */
+
+    /* START: Aspiring employees, inspiring employers. */
+    #aeie {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    }
+    .aeieHead {
+    font-size: 22px;
+    color: #800020;   
+    }
+    .aeiebottomlink {
+    font-size: 12px;
+    }
+    /* END: Aspiring employees, inspiring employers. */
+
+    /* START: Success stories */
+    .storiesImg {
+    display: none;
+     
+    }
+    .storiesInfo {
+    background: #175977;  
+    color: white;
+    padding-top: 30px;
+    height: 370px;
+    
+    }
+    .storyscroll {
+    width: 300px;
+    }
+
+    .storiesText {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    }
+    .employeeImg {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 200px;
+    top: 15px;
+    }
+    .employeeImg img {
+    width: 100%;
+    }
+    .storyscrollHead {
+    width: 400px;
+   
+    }
+    .backbox {
+    float: left;
+    }
+
+    .nextbox {
+    float: right;
+    }
+    .employeeStory {
+    font-size: 15px;
+    }
+    .employeeStory h4 {
+    font-size: 17px;
+    }
+    .employeeSuccessStory {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    /* END: Success stories */
+
+    /* FOOTER */
+    .footernav1 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav1 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav1 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav2 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav2 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav2 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+    .footernav3 {
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .footernav3 span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footernav3 a {
+        display: block;
+        color: white;
+        font-size: 11px;
+    }
+
+    /* FOOTER */
+
+}
