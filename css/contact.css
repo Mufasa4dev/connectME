@@ -112,6 +112,7 @@ header img{
     color: #800020;
 }
 #meet{
+    
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     /* padding-left: 200px; */
 }
@@ -267,11 +268,18 @@ footer {
         padding: 20px;
     }
     #contain{
+      
         width: 100%;
+        height: 100%;
     }
     #main{
-        margin-left: 50px;
-        padding-left: 50px;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+    #meet {
+        height: 1205px;
     }
     form{
         margin-top: 40px;

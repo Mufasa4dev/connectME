@@ -147,6 +147,7 @@ body {
     font-size: 16px;
     line-height: 21px;
     text-align: left;
+    visibility: hidden;
 }
 .topBtn img {
     margin-right: 7px;
@@ -356,3 +357,209 @@ body {
 /* END: Employee Profile page  */
 
 /* END: Body Content */
+
+.mobileNavBar {
+    display: none;
+}
+.mobileHr {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    /* START: NavBar */
+    .desktopViewNavBar {
+        display: none;
+    }
+    .mobileNavBar{
+        display: block;
+    }
+    .sideBar {
+        display: none;
+    }
+    .topNav {
+        width: 100%;      
+    }
+    
+    .mobileLogo {
+        display: block;
+        width: 55px;
+        height: 55px;
+        margin-left: 5px;
+    }
+    .mobileLogo img {
+        
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        float: right;
+        background: #F7F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .navbar a {
+        color: #800020;
+    }
+    .mobilesearch {
+        border: 1px solid gray;
+        height: 40px;
+        padding-left: 7px;
+    }
+    .mobileProfileImg {
+        width: 55px;
+        height: 55px;
+    }
+    .mobileProfileImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+    /* END: NavBar */
+
+    /* START: Body Content */
+    
+    .content {
+        padding-left: 20px;
+        width: 100%;
+        text-align: center;
+        margin-left: 7px;
+        position: relative;
+        padding-top: 0px;
+    }
+    .basicInfo {
+        
+        height: 280px;
+        margin-top: 35px;
+    }
+    .experience {
+     
+        margin-top: 20px;
+    }
+    .updatepfBox {
+        display: none;
+    }
+    .settingsNav {
+        display: none;
+    }
+    .navBodyHeadBox {
+        margin-top: -15px !important;
+        
+    }
+    .navBodyHead {
+        height: 47px;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .navFormBox {
+        padding-right: 0% !important;
+        padding-left: 0% !important;
+    }
+    .verify {
+        height: 65px;
+        width: 100%;
+        margin: 65px 0px 0px 7px;
+        font-size: 14px;
+        text-align: center;
+        background-color: #800020;
+        color: white;
+        padding-top: 12px;
+    }
+    .navForm {
+        
+        margin-top: 20px;
+       
+    }
+    .formBox1 {
+        padding-right: 5% !important;
+       
+    }
+    .formBox2 {
+        
+        padding-left: 5% !important;
+    }
+    
+    .formBtn {
+        width: 223px;
+        height: 40px;
+        background: #800020;
+        border-radius: 0px 5px;
+        color: white;
+        border: none;
+        font-size: 14px;
+        margin-right: 25px;
+    }
+    .formLable {
+    
+    display: block !important;
+        margin-top: 15px;
+        font-size: 18px;
+        color: #000000;
+    }
+    .formInput {
+        display: block !important;
+        width: 100%;
+        height: 47px;
+        background: #E5E5E5;
+        border: 0.5px solid #000000;
+        padding-left: 10px;
+    }
+    .basicInfoBtn2 {
+        width: 100px;
+        height: 30px;
+        border: 0.5px solid #800020;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .basicInfoBtn1 {
+        width: 100px;
+        height: 30px;
+        background: #800020;
+        border-radius: 5px;
+        font-size: 10px;
+        line-height: 18px;
+        border: 1px solid #800020;
+        color: white;
+        margin-right: 10px;
+    }
+    .basicInfoHead2 {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        color: #1B1819;
+        text-align: left;
+    }
+    .basicInfoText1 {
+        font-size: 8px;
+        line-height: 15px;
+        color: #1B1819;
+        text-align: left;
+    }
+    .exprnImg {
+        width: 65px;
+        height: 65px;
+        background: #175977;
+        border-radius: 100%;
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        line-height: 36px;
+        padding-top: 17px;
+    }
+    .exprnText {
+        font-size: 11px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .editSave button {
+        width: 216px;
+        height: 40px;
+        background: #800020;
+        border-radius: 0px 5px;
+        color: white;
+        font-size: 13px;
+        border: none;
+        margin-right: 32px;
+    }
+    /* END: Body Content */
+}
