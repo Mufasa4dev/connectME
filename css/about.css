@@ -92,6 +92,7 @@ font-size: 28px;
     margin: auto;
     width: 73%;
     background: #FAF8F8;
+    margin-top: 35px;
     border-radius: 0px 0px 2.18659px 2.18659px;
 }
 
@@ -103,7 +104,7 @@ font-size: 28px;
     margin-bottom: 10px;
 }
 .teamName {
-    height: 45px;
+    /* height: 45px; */
     font-size: 10.5;
     font-weight: bold;
     font-family: Arial;

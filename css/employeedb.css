@@ -231,6 +231,7 @@ body {
 
 /* START: New Jobs */
 .bgDataProfile {
+    
     width: 100%;
     height: 217px;
     background: #F6F0F0;
@@ -435,11 +436,11 @@ body {
 
     /* START: Body Content */
     .content {
-        /* border: 1px solid green; */
+       
         width: 100%;
         text-align: center;
         margin-left: 7px;
-       
+        
         position: relative;
     }
     .contentText1 {
@@ -449,138 +450,127 @@ body {
         
         color: #800020;
     }
-    .mobileHr {
-        display: block;
-    }
-    .desktopHr {
-        display: none;
-    }
     .data1Profile {
+    
         width: 100%;
-        height: 145px;
+        height: 132px;
         background: #F7F0F0;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 5px;
+        padding: 8px;
         margin-top: 8px;
     }
-    .ted {
-        width: 40px;
-        height: 40px;
-        background: #fe7171;
-        border-radius: 5px;
-        margin-left: 6px;
+    
+    .tedBox {
+        display: flex;
+    }
+    .ted { 
+        width: 33px;
+        height: 33px;
+        background: #F7F0F0;
+        border-radius: 100%;
     }
     .ted2 {
-        width: 70px;
-        height: 20px;
-        background: #175977;
-        border-radius: 3px;
-        font-size: 10px;
+        margin-top: 12px;
+        margin-left: 10px;
+        font-size: 13px;
         line-height: 11px;
-        color: #FFFFFF;
-        text-align: center;
-        padding-top: 4px;
-        float: right;
-        margin-right: 6px;
+        color: #000000;  
     }
     .ted3 {
-        text-align: left; 
-        padding-left: 16px; 
-        padding-top: 6px;
-    }
-    .smconBtn {
-        width: 50px;
-        height: 20px;
-        background: #800020;
-        border-radius: 3px;
-        font-size: 10px;
-        color: white;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border: none;
+        font-weight: bold;
+        font-size: 20px;
+        color: #800020;
         float: right;
-        margin-right: 6px;
-    }
-    .smResume {
-        font-size: 10px; 
-        text-align: left;
-        padding-left: 11px; 
-        padding-top: 8px;
     }
     .bgDataProfile {
-        margin-top: 16px;
+        
         width: 100%;
-        height: 245px;
+        height: 217px;
         background: #F6F0F0;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 7px;
+        margin-top: 8px;
     }
-    
     .bgted {
-        width: 70px;
-        height: 70px;
-        background: #fe7171;
-        border-radius: 5px;
+        text-align: left;
+        margin-left: 10px;
     }
-    .bgted img {
+    .smtextBox {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .popularCompanies {
+        margin-top: 15px;
         width: 100%;
+        height: 240px;
+        background: #F6F0F0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-    .bgted2 {
-        width: 80px;
-        height: 25px;
-        background: #175977;
-        border-radius: 5px;
+    .xpopularCompanies {
+        padding: 5px;
+    }
+    .text4 {
+        font-size: 12px;
+        color: #800020;
+        padding: 5px 15px;
+        border-bottom: 1px solid #615E5E;
+    }
+    .xdata1 {
+        margin-left: 8px;
+        width: 40px;
+        height: 40px;
+        background: #615E5E;
+    }
+    .xdataBoxx {
+       
+        padding-right: 0px !important;
+        margin-right: 2px;
+    }
+    .smxdataBox {
+        margin-left: 8px;
+        text-align: left;
+        padding: 0px !important;
+    }
+    .smxdata {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .smxdata1 {
+        
+        font-size: 8px;
+        color: #1B1819;
+    }
+    .smxdata2 {
+        font-size: 8px;
+        color: #1B1819;
+    }
+    .smxdata2img {
+        margin: 0px 7px 0px 1px;
+    }
+    .smxdata3 {
+        padding-top: 17px;
         float: right;
         font-size: 10px;
-        color: white;
-        text-align: center;
-        padding-top: 5px;
+        color: #1B1819;
+        padding-right: 15px;
     }
-    .bglink {
-       
+    .more {
+        margin-top: 35px;
+        font-weight: bold;
+        font-size: 10px;
+        color: #800020;
         float: right;
-        font-size: 11px;
-        width: 85px;
-        height: 20px;
-        background: #175977;
-        border-radius: 5px; 
-        color: white;
+        margin-right: 20px;
     }
-    .bglinkimg {
-        margin: 0px 7px 0px 5px;
-    }
-    .bgconBtn1 {
-        width: 90px;
-        height: 35px;
-        background: #FFFFFF;
+    .interview {
+        width: 100%;
+        height: 180px;
+        background: #F6F0F0;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        border: none;
-        font-size: 14px;
+        margin-top: 8px;
     }
-    .bgconBtn2 {
-        float: right;
-        width: 90px;
-        height: 35px;
-        background: #800020;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        border: none;
-        font-size: 14px;
-        color: white;
+    .texxx {
+        margin-bottom: 20px;
     }
-    .ted4 {
-        text-align: left; 
-        padding-left: 16px; 
-        padding-top: 2px;
-    }
-    .bgResume {
-        font-size: 13px; 
-        text-align: left;
-        padding-left: 8px; 
-    }
-    .ted5 {
-        margin-top: 3px !important;
-        margin-bottom: 20px !important;
-    }
-    /* END: Body Content */
+       /* END: Body Content */
 }

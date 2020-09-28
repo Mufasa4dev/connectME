@@ -64,7 +64,54 @@
         <!-- START: Top NavBar -->
         <section>
             <div class="col topNav">
-                <div class="row">
+
+                <div class="mobileNavBar">
+                    
+                    <nav class="navbar navbar-expand-lg navTop fixed-top ">
+                        <div class="mobileLogo"><img src="./images/connectME.png" alt=""></div>
+                        <a class="navbar-brand ml-5 mr-5 pt-3" href=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class=""><img src="./images/icons/menuBarx.png" alt=""></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse pl-5 ml-5" id="navbarSupportedContent" >
+                          <ul class="navbar-nav mr-auto ">
+                            <li class="nav-item mr-3">
+                                <input type="text" placeholder="Job Title, Key Word" class="mobilesearch">
+                              </li>
+                            <li class="nav-item mr-3">
+                              <a class="nav-link topLink" href="employerdb.html">Dashboard</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link topLink" href="employerpfdb.html">Profile</a>
+                              </li>
+                              
+                              <li class="nav-item mr-3">
+                                  <a class="nav-link topLink" href="employeedb.html">Notification</a>
+                                </li>
+                            <li class="nav-item dropdown mr-3">
+                                <a class="nav-link dropdown-toggle topLink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Settings
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="">Company Details</a>
+                                  <a class="dropdown-item" href="">Personal Details</a>
+                                  <a class="dropdown-item" href="">Password</a>
+                                </div>
+                              </li>
+                            <li class="nav-item mr-3">
+                              <a class="nav-link topLink" href="">Logout</a>
+                            </li>
+                          </ul>
+                             
+                        </div>
+                        <div class="mobileProfileImg"><img src="./images/smsmsm.png" alt=""></div>
+                      </nav>
+                      
+                      
+                </div>
+
+                <div class="row desktopViewNavBar">
                     <div class="col-sm inputBox">
                         
                     </div>
@@ -86,7 +133,7 @@
             <div class="col content">
                 <!-- START: Employee Profile page -->
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 updatepfBox">
                         <div class="row">
                             <div class="col">
                                 <div class="employeepfData">
@@ -128,13 +175,13 @@
                                             <div class="col-3 basicInfoText1"></div>
                                         </div>
                                         <div class="row mt-4 pt-3">
-                                            <div class="col">
+                                            <div class="col-sm">
                                                 <button class="basicInfoBtn1"><img src="./images/icons/download.png"
                                                         alt=""> Dowload Resume</button>
                                                 <button class="basicInfoBtn2"><img src="./images/icons/envelope.png"
                                                         alt=""> Send Email</button>
                                             </div>
-                                            <div class="col-3">
+                                            <div class="col-sm-3">
                                                 <div class="edit"><img src="./images/icons/edit.png" alt="" width="14px"
                                                         height="14px" class="editImg">Edit</div>
                                             </div>
@@ -197,9 +244,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1"></div>
+                <div class="col-sm-1"></div>
 
-                <div class="col mt-4">
+                <div class="col-sm mt-4">
                     <div class="editSave">
                         <button>EDIT & SAVE</button>
                     </div>
