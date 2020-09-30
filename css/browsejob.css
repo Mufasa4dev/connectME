@@ -462,7 +462,7 @@ footer {
     margin-bottom: 5px;
 }
 .bnrtxt2 {
-    font-size: 8px;
+    font-size: 6px;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -472,11 +472,12 @@ footer {
 .bnrinput input {
     width: 80px;
     height: 18px;
-    padding-left: 15px;
+    padding-left: 8px;
     outline: none;
     border-radius: 2px;
     border: none;
     margin-right: 8px;
+    font-size: 8px;
 }
 .bnrinput input::placeholder {
     color: #800020;
@@ -528,7 +529,6 @@ footer {
 
     margin-top: 30px;
 }
-
 /* End: Content */
 
 
