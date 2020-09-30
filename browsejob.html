@@ -17,19 +17,14 @@
         <div class="row topsearch">
             <div class="col-sm logo">
                 <div class="connectMElogo">
-                    <img src="./images/connectME.png" alt="ConnectME Logo">
+                    <a href="index.html"><img src="./images/connectME.png" alt="ConnectME Logo"></a>
                 </div>
-                <div class="topinput input-group">
-                    <div class="input-group" id="inputbox">
-                        <button type="button" class="btn" id="topmapbtn"><i class="fas fa-map-marker-alt"
-                                style="color: #800020;"></i></button><input type="text" class="form-control"
-                            id="inputmapsearch" aria-label="Username" aria-describedby="basic-addon1"
-                            placeholder="Location">
-                        <input type="text" class="form-control" id="inputsearch" aria-label="Username"
-                            aria-describedby="basic-addon1" placeholder="Search by job title, keyword, etc."><button
-                            type="button" class="btn" id="topsearchbtn"><i class="fas fa-search"
-                                style="color: white;"></i></button>
-                    </div>
+                <div class="topinput input-group"> 
+                </div>
+                <div id="check2">
+                    
+                    <a href="login.html" class="btn" id="loginBtn">Log In</a>
+                    <a href="jobseekerone.html" class="btn" id="signupbtn">Sign Up</a>
                 </div>
             </div>
         </div>
@@ -48,48 +43,105 @@
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <span class="dropdown">
+
+<!--                                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="browsejob.html">Find
+                                        Job<span class="caret"></span></a> -->
+
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Find
-                                        Job<span class="caret"></span></a>
+                                        Jobs<span class="caret"></span></a>
+
                                     <ul class="dropdown-menu" style="background-color: #175977;">
-                                        <li><a href="#" style="font-size: 13px; padding-left: 5%;">Tech Base</a></li>
-                                        <li><a href="#" style="font-size: 13px; padding-left: 5%;">Craftmanship</a></li>
+                                        <li><a href="browsejob.html" style="font-size: 13px; padding-left: 5%;">Browse Jobs</a></li>
+                                        <li><a href="jobsearch.html" style="font-size: 13px; padding-left: 5%;">Advance Search</a></li>
                                     </ul>
                                 </span>
 
                                 <a class="nav-link" href="login.html"><span class="navtext2">Find Candidates</span> </a>
-                                <a class="nav-link" href="login.html"><span class="navtext3">Resume Help</span> </a>
-                                <a class="nav-link" href="skills.html"><span class="navtext">Skills</span></a>
+                                <span class="dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" style="background-color: #175977;">
+                                        <li><a href="login.html" style="font-size: 13px; padding-left: 5%;">Resume Help</a></li>
+                                        <li><a href="login.html" style="font-size: 13px; padding-left: 5%;">Interview Prep</a></li>
+                                        <li><a href="login.html" style="font-size: 13px; padding-left: 5%;">Trainings</a></li>
+                                    </ul>
+                                </span>
+                                
+                                <a class="nav-link" href="login.html"><span class="navtext">Skills</span></a>
                                 <a class="nav-link" href="login.html"><span class="navtext4">Career Advice</span> </a>
                             </div>
                         </div>
 
                     </nav>
-                    <div id="check2">
+                    <!-- <div id="check2">
                         <a href="candidate.html" class="btn float-sm-right" id="signupbtn">Sign Up</a>
                         <a href="login.html" class="btn float-sm-right" style="color: white; font-size: 15px;">Log in</a>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
         </nav>
         <!-- END: Top Logo, Search Bar & Nav Bar -->
     </header>
-    <div class="banner">
-       
-        <div class="cover">
-            <p>Find Jobs On ConnectMe</p>
-            <h3>Find Jobs In Your Locale</h3>
-            <div class="iinput">
+    <!-- START: BANNER -->
+    <div class="bannerBox">
+        <img class="img-fluid" src="images/banaimg.png" alt="">
+        <div class="cover"></div>
+        <div class="col-xs bannerText">
+            <div class="bnrtxt1">Find Jobs On ConnectMe</div>
+            <div class="bnrtxt2">Find Jobs In Your Locale</div>
+            <div class="bnrinput">
             <input type="text" placeholder="location">
             <input type="text" placeholder="search by job title,Keyword, etc.">
-            <button>Search</button></div>
+            <button class="">Search</button></div>
         </div>
-         <img src="images/banaimg.png" alt=""> 
+
     </div>
+    <!-- END: BANNER -->
     <div class="browse">
         <p>Browse Jobs</p>
     </div>
-    <div class="div1">
+    <div class="container">
+        <div class="row bgBox">
+            <div class="col-sm">
+                <div class=" col box1">
+                    <div class="jobs"> 
+                        <p>Jobs By Title</p> 
+                        <span style="color: #800020">A B C D E F G I J K L M N  O P Q R <br> S T U V W X Y Z</span> 
+                    </div>
+                    <div class="row location">
+                        <div class="col states">
+                        <p> <br> Abia <br> Adamawa <br>Akwa ibom<br> Anambra <br>Bauchi<br> Bayelsa <br>Benue <br>Borno <br>Cross River <br> Delta <br> Ebonyi <br>Edo <br></div>
+                        <div class="col two"><p><br> Edo <br>Ekiti<br> Enugu<br> Gombe<br> Imo <br>Jigawa<br> Kaduna <br>Kano <br>Katsina <br>Kebbi <br>Kogi <br>Lagos</p></div>
+                        <div class="col three"><p><br> Nassarawa <br>Niger <br>Ogun <br>Ondo<br> Osun <br>Oyo<br> Plateau <br>River <br>Sokoto <br>Taraba<br> Yobe<br> Zamfara <br>FCT</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="col box2">
+                
+                    <div class="jobs2">
+                        <p>Jobs By Companies</p>
+                        <span style="color: #800020">A B C D E F G I J K L M N O P Q R <br> S T U V W X Y Z</span>
+                    </div>
+               
+                <div class="row roles">
+                    <div class="col four">
+                        <p> <br>Advertising, Media & Communication <br> Agriculture, Fishing & Forestry <br>Automobile & Aviation <br>Banking, Finance 
+                            & Insurance <br>Construction <br>Education <br>Energy & Utilities <br>Enforcement & Security <br>Entertainment, Events 
+                            & Sport <br>Government <br>Healthcare</p>
+                    </div>
+                    <div class="col five">
+                        <p><br>Hospitality & Hotel <br>IT & telecom <br> Laws & Compliance <br>Manufacturings 
+                            & Warehousing <br>Mining, Energy  
+                            & Metals <br>NGO, NPO,& Charity <br>Real Estate <br>Real Estate <br>Retails & Fashion <br>Shipping & Logistics <br>Tourism & Travel</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- <div class="div1">
         <div class="jobs"> <p>Jobs By Title</p> <span style="color: #800020">A B C D E F G I J K L M N  O P Q R S T U V W X Y Z</span> </div>
         <div class="jobss"><p>Jobs By Companies</p><span style="color: #800020">A B C D E F G I J K L M N O P Q R S T U V W X Y Z</span></div>
     </div>
@@ -111,7 +163,7 @@
             <p><br>Hospitality & Hotel <br>IT & telecom <br> Laws & Compliance <br>Manufacturings 
                 & Warehousing <br>Mining, Energy  
                 & Metals <br>NGO, NPO,& Charity <br>Real Estate <br>Real Estate <br>Retails & Fashion <br>Shipping & Logistics <br>Tourism & Travel</p>
-        </div>
+        </div> -->
       
     </div>
 </div>

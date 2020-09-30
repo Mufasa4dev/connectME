@@ -13,75 +13,46 @@ body {
 
 
 /* START: Top Nav */
-.topNav {
-    /* border: 1px solid red; */
-    width: 71%;
-    height: 85px;
-    position: absolute;
-    top: 0px;
-    right: 3%;
-    padding-top: 17px;
+/* START: NavBar */
+.navTop {
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-.input1 {
-    width: 55%;
-    height: 46px;
-    padding-left: 10px;
-    margin-right: 2%;
-    background: #E5E5E5;
-    border: 1px solid;
-    font-size: 16px;
-    line-height: 21px;
-    color: #6F6F6F;
+.logo {
+    width: 60px;
+    height: 60px;
 }
-.input2 {
-    width: 35%;
-    height: 46px;
-    padding-left: 10px;
-    background: #E5E5E5;
-    font-size: 16px;
-    line-height: 21px;
-    color: #6F6F6F;
+.logo img {
+    width: 100%;
 }
-.profileBox {
+.click {
     display: flex;
-    height: 46px;
 }
-.topBtn {
-    width: 50%;
+.login {
+    margin-left: 15px !important;
+    margin-right: 15px !important;  
+}
+.topLink {
+    color: #800020 !important;
+}
+.post {
+    color: #800020 !important;
+}
+.login {
+    color: #800020 !important;
+}
+.logout {
+    color: #ffffff !important;
     background: #800020;
     border-radius: 0px 5px;
-    color: whitesmoke;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: left;
-}
-.topBtn a {
-    color: white;
-}
-.topBtn img {
-    margin-right: 7px;
-}
-.notification {
-    text-align: center;
-    padding-top: 2px;
-    width: 33px;
-    height: 33px;
-    border-radius: 8px;
-    margin-left: 3%;
-    background: #F8F4F4;
-    margin-top: 5px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.profile {
-   
-    width: 40px;
+    width: 92px;
     height: 40px;
-    border-radius: 100%;
-    margin-left: 3%;
-    background: #C4C4C4;
-    margin-top: 2px;
+    border: none;
 }
+.navbar-toggler-icon {
+    background: #800020 !important;
+}
+/* END: NavBar */
 @media(max-width: 600px) {
     /* .topNav {
         
